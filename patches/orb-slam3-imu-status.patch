@@ -1,0 +1,15 @@
+diff --git a/src/System.cc b/src/System.cc
+index 60d9c51..5a03eaa 100644
+--- a/src/System.cc
++++ b/src/System.cc
+@@ -1338,6 +1338,10 @@ vector<cv::KeyPoint> System::GetTrackedKeyPointsUn()
+ 
+ double System::GetTimeFromIMUInit()
+ {
++    // The mapper's current keyframe may be unset before initialization.
++    // Check atlas state before querying the mapper's keyframe timestamp.
++    if(!mpAtlas->isImuInitialized())
++        return 0.f;
+     double aux = mpLocalMapper->GetCurrKFTime()-mpLocalMapper->mFirstTs;
+     if ((aux>0.) && mpAtlas->isImuInitialized())
+         return mpLocalMapper->GetCurrKFTime()-mpLocalMapper->mFirstTs;

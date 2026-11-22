@@ -1,0 +1,20 @@
+diff --git a/src/Settings.cc b/src/Settings.cc
+index 93a50be..e5b87b3 100644
+--- a/src/Settings.cc
++++ b/src/Settings.cc
+@@ -333,6 +333,15 @@ namespace ORB_SLAM3 {
+             static_cast<KannalaBrandt8*>(calibration2_)->mvLappingArea = vOverlapping;
+         }
+ 
++        // Rectified stereo has a shared pinhole calibration. Initialize both
++        // pointers: the settings printer also reads the original right camera.
++        if(cameraType_ == Rectified){
++            vCalibration = {calibration1_->getParameter(0), calibration1_->getParameter(1),
++                            calibration1_->getParameter(2), calibration1_->getParameter(3)};
++            calibration2_ = new Pinhole(vCalibration);
++            originalCalib2_ = new Pinhole(vCalibration);
++        }
++
+         //Load stereo extrinsic calibration
+         if(cameraType_ == Rectified){
+             b_ = readParameter<float>(fSettings,"Stereo.b",found);

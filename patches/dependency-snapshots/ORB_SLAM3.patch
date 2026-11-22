@@ -1,0 +1,136 @@
+diff --git a/include/LoopClosing.h b/include/LoopClosing.h
+index c9ccb26..7b6bfe0 100644
+--- a/include/LoopClosing.h
++++ b/include/LoopClosing.h
+@@ -223,7 +223,7 @@ protected:
+     bool mbFixScale;
+ 
+ 
+-    bool mnFullBAIdx;
++    int mnFullBAIdx;
+ 
+ 
+ 
+diff --git a/src/LoopClosing.cc b/src/LoopClosing.cc
+index 319afb5..17dc0b6 100644
+--- a/src/LoopClosing.cc
++++ b/src/LoopClosing.cc
+@@ -18,6 +18,10 @@
+ 
+ 
+ #include "LoopClosing.h"
++#include <cstdlib>
++#include <fstream>
++#include <iomanip>
++#include <atomic>
+ 
+ #include "Sim3Solver.h"
+ #include "Converter.h"
+@@ -31,6 +35,19 @@
+ 
+ namespace ORB_SLAM3
+ {
++namespace {
++std::atomic<unsigned> bhuActiveGBA{0};
++std::thread* StartTrackedGBA(LoopClosing* loop, Map* map, unsigned long keyframe) {
++    ++bhuActiveGBA;
++    try {
++        return new std::thread([=] {
++            struct Finished { ~Finished() { --bhuActiveGBA; } } finished;
++            loop->RunGlobalBundleAdjustment(map, keyframe);
++        });
++    } catch (...) { --bhuActiveGBA; throw; }
++}
++}
++bool BHU_GlobalBAActive() { return bhuActiveGBA.load()!=0; }
+ 
+ LoopClosing::LoopClosing(Atlas *pAtlas, KeyFrameDatabase *pDB, ORBVocabulary *pVoc, const bool bFixScale, const bool bActiveLC):
+     mbResetRequested(false), mbResetActiveMapRequested(false), mbFinishRequested(false), mbFinished(true), mpAtlas(pAtlas),
+@@ -1195,6 +1212,14 @@ void LoopClosing::CorrectLoop()
+     mpLoopMatchedKF->AddLoopEdge(mpCurrentKF);
+     mpCurrentKF->AddLoopEdge(mpLoopMatchedKF);
+ 
++    // Optional benchmark evidence: record only an applied graph correction,
++    // never a candidate detection or a generic map-change notification.
++    if (const char* path = std::getenv("BHU_VIO_LOOP_EVENTS")) {
++        std::ofstream events(path, std::ios::app);
++        events << std::setprecision(15) << mpCurrentKF->mTimeStamp << ','
++               << mpCurrentKF->mnId << ',' << mpLoopMatchedKF->mnId << '\n';
++    }
++
+     // Launch a new thread to perform Global Bundle Adjustment (Only if few keyframes, if not it would take too much time)
+     if(!pLoopMap->isImuInitialized() || (pLoopMap->KeyFramesInMap()<200 && mpAtlas->CountMaps()==1))
+     {
+@@ -1203,7 +1228,7 @@ void LoopClosing::CorrectLoop()
+         mbStopGBA = false;
+         mnCorrectionGBA = mnNumCorrection;
+ 
+-        mpThreadGBA = new thread(&LoopClosing::RunGlobalBundleAdjustment, this, pLoopMap, mpCurrentKF->mnId);
++        mpThreadGBA = StartTrackedGBA(this, pLoopMap, mpCurrentKF->mnId);
+     }
+ 
+     // Loop closed. Release Local Mapping.
+@@ -1766,7 +1791,7 @@ void LoopClosing::MergeLocal()
+         mbRunningGBA = true;
+         mbFinishedGBA = false;
+         mbStopGBA = false;
+-        mpThreadGBA = new thread(&LoopClosing::RunGlobalBundleAdjustment,this, pMergeMap, mpCurrentKF->mnId);
++        mpThreadGBA = StartTrackedGBA(this, pMergeMap, mpCurrentKF->mnId);
+     }
+ 
+     mpMergeMatchedKF->AddMergeEdge(mpCurrentKF);
+diff --git a/src/Settings.cc b/src/Settings.cc
+index 93a50be..e5b87b3 100644
+--- a/src/Settings.cc
++++ b/src/Settings.cc
+@@ -333,6 +333,15 @@ namespace ORB_SLAM3 {
+             static_cast<KannalaBrandt8*>(calibration2_)->mvLappingArea = vOverlapping;
+         }
+ 
++        // Rectified stereo has a shared pinhole calibration. Initialize both
++        // pointers: the settings printer also reads the original right camera.
++        if(cameraType_ == Rectified){
++            vCalibration = {calibration1_->getParameter(0), calibration1_->getParameter(1),
++                            calibration1_->getParameter(2), calibration1_->getParameter(3)};
++            calibration2_ = new Pinhole(vCalibration);
++            originalCalib2_ = new Pinhole(vCalibration);
++        }
++
+         //Load stereo extrinsic calibration
+         if(cameraType_ == Rectified){
+             b_ = readParameter<float>(fSettings,"Stereo.b",found);
+diff --git a/src/System.cc b/src/System.cc
+index 60d9c51..6c35f52 100644
+--- a/src/System.cc
++++ b/src/System.cc
+@@ -35,6 +35,7 @@
+ 
+ namespace ORB_SLAM3
+ {
++bool BHU_GlobalBAActive(); // actual spawned workers, including detached/aborted BA
+ 
+ Verbose::eLevel Verbose::th = Verbose::VERBOSITY_NORMAL;
+ 
+@@ -545,6 +546,11 @@ void System::Shutdown()
+         /*usleep(5000);
+     }*/
+ 
++    // Exporters require stable maps. Upstream's wait above is commented out;
++    // wait for mapping, loop correction and global BA before returning.
++    while(!mpLocalMapper->isFinished() || !mpLoopCloser->isFinished() || BHU_GlobalBAActive())
++        usleep(5000);
++
+     if(!mStrSaveAtlasToFile.empty())
+     {
+         Verbose::PrintMess("Atlas saving to file " + mStrSaveAtlasToFile, Verbose::VERBOSITY_NORMAL);
+@@ -1338,6 +1344,10 @@ vector<cv::KeyPoint> System::GetTrackedKeyPointsUn()
+ 
+ double System::GetTimeFromIMUInit()
+ {
++    // The mapper's current keyframe may be unset before initialization.
++    // Check atlas state before querying the mapper's keyframe timestamp.
++    if(!mpAtlas->isImuInitialized())
++        return 0.f;
+     double aux = mpLocalMapper->GetCurrKFTime()-mpLocalMapper->mFirstTs;
+     if ((aux>0.) && mpAtlas->isImuInitialized())
+         return mpLocalMapper->GetCurrKFTime()-mpLocalMapper->mFirstTs;

@@ -1,0 +1,47 @@
+{
+  "captured_date": "2026-11-22",
+  "description": "Observed source checkouts; downloaded SDKs, sysroots and build outputs are excluded. See docs/repository-layout.md.",
+  "repositories": [
+    {
+      "path": "third_party/FAST-LIVO2",
+      "url": "https://github.com/hku-mars/FAST-LIVO2.git",
+      "commit": "0d2c0346107b75b59934975adec9a6eeeb913c64"
+    },
+    {
+      "path": "third_party/ORB_SLAM3",
+      "url": "https://github.com/UZ-SLAMLab/ORB_SLAM3.git",
+      "commit": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+      "local_patch": "patches/dependency-snapshots/ORB_SLAM3.patch"
+    },
+    {
+      "path": "third_party/Pangolin",
+      "url": "https://github.com/stevenlovegrove/Pangolin.git",
+      "commit": "3667bb76edcc3e4111d2bee7935ce204f04026d9"
+    },
+    {
+      "path": "third_party/VINS-Fusion",
+      "url": "https://github.com/HKUST-Aerial-Robotics/VINS-Fusion.git",
+      "commit": "be55a937a57436548ddfb1bd324bc1e9a9e828e0"
+    },
+    {
+      "path": "third_party/VINS-Mono",
+      "url": "https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git",
+      "commit": "90dabb5ec79946ae42fd2e1e91d4e69aabe1e25d"
+    },
+    {
+      "path": "third_party/ceres-1.14",
+      "url": "https://github.com/ceres-solver/ceres-solver.git",
+      "commit": "facb199f3eda902360f9e1d5271372b7e54febe1"
+    },
+    {
+      "path": "third_party/fast-livo-sophus",
+      "url": "https://github.com/strasdat/Sophus.git",
+      "commit": "a621ff2e56c56c839a6c40418d42c3c254424b5c"
+    },
+    {
+      "path": "third_party/fast-livo-vikit",
+      "url": "https://github.com/xuankuzcr/rpg_vikit.git",
+      "commit": "6c886c8e5d83997806e00294826d528cea3581dd"
+    }
+  ]
+}

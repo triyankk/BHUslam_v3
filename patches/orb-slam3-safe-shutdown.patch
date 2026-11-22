@@ -1,0 +1,24 @@
+diff --git a/src/System.cc b/src/System.cc
+index 60d9c51..6c35f52 100644
+--- a/src/System.cc
++++ b/src/System.cc
+@@ -35,6 +35,7 @@
+ 
+ namespace ORB_SLAM3
+ {
++bool BHU_GlobalBAActive(); // actual spawned workers, including detached/aborted BA
+ 
+ Verbose::eLevel Verbose::th = Verbose::VERBOSITY_NORMAL;
+ 
+@@ -545,6 +546,11 @@ void System::Shutdown()
+         /*usleep(5000);
+     }*/
+ 
++    // Exporters require stable maps. Upstream's wait above is commented out;
++    // wait for mapping, loop correction and global BA before returning.
++    while(!mpLocalMapper->isFinished() || !mpLoopCloser->isFinished() || BHU_GlobalBAActive())
++        usleep(5000);
++
+     if(!mStrSaveAtlasToFile.empty())
+     {
+         Verbose::PrintMess("Atlas saving to file " + mStrSaveAtlasToFile, Verbose::VERBOSITY_NORMAL);
