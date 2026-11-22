@@ -1,0 +1,19 @@
+{
+  "id": "20261121T113541.628563736Z_flight-189338136",
+  "metadata_frames_written": 341,
+  "inspected_index_pairs": 341,
+  "index_has_nul_corruption": false,
+  "limit": "File structure only. Unindexed files lack a trustworthy association from frames.csv; no reconstructed timing is supplied.",
+  "sides": {
+    "left": {
+      "files_on_disk": 341,
+      "invalid_pgm_files": [],
+      "unindexed_pgm_files": []
+    },
+    "right": {
+      "files_on_disk": 341,
+      "invalid_pgm_files": [],
+      "unindexed_pgm_files": []
+    }
+  }
+}

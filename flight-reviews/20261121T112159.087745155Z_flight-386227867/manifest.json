@@ -1,0 +1,66 @@
+{
+  "id": "20261121T112159.087745155Z_flight-386227867",
+  "boot_id": "39f51815-f44a-4eb5-9875-9936c1daee1f",
+  "original_vio_folder": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-386227867",
+  "flight": {
+    "finalized": true,
+    "recording_start_host_us": 386227867,
+    "recording_stop_host_us": 392545024,
+    "stop_reason": "fresh Cube disarm plus 3 s tail",
+    "trigger": "Cube armed"
+  },
+  "input_integrity": {
+    "indexed_pairs": 68,
+    "invalid_pairs": 0,
+    "invalid_row_indices_zero_based": [],
+    "valid_prefix_pairs": 68,
+    "check": "PGM header and exact payload length; no photometric/geometry test"
+  },
+  "jt16": {
+    "source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/data/flights/flight-386231781",
+    "association": "same boot UUID; unique arm-start within 2 seconds",
+    "start_delta_us": 3914,
+    "selected_export": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/data/flights/flight-386231781",
+    "vertices": 2904,
+    "summary": {
+      "algorithm": "Hesai FAST-LIO2 C++ with JT16 built-in IMU",
+      "calibration_validated": false,
+      "camera_used": false,
+      "clouds_published": 30,
+      "continuous": true,
+      "cube_interface": false,
+      "finalized": true,
+      "imu_published": 1218,
+      "imu_units": "m/s^2 and rad/s",
+      "incomplete_scans": 0,
+      "invalid_scans": 0,
+      "loop_closure": false,
+      "malformed_feed": 0,
+      "map_overflow_points": 0,
+      "map_voxel_limit": 250000,
+      "map_voxels": 2904,
+      "odometry_samples": 30,
+      "recording_start_host_us": 386232781,
+      "registered_clouds": 30,
+      "seconds": 6.052109524,
+      "time_basis": "unmodified shared device sensor clock; not verified UTC",
+      "trajectory_export_limit": 50000,
+      "trajectory_export_samples": 30,
+      "voxel_m": 0.2,
+      "warning": "Provisional identity lidar/IMU extrinsics and unmeasured noise; shadow mapping only."
+    },
+    "checkpoint_recovery": false,
+    "preview_vertices": 2904
+  },
+  "jt16_raw": [
+    "/home/atas/vscode/optFlow_slam/data/recordings/jt16-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/flight-386272645-6139.raw"
+  ],
+  "cube": null,
+  "notes": [
+    "JT16 sample-angle table/provenance is the currently installed copy, not proven historical calibration.",
+    "No independently verified Cube DataFlash association is available for this session."
+  ],
+  "source_code_commit": "ef16120177595a9700e343514d9e57864c55affd",
+  "time_warning": "Run folder timestamps and mtimes are not reliable flight order; use boot UUID and host-monotonic times.",
+  "validation_limit": "Recorded arm sessions, not proof of takeoff, trajectory accuracy, EKF fusion or autonomous avoidance."
+}

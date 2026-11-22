@@ -1,0 +1,26 @@
+{
+  "release": "https://github.com/triyankk/BHUslam_v3/releases/tag/flight-data-20261122",
+  "assets": [
+    {
+      "name": "20261118T091238.639064632Z_flight-331497527.tar.zst.part000",
+      "bytes": 1073741824,
+      "sha256": "4f8bf385b0a8d52dd118f9dbc1eeae2c5dd805109b7155cbc95ec8962bba771a",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T091238.639064632Z_flight-331497527.tar.zst.part000",
+      "flight_id": "20261118T091238.639064632Z_flight-331497527"
+    },
+    {
+      "name": "20261118T091238.639064632Z_flight-331497527.tar.zst.part001",
+      "bytes": 1073741824,
+      "sha256": "4f6cc7b6ef9b562fa4959e0253aa5dde5194b23bf21a0ffed1e62ed8d16a598c",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T091238.639064632Z_flight-331497527.tar.zst.part001",
+      "flight_id": "20261118T091238.639064632Z_flight-331497527"
+    },
+    {
+      "name": "20261118T091238.639064632Z_flight-331497527.tar.zst.part002",
+      "bytes": 126964050,
+      "sha256": "0843ae7726379971f4c9552056007bbe531d0b57d620af9a10ec028b447f9414",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T091238.639064632Z_flight-331497527.tar.zst.part002",
+      "flight_id": "20261118T091238.639064632Z_flight-331497527"
+    }
+  ]
+}

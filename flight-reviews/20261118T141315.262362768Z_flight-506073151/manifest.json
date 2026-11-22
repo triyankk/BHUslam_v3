@@ -1,0 +1,37 @@
+{
+  "id": "20261118T141315.262362768Z_flight-506073151",
+  "boot_id": "b9909dc0-5245-4740-b31a-a4c880c12fb3",
+  "original_vio_folder": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/flights/flight-506073151",
+  "flight": {
+    "finalized": true,
+    "recording_start_host_us": 506073151,
+    "recording_stop_host_us": 527559948,
+    "stop_reason": "fresh Cube disarm plus 3 s tail",
+    "trigger": "Cube armed"
+  },
+  "input_integrity": {
+    "indexed_pairs": 237,
+    "invalid_pairs": 0,
+    "invalid_row_indices_zero_based": [],
+    "valid_prefix_pairs": 237,
+    "check": "PGM header and exact payload length; no photometric/geometry test"
+  },
+  "jt16": null,
+  "jt16_raw": [
+    "/home/atas/vscode/optFlow_slam/data/recordings/jt16-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/flight-507551687-13815.raw"
+  ],
+  "cube": {
+    "log_id": 211,
+    "binary_found": true,
+    "association_evidence": "reports/latest-flights-20261120/boot-cube-matches.json",
+    "association": "existing exact VISP/companion timestamp and boot-UUID review"
+  },
+  "notes": [
+    "No unique JT16 map session matched within 2 seconds in the same boot.",
+    "JT16 sample-angle table/provenance is the currently installed copy, not proven historical calibration.",
+    "Cube DataFlash association comes from the saved four-flight audit; its log may span other arm cycles."
+  ],
+  "source_code_commit": "ef16120177595a9700e343514d9e57864c55affd",
+  "time_warning": "Run folder timestamps and mtimes are not reliable flight order; use boot UUID and host-monotonic times.",
+  "validation_limit": "Recorded arm sessions, not proof of takeoff, trajectory accuracy, EKF fusion or autonomous avoidance."
+}

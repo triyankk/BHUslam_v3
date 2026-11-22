@@ -1,0 +1,808 @@
+{
+  "files": [
+    {
+      "path": "vio/flight.json",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/flight.json",
+      "bytes": 182,
+      "sha256": "9b83b3ff015ca10d212a1f36de59d3e3b6720bf3a723583320c144ad069457ee"
+    },
+    {
+      "path": "vio/pose_history.csv",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/pose_history.csv",
+      "bytes": 8491,
+      "sha256": "b9ec9d9a5e1489a57879ef7c1a3fc9b8be0f8eae3d1749b62e783225f4a60803"
+    },
+    {
+      "path": "vio/tracking.csv",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/tracking.csv",
+      "bytes": 1169,
+      "sha256": "40a9a572b2dc20b5fc3e10671f705e0f3d331118ad3d04268ea6d111c13e96f9"
+    },
+    {
+      "path": "vio/input/accel.csv",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/accel.csv",
+      "bytes": 83336,
+      "sha256": "b6842150bb9570dfbc9cbb2751e0f2c4081146d755def2eb3059740c02de56c1"
+    },
+    {
+      "path": "vio/input/capture.csv",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/capture.csv",
+      "bytes": 1152,
+      "sha256": "68d69e3678eb4b86f487310073a24b16d7495417ff7ee9e15733e5e627e48940"
+    },
+    {
+      "path": "vio/input/frames.csv",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/frames.csv",
+      "bytes": 3813,
+      "sha256": "2171d5d72a027674636027f1a364be83aa215f788e1a7b18e12a07e7f1970854"
+    },
+    {
+      "path": "vio/input/gyro.csv",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/gyro.csv",
+      "bytes": 91621,
+      "sha256": "51ba892871acaa8e004d2903ec5e0f70912f9c6fd5dc70c2f2f16846e01b4eee"
+    },
+    {
+      "path": "vio/input/left/432432312.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/432432312.pgm",
+      "bytes": 256015,
+      "sha256": "d1dde23b6f193069f864e40ccdef7d15048a06fe60e8e4f7f07be6b3fe171fac"
+    },
+    {
+      "path": "vio/input/left/432565804.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/432565804.pgm",
+      "bytes": 256015,
+      "sha256": "0e8fbf3d50e136ef3a952becbfde07933ea98debffa075660c54ceae537c93d5"
+    },
+    {
+      "path": "vio/input/left/432699296.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/432699296.pgm",
+      "bytes": 256015,
+      "sha256": "6bcab9b5bdc539a01680729a4041e324d452d1a69bd3be8a3d464c22c63c28c4"
+    },
+    {
+      "path": "vio/input/left/432832788.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/432832788.pgm",
+      "bytes": 256015,
+      "sha256": "26ec961f0080e69b2d2ae717618e758e0446c99f1c026c533766f54497d3b02a"
+    },
+    {
+      "path": "vio/input/left/432966280.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/432966280.pgm",
+      "bytes": 256015,
+      "sha256": "774313249b98f140d7d626f2d097f57158753eddb31c5d693e91ee4801d30ec3"
+    },
+    {
+      "path": "vio/input/left/433066399.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/433066399.pgm",
+      "bytes": 256015,
+      "sha256": "a5fb18242ca8c5d4b71f779e2ffebed93450a5efc1dd5c23c390ab6a2f432230"
+    },
+    {
+      "path": "vio/input/left/433166518.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/433166518.pgm",
+      "bytes": 256015,
+      "sha256": "32fa2f5496dbe94cc5ce8ca672cff4ea577be8216b925372f85b2b082dbe36dc"
+    },
+    {
+      "path": "vio/input/left/433300010.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/433300010.pgm",
+      "bytes": 256015,
+      "sha256": "ec2cf2d11cd1b518223a313de9514d516733be7340a145e322c4ad5465650108"
+    },
+    {
+      "path": "vio/input/left/433400129.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/433400129.pgm",
+      "bytes": 256015,
+      "sha256": "953274e50e8b8135b8a595fd7b67d625810bf790e917a15511d414fad8b0ba99"
+    },
+    {
+      "path": "vio/input/left/433500249.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/433500249.pgm",
+      "bytes": 256015,
+      "sha256": "7987ff3c01e95f9d100e688a0712b3b483014596c8b3136ec1e6fd6d24b6f74a"
+    },
+    {
+      "path": "vio/input/left/433633741.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/433633741.pgm",
+      "bytes": 256015,
+      "sha256": "fcbce329104c0900f41a87f7b4e9cd3869d0b6ac9e556a959f9d3f674a1e6689"
+    },
+    {
+      "path": "vio/input/left/433733860.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/433733860.pgm",
+      "bytes": 256015,
+      "sha256": "5de2502773e9e8f68e8924c3189fa87e3825fba0cc996d1f6957b5fab843beee"
+    },
+    {
+      "path": "vio/input/left/433833979.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/433833979.pgm",
+      "bytes": 256015,
+      "sha256": "991d45c777246bb82c7c65d1158295b3a21e7944eff26c56b2f1b37ddb7cd8ed"
+    },
+    {
+      "path": "vio/input/left/433934098.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/433934098.pgm",
+      "bytes": 256015,
+      "sha256": "1ebf15293f42d78c4cbe8b9eccf466fe6c67e9b56798e9f0971b645e65a0dc0c"
+    },
+    {
+      "path": "vio/input/left/434034217.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/434034217.pgm",
+      "bytes": 256015,
+      "sha256": "5e623e7c80b524553017f66fddcaecd955d37b44ce6095e8a016c3434f9ed010"
+    },
+    {
+      "path": "vio/input/left/434134336.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/434134336.pgm",
+      "bytes": 256015,
+      "sha256": "ca187ae167ed199dbbf787eaf000b48db79c9b336c0fe9d5cdd6e146ef51b355"
+    },
+    {
+      "path": "vio/input/left/434267828.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/434267828.pgm",
+      "bytes": 256015,
+      "sha256": "9ef19834b4c3da8047cc63bb96aa35c0d66510a1210bc2157038d771e580b6df"
+    },
+    {
+      "path": "vio/input/left/434401320.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/434401320.pgm",
+      "bytes": 256015,
+      "sha256": "af7c77b2624b13a6b8c41a9c655668783f354ae50c844d1d34f7effccd3c7373"
+    },
+    {
+      "path": "vio/input/left/434568185.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/434568185.pgm",
+      "bytes": 256015,
+      "sha256": "a14fa2e32a68003ad4c260d059ed0ffabd8d280a2d60c850aaeaea6658a7c820"
+    },
+    {
+      "path": "vio/input/left/434668304.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/434668304.pgm",
+      "bytes": 256015,
+      "sha256": "c89956c8637ff18940849948a57f7ed185a11654cf199561665aaec290f36a54"
+    },
+    {
+      "path": "vio/input/left/434801796.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/434801796.pgm",
+      "bytes": 256015,
+      "sha256": "4cecdafca480d15597629757d85bc00de173503c526be6eccf696f737d6a4494"
+    },
+    {
+      "path": "vio/input/left/434935288.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/434935288.pgm",
+      "bytes": 256015,
+      "sha256": "8b56642a2d495a7a40cae47ccb609a37a2ec395651abb6d8ab4030227d80a943"
+    },
+    {
+      "path": "vio/input/left/435002034.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435002034.pgm",
+      "bytes": 256015,
+      "sha256": "8d146449d5510147ebdfe441514775124405296c561d96608ef47a3d03b9a19b"
+    },
+    {
+      "path": "vio/input/left/435102153.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435102153.pgm",
+      "bytes": 256015,
+      "sha256": "3962fd0cd0aa96d54beba6b8baa8f3c18f5e7fd89533aa327347081041bf7414"
+    },
+    {
+      "path": "vio/input/left/435202272.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435202272.pgm",
+      "bytes": 256015,
+      "sha256": "ab3ea4ac63a0e9e544e651a2d7bf352c3952e83806fe904de966844daabc0537"
+    },
+    {
+      "path": "vio/input/left/435302391.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435302391.pgm",
+      "bytes": 256015,
+      "sha256": "1bde89f81bfdb9f8eef3abcb78933ffb4f22c5454e22f19992760412a0a77b9c"
+    },
+    {
+      "path": "vio/input/left/435369137.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435369137.pgm",
+      "bytes": 256015,
+      "sha256": "ef3ddc3da74c8e690e7e080de792a47abf551de60d0997e570009c25de310d2e"
+    },
+    {
+      "path": "vio/input/left/435469256.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435469256.pgm",
+      "bytes": 256015,
+      "sha256": "ea53316022d4781b8ac246b4e2ae3e1503d2e57307b3a36194466964eab6d1d1"
+    },
+    {
+      "path": "vio/input/left/435569375.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435569375.pgm",
+      "bytes": 256015,
+      "sha256": "652db9e80eb3d3dcd60ef25f6903fbf009d79aa3f18d9174dd917ed488ce7236"
+    },
+    {
+      "path": "vio/input/left/435669494.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435669494.pgm",
+      "bytes": 256015,
+      "sha256": "f8cf531fa6cd618a687768688a1f42df2d631c641db7f36b9b4ce9a7463a1d71"
+    },
+    {
+      "path": "vio/input/left/435769613.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435769613.pgm",
+      "bytes": 256015,
+      "sha256": "2265baa2b427c00f74ece91a033d8cea9e44e3a58fd6f7d366e22718e114d713"
+    },
+    {
+      "path": "vio/input/left/435869732.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435869732.pgm",
+      "bytes": 256015,
+      "sha256": "3281dc13eee2fc3ef326df5d56a9577e8df3e4edfcfa86f6092324f3dcbad701"
+    },
+    {
+      "path": "vio/input/left/435969851.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/435969851.pgm",
+      "bytes": 256015,
+      "sha256": "fdb6c6686f8f77d6d50cbc533e50475bbaa756864a0d29198c76186fd701df12"
+    },
+    {
+      "path": "vio/input/left/436103343.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/436103343.pgm",
+      "bytes": 256015,
+      "sha256": "bd03a830b6344ac84f71215381644207144269368bbec3dc68fc925b506ad164"
+    },
+    {
+      "path": "vio/input/left/436203462.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/436203462.pgm",
+      "bytes": 256015,
+      "sha256": "ebb669f1f30a79c9915c78dc0f8e7e55a098f19aafc4d1bef5e13ef6754d4fe6"
+    },
+    {
+      "path": "vio/input/left/436370327.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/436370327.pgm",
+      "bytes": 256015,
+      "sha256": "a4d2245dc6058fa6f0f411b84c693527066e863f72da7d157bd30426f167f973"
+    },
+    {
+      "path": "vio/input/left/436470446.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/436470446.pgm",
+      "bytes": 256015,
+      "sha256": "cf0bff7d48edb4e630cc6a8e1ad4cfa51740c2fe8f8a1ba6127e47fd57f827ec"
+    },
+    {
+      "path": "vio/input/left/436637311.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/436637311.pgm",
+      "bytes": 256015,
+      "sha256": "dcffcf7a2c237361b729e13769b4cfc2fde142425834b384f13c0a09cab4c6bd"
+    },
+    {
+      "path": "vio/input/left/436737430.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/436737430.pgm",
+      "bytes": 256015,
+      "sha256": "a9c12e12e0d72f4383bd162d2d924df73c9e9e00b69dee4a998d2d64d36fa3ff"
+    },
+    {
+      "path": "vio/input/left/436804176.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/436804176.pgm",
+      "bytes": 256015,
+      "sha256": "8384a7d0afdfc5dcf0f34a8c9d3232893b04cc516c8693d9edf0d61f22d8b65c"
+    },
+    {
+      "path": "vio/input/left/436904295.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/436904295.pgm",
+      "bytes": 256015,
+      "sha256": "566c23c06e8187f33996cd8f716cd8109233053369f91b6a108ff0df3ab0c651"
+    },
+    {
+      "path": "vio/input/left/437004414.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/437004414.pgm",
+      "bytes": 256015,
+      "sha256": "69c662bd9d38ddf9c5b2cb917376471d11877a78c04b11e0fd8e7b62b2f9ffcc"
+    },
+    {
+      "path": "vio/input/left/437071160.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/437071160.pgm",
+      "bytes": 256015,
+      "sha256": "38fad213cc2779ed1fd799122f9cf6bd3e467ee31660d8a184637c7cbb64f7ed"
+    },
+    {
+      "path": "vio/input/left/437271398.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/437271398.pgm",
+      "bytes": 256015,
+      "sha256": "582633a354a16394821ad979a1aee4df0b10112f67f372cd5474272b6d2b7145"
+    },
+    {
+      "path": "vio/input/left/437371517.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/437371517.pgm",
+      "bytes": 256015,
+      "sha256": "4a6b70f99a009e3b320df0f5fa4ef3c7cd19954be62d8fcc407464e0c6b2f546"
+    },
+    {
+      "path": "vio/input/left/437438263.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/437438263.pgm",
+      "bytes": 256015,
+      "sha256": "2964a55a03ed78db6af6b5237c7dabcae1bc62a973fe56f7561e788c67a9cfb9"
+    },
+    {
+      "path": "vio/input/left/437505009.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/437505009.pgm",
+      "bytes": 256015,
+      "sha256": "caf1ab7a1a3f92709b774041c8e425833b0bb9a9feb1155eee3eb8889b3bcec7"
+    },
+    {
+      "path": "vio/input/left/437605128.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/437605128.pgm",
+      "bytes": 256015,
+      "sha256": "defd4d798ec2ccfe5315302fe260467d33a5017263054d532e606e0f804a9fe3"
+    },
+    {
+      "path": "vio/input/left/437705247.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/437705247.pgm",
+      "bytes": 256015,
+      "sha256": "71dcb6532997e274b96e0d499d8084f729577394284c7cf842dac9f98b3b7f77"
+    },
+    {
+      "path": "vio/input/left/437872113.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/437872113.pgm",
+      "bytes": 256015,
+      "sha256": "15a814bc58a8e5bc68ed984a5df25b554f840d420fba77c93eeb066b82c1ae8e"
+    },
+    {
+      "path": "vio/input/left/438038978.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/438038978.pgm",
+      "bytes": 256015,
+      "sha256": "e4902f0bca889a3937aea3a21ed2355de414f5994b2e1cbb220e3ded4444580d"
+    },
+    {
+      "path": "vio/input/left/438172470.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/438172470.pgm",
+      "bytes": 256015,
+      "sha256": "6e4e366d073f5beb96cd7dbbe233887f248c883e64d6c9717b99a04b70cde660"
+    },
+    {
+      "path": "vio/input/left/438272589.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/438272589.pgm",
+      "bytes": 256015,
+      "sha256": "00d562734c886ef8da86b01daefd3c17cbcb34853fbef37d84bfc887899452f4"
+    },
+    {
+      "path": "vio/input/left/438372708.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/left/438372708.pgm",
+      "bytes": 256015,
+      "sha256": "5c1cee87d1fff176e8aa459931c2af8a4292d4d7220a17136f50a3d17e128966"
+    },
+    {
+      "path": "vio/input/orb.yaml",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/orb.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "vio/input/recording.json",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/recording.json",
+      "bytes": 354,
+      "sha256": "df7611e49fd8705cf7c27e12ee446af6164911ab43118fdfb14ed71251ab4f18"
+    },
+    {
+      "path": "vio/input/right/432432312.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/432432312.pgm",
+      "bytes": 256015,
+      "sha256": "1b72efc530a720923a5509170fe3f01a58051b4ea1e4908ccea8b456c8af7f68"
+    },
+    {
+      "path": "vio/input/right/432565804.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/432565804.pgm",
+      "bytes": 256015,
+      "sha256": "d55e86705e128e74e80c5bc40719cdafac6e55c4cfe613231369bd92e5256605"
+    },
+    {
+      "path": "vio/input/right/432699296.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/432699296.pgm",
+      "bytes": 256015,
+      "sha256": "e9e8c186963a14e940a304f4e7c3d11548f7920bd962e840de4400e16d867f30"
+    },
+    {
+      "path": "vio/input/right/432832788.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/432832788.pgm",
+      "bytes": 256015,
+      "sha256": "73ca51a4f5234e900f98baa8d160c225311351057406e083f70379d97c1db136"
+    },
+    {
+      "path": "vio/input/right/432966280.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/432966280.pgm",
+      "bytes": 256015,
+      "sha256": "cadd14dbb6f8c067622cd0542ed500e561d17d5c3edf14b82554332789317137"
+    },
+    {
+      "path": "vio/input/right/433066399.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/433066399.pgm",
+      "bytes": 256015,
+      "sha256": "45e7efaefcebf41149216fd3f3d394673125560570be008e69f157caee0e62ad"
+    },
+    {
+      "path": "vio/input/right/433166518.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/433166518.pgm",
+      "bytes": 256015,
+      "sha256": "1e4d0a8978f372f898f865565726409c097836744e47f5280d4fc1bf2d5bf566"
+    },
+    {
+      "path": "vio/input/right/433300010.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/433300010.pgm",
+      "bytes": 256015,
+      "sha256": "ebda7f7ab4e2a64f9f621f6b0bf63580ab3455c8a77fd27d9d5d5a36581f7467"
+    },
+    {
+      "path": "vio/input/right/433400129.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/433400129.pgm",
+      "bytes": 256015,
+      "sha256": "520733d64c22b6685a89aaecd6c0455c1145629ad1ef7270bd5def2dc696c896"
+    },
+    {
+      "path": "vio/input/right/433500249.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/433500249.pgm",
+      "bytes": 256015,
+      "sha256": "87a9c76a24de772d6c6c8d81e87cc41124ddee05feed554b519b9b6585f1383c"
+    },
+    {
+      "path": "vio/input/right/433633741.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/433633741.pgm",
+      "bytes": 256015,
+      "sha256": "8301fe7a210e9eef66908aacffb8df6d506b85049a80fc3d18eab1a251f99879"
+    },
+    {
+      "path": "vio/input/right/433733860.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/433733860.pgm",
+      "bytes": 256015,
+      "sha256": "27830ef6ca0d4ba03c132c6750b1f5f938a233b39ca40012fb06c48c8e050ace"
+    },
+    {
+      "path": "vio/input/right/433833979.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/433833979.pgm",
+      "bytes": 256015,
+      "sha256": "ae7d995abde72a60598b9193175cc8ad18eb2343218a7f9c5782f24d5a6aa456"
+    },
+    {
+      "path": "vio/input/right/433934098.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/433934098.pgm",
+      "bytes": 256015,
+      "sha256": "7c0b624937a8b5aebd96731e0ba7f89db83ba05b2afd3fa998c92d4ab6892331"
+    },
+    {
+      "path": "vio/input/right/434034217.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/434034217.pgm",
+      "bytes": 256015,
+      "sha256": "a59ae96c3ea9b57349ee8c38327366cf00b2742b86ba8b912517bff31ee92a5d"
+    },
+    {
+      "path": "vio/input/right/434134336.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/434134336.pgm",
+      "bytes": 256015,
+      "sha256": "7a718dd1cccb02f08b35160e8f4352b880a4f5912eae764b03c8fb67fcf3b9d8"
+    },
+    {
+      "path": "vio/input/right/434267828.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/434267828.pgm",
+      "bytes": 256015,
+      "sha256": "04ae000270b9e7d019027a78134595799a8aa5a42c10cda4cd32e778fe7bd82a"
+    },
+    {
+      "path": "vio/input/right/434401320.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/434401320.pgm",
+      "bytes": 256015,
+      "sha256": "a73d1c25c99a27f49e79b18a4b8db515c0650fdebab8e433dd4302562c9d91fd"
+    },
+    {
+      "path": "vio/input/right/434568185.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/434568185.pgm",
+      "bytes": 256015,
+      "sha256": "dab0d0090d760c92663f91c7d8f5daf104abd2cae62c59b15976d25ed3652f44"
+    },
+    {
+      "path": "vio/input/right/434668304.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/434668304.pgm",
+      "bytes": 256015,
+      "sha256": "f10f1ce3bd0134b08d8bd3eccfc4f5b71bc0f31812d7189ea5f83c2a8135ab2f"
+    },
+    {
+      "path": "vio/input/right/434801796.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/434801796.pgm",
+      "bytes": 256015,
+      "sha256": "5a6dcf97288c4cd74fc8c2f2a19d591aee16303352b715762b055cfd6df2305d"
+    },
+    {
+      "path": "vio/input/right/434935288.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/434935288.pgm",
+      "bytes": 256015,
+      "sha256": "d2d9c571833eb658ced02f4a4d69b34d4a275c70e15167e6e7ad772cb9cff6f7"
+    },
+    {
+      "path": "vio/input/right/435002034.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435002034.pgm",
+      "bytes": 256015,
+      "sha256": "01fd58a3486d90c8383aa93d58af64231769ceecac92aa96b5aed2f1427a8760"
+    },
+    {
+      "path": "vio/input/right/435102153.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435102153.pgm",
+      "bytes": 256015,
+      "sha256": "ff08a5bce19dbc8dca2085e4462ed4fbcaf3b83062a7b65a46c5f39ab6d2566e"
+    },
+    {
+      "path": "vio/input/right/435202272.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435202272.pgm",
+      "bytes": 256015,
+      "sha256": "f1c5ee5773d859ee8709c5a3f024f9252f4cb4a317c3e388b22bc6338aff1750"
+    },
+    {
+      "path": "vio/input/right/435302391.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435302391.pgm",
+      "bytes": 256015,
+      "sha256": "83f887f762d620a7a70fcecee96fb6b9b14e7aabdb7c6f60644151afbdc4b2d1"
+    },
+    {
+      "path": "vio/input/right/435369137.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435369137.pgm",
+      "bytes": 256015,
+      "sha256": "2d28b59bf601dab99227bed55e79cea459bc41b09095c1a90145d1b3a8fff92a"
+    },
+    {
+      "path": "vio/input/right/435469256.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435469256.pgm",
+      "bytes": 256015,
+      "sha256": "e3fe2139d092613668c037ae85dab05e3232474635ef8766486cecfe6f72b61b"
+    },
+    {
+      "path": "vio/input/right/435569375.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435569375.pgm",
+      "bytes": 256015,
+      "sha256": "2009acfe9417e8ec80f0af8b18fd8f7489d1c73c5b5e5d2660a5ce77c043bee1"
+    },
+    {
+      "path": "vio/input/right/435669494.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435669494.pgm",
+      "bytes": 256015,
+      "sha256": "1ab36f9b9689e492956e4ecdc3e025b2ee05152eb188081047fe897e1700cb7f"
+    },
+    {
+      "path": "vio/input/right/435769613.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435769613.pgm",
+      "bytes": 256015,
+      "sha256": "f4c94543d6f70dded3583a9b37262cf7cd13509e87a80a7d837571824373aa66"
+    },
+    {
+      "path": "vio/input/right/435869732.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435869732.pgm",
+      "bytes": 256015,
+      "sha256": "3eeef7c8920b438d54cb813ccb1cdd7619888178158040b4d187b38b08f9f9ce"
+    },
+    {
+      "path": "vio/input/right/435969851.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/435969851.pgm",
+      "bytes": 256015,
+      "sha256": "a43d33a45575c24387a11c2ab2a2f4d5f30cbce5a721c856d07fd91e036d795f"
+    },
+    {
+      "path": "vio/input/right/436103343.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/436103343.pgm",
+      "bytes": 256015,
+      "sha256": "e1033accf064c511e9e14744f3d9a646ed89a1b405567b022eb6c08228e221a2"
+    },
+    {
+      "path": "vio/input/right/436203462.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/436203462.pgm",
+      "bytes": 256015,
+      "sha256": "f17799e5a130738a5b6ab914b11f7e4fd1cabbca28610f2420c710373c7e72a9"
+    },
+    {
+      "path": "vio/input/right/436370327.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/436370327.pgm",
+      "bytes": 256015,
+      "sha256": "35ab0c30285bd92167c397d1fbb984c1030e35bdb1592aebe1f0e10bbca07adb"
+    },
+    {
+      "path": "vio/input/right/436470446.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/436470446.pgm",
+      "bytes": 256015,
+      "sha256": "236130ef4d36055a8812363ec4b6a45b42091b65ea34fa9c83f597643fc9f759"
+    },
+    {
+      "path": "vio/input/right/436637311.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/436637311.pgm",
+      "bytes": 256015,
+      "sha256": "8d9f6afa2ec04f6ccbd129265bdcee9adb02b5959f819694c4700eba2830f3a3"
+    },
+    {
+      "path": "vio/input/right/436737430.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/436737430.pgm",
+      "bytes": 256015,
+      "sha256": "673853ba0fb232c79ab5be48009e5f4307f0d0872c26b19712d1c078851fd17a"
+    },
+    {
+      "path": "vio/input/right/436804176.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/436804176.pgm",
+      "bytes": 256015,
+      "sha256": "55303425b1e2fc6f3021fbaeed2829a01043600a234474d13ec12ac49805f371"
+    },
+    {
+      "path": "vio/input/right/436904295.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/436904295.pgm",
+      "bytes": 256015,
+      "sha256": "b6588ac7ffe23c247537e21b775529c5a077cd1d670d9d25fb2e35aff2b8328b"
+    },
+    {
+      "path": "vio/input/right/437004414.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/437004414.pgm",
+      "bytes": 256015,
+      "sha256": "887201bf92954aa3332a62837e613e4a7e67320d5e30d53086ff72889901e297"
+    },
+    {
+      "path": "vio/input/right/437071160.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/437071160.pgm",
+      "bytes": 256015,
+      "sha256": "230de2260cd326ad636ab7bb91a10f2ec56b5ea92fdf70c847d26103c70be8ba"
+    },
+    {
+      "path": "vio/input/right/437271398.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/437271398.pgm",
+      "bytes": 256015,
+      "sha256": "111185d37c56da916822a8c4c9b5a88a892aca4a1944156375413fd092cd7dec"
+    },
+    {
+      "path": "vio/input/right/437371517.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/437371517.pgm",
+      "bytes": 256015,
+      "sha256": "ee9997f3d63e14d48ffe48cde15e5d2e86361af841e188084c6e0d7256582b15"
+    },
+    {
+      "path": "vio/input/right/437438263.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/437438263.pgm",
+      "bytes": 256015,
+      "sha256": "ee1575d65f33b9aef230e869fd47feb720b01b2d8a6605888c38bd58d3ab2b12"
+    },
+    {
+      "path": "vio/input/right/437505009.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/437505009.pgm",
+      "bytes": 256015,
+      "sha256": "2c45b8140ea5a9ad7d85889da3dc75d42b51a7faf1f05c1ceab07492886bd5e0"
+    },
+    {
+      "path": "vio/input/right/437605128.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/437605128.pgm",
+      "bytes": 256015,
+      "sha256": "984687b64e92e213dc63701497489d4d539ce69e2d725ab763328424f740e21d"
+    },
+    {
+      "path": "vio/input/right/437705247.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/437705247.pgm",
+      "bytes": 256015,
+      "sha256": "12ddeb755cbf84d90849255d2182cd38cf6b30c543d8f7838d3d0ef24b3a8fbd"
+    },
+    {
+      "path": "vio/input/right/437872113.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/437872113.pgm",
+      "bytes": 256015,
+      "sha256": "03ca5427aa8b54c55ec2bc02bef63247d64e2de705d0380f1460a6889d6b193f"
+    },
+    {
+      "path": "vio/input/right/438038978.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/438038978.pgm",
+      "bytes": 256015,
+      "sha256": "e52d4ed247b2078ef4cb2e723bc59bd15e65815bd89834afe130e83fa1251ea8"
+    },
+    {
+      "path": "vio/input/right/438172470.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/438172470.pgm",
+      "bytes": 256015,
+      "sha256": "00e39d17f0ad85b42dbd96e523d81b620837a17030708b320c11fe1c2d85e7ff"
+    },
+    {
+      "path": "vio/input/right/438272589.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/438272589.pgm",
+      "bytes": 256015,
+      "sha256": "58f78984e8759210022e5d67b8b6a2b2ebc92c2d06b0701027d8fbd211d6b18c"
+    },
+    {
+      "path": "vio/input/right/438372708.pgm",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/flights/flight-417675015/input/right/438372708.pgm",
+      "bytes": 256015,
+      "sha256": "2c5cae382cfeafc562ba1320517a465c961ad1a475761937915311897d722738"
+    },
+    {
+      "path": "boot/boot-id.txt",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/boot-id.txt",
+      "bytes": 37,
+      "sha256": "0e12100246a104b6117cd897b3223f3c68e87d914f737c7ad470ddb4e5a97bb1"
+    },
+    {
+      "path": "boot/boot-uptime.txt",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/boot-uptime.txt",
+      "bytes": 13,
+      "sha256": "61c43ead3f2451116b8b55d107f0ce808b110bfb5589a1310725f20893c881c0"
+    },
+    {
+      "path": "boot/camera.yaml",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "boot/navigation-mount.yaml",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/navigation-mount.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "boot/power-mode.txt",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "boot/binary.sha256",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/binary.sha256",
+      "bytes": 126,
+      "sha256": "8e099e72d0a53fe90728231acfbf05f7a8765b82cecbd3d7f883b81c929e3691"
+    },
+    {
+      "path": "boot/runtime-profile.sha256",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/runtime-profile.sha256",
+      "bytes": 216,
+      "sha256": "8cd836032e5678c0ae045005f2b79c72a106b3895e86b8d074de51fa0fad359c"
+    },
+    {
+      "path": "boot/cube-startup-status.json",
+      "source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/cube-startup-status.json",
+      "bytes": 4713,
+      "sha256": "4ac46a39f0feb2d5fcf4392da7b178889d96c8a49fcea0f18e0c9f1fb1f73057"
+    },
+    {
+      "path": "jt16/trajectory.csv",
+      "source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/data/flights/flight-417618629/trajectory.csv",
+      "bytes": 7095,
+      "sha256": "17914e6545352d1c979ce1c3679dbfc7a7a95cef5c0242ac721fc9fd733c4279"
+    },
+    {
+      "path": "jt16/clouds.csv",
+      "source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/data/flights/flight-417618629/clouds.csv",
+      "bytes": 1886,
+      "sha256": "6073d90887e39d78960241e732259d0baab26195291a7d9f5861710b5a906d29"
+    },
+    {
+      "path": "jt16/imu.csv",
+      "source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/data/flights/flight-417618629/imu.csv",
+      "bytes": 173345,
+      "sha256": "e0c10cd7d7c884abbed28edfc2bfb0cc1a330e8427d3e5db63b7234b4e402bf3"
+    },
+    {
+      "path": "jt16/summary.json",
+      "source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/data/flights/flight-417618629/summary.json",
+      "bytes": 835,
+      "sha256": "319ef1770e2f8f075d300d858b37ebcfe43a0558593d2c56570a0a0aae37d34b"
+    },
+    {
+      "path": "jt16/map.ply",
+      "source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/data/flights/flight-417618629/map.ply",
+      "bytes": 93817,
+      "sha256": "28948170695032f373d9d71b33ce18a2bb2d5441b2e424263f914d535b1ca42d"
+    },
+    {
+      "path": "jt16/raw/flight-417571129-6139.raw",
+      "source": "/home/atas/vscode/optFlow_slam/data/recordings/jt16-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/flight-417571129-6139.raw",
+      "bytes": 1439200,
+      "sha256": "7d6de483d3e7e77c17ab143491a955df00706064e82cd480b855798f2c20a979"
+    },
+    {
+      "path": "jt16/calibration/JT16_sample_angle-2.csv",
+      "source": "/home/atas/vscode/optFlow_slam/data/calibrations/jt16/JT16_sample_angle-2.csv",
+      "bytes": 331,
+      "sha256": "9dc4a6192e23013750172dbc09c0e10c9f470db48d9e8ae4fc86e7448c96f772"
+    },
+    {
+      "path": "jt16/calibration/source.json",
+      "source": "/home/atas/vscode/optFlow_slam/data/calibrations/jt16/source.json",
+      "bytes": 2635,
+      "sha256": "838ce54f3cf3c83d8b495b6983d266514411b45bdb4441b7c173bf93aa1fc0c2"
+    },
+    {
+      "path": "manifest.json",
+      "source": "/home/atas/BHUslamV3/flight-reviews/20261121T112159.087745155Z_flight-417675015/manifest.json",
+      "bytes": 2865,
+      "sha256": "196e4dd6b95c34829ea6419cd988aca4364cc620cff1d5441b7877a9038f185e"
+    }
+  ]
+}

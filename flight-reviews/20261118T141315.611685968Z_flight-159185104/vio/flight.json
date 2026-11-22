@@ -1,0 +1,7 @@
+{
+  "finalized": true,
+  "recording_start_host_us": 159185104,
+  "recording_stop_host_us": 299189872,
+  "stop_reason": "fresh Cube disarm plus 3 s tail",
+  "trigger": "Cube armed"
+}

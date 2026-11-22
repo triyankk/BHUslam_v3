@@ -1,0 +1,12 @@
+{
+  "dropped_frames": 0,
+  "dropped_imu": 0,
+  "error": "",
+  "finalized": true,
+  "frames_written": 68,
+  "images": "selected processed stereo pairs, rectified before CLAHE; overwritten camera pairs are absent",
+  "imu_units": "m/s^2 and rad/s, acceleration rotated to gyro frame",
+  "imu_written": 2556,
+  "queue_items": 0,
+  "recording_ready": true
+}

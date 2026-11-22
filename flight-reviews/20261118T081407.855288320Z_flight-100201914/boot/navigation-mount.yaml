@@ -1,0 +1,21 @@
+%YAML:1.0
+# Operator-reported mount, 2026-11-18: camera pitched 22.8 degrees down,
+# optical centre 0.13 m forward and 0.05 m below Cube, lateral offset assumed 0.
+# R_body_optical = R_body_y(-22.8 deg) * upright_optical_to_FRD.
+# Camera optical +Z faces forward/down. Additional roll/yaw assumed zero.
+Mount.R_body_optical: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [0, -0.38751558645210304, 0.9218631515885005, 1, 0, 0, 0, 0.9218631515885005, 0.38751558645210304]
+Mount.camera_position_body_m: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [0.13, 0.0, 0.05]
+Publisher.persistent_min: 40
+# VINS-Fusion uses a 500 ms continuous-good recovery gate.
+# MAVLink quality remains the measured persistent-feature count (capped at 100).
+# Fusion relay uses --quality-min 40; Cube setup preset uses VISO_QUAL_MIN=40.
+# Requires initialized VINS-Fusion inertial solution (gravity along -world-Z).
+# Local FRD yaw is arbitrary and needs alignment to Cube AHRS/heading.

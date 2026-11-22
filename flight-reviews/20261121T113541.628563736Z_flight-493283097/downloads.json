@@ -1,0 +1,12 @@
+{
+  "release": "https://github.com/triyankk/BHUslam_v3/releases/tag/flight-data-20261122",
+  "assets": [
+    {
+      "name": "20261121T113541.628563736Z_flight-493283097.tar.zst",
+      "bytes": 358551875,
+      "sha256": "6aba201785f1d50087672493ec47e827536d1f3106d7709c1b96ad15d94ca326",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261121T113541.628563736Z_flight-493283097.tar.zst",
+      "flight_id": "20261121T113541.628563736Z_flight-493283097"
+    }
+  ]
+}

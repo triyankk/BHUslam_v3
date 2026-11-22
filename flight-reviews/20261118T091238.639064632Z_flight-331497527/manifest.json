@@ -1,0 +1,30 @@
+{
+  "id": "20261118T091238.639064632Z_flight-331497527",
+  "boot_id": "6794f621-9b99-4f37-9e09-11d6930f03bb",
+  "original_vio_folder": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T091238.639064632Z/live/flights/flight-331497527",
+  "flight": {
+    "finalized": true,
+    "recording_start_host_us": 331497527,
+    "recording_stop_host_us": 542235897,
+    "stop_reason": "fresh Cube disarm plus 3 s tail",
+    "trigger": "Cube armed"
+  },
+  "input_integrity": {
+    "indexed_pairs": 5567,
+    "invalid_pairs": 0,
+    "invalid_row_indices_zero_based": [],
+    "valid_prefix_pairs": 5567,
+    "check": "PGM header and exact payload length; no photometric/geometry test"
+  },
+  "jt16": null,
+  "jt16_raw": [],
+  "cube": null,
+  "notes": [
+    "No unique JT16 map session matched within 2 seconds in the same boot.",
+    "No JT16 raw capture could be associated by same boot and recording-start interval.",
+    "No independently verified Cube DataFlash association is available for this session."
+  ],
+  "source_code_commit": "ef16120177595a9700e343514d9e57864c55affd",
+  "time_warning": "Run folder timestamps and mtimes are not reliable flight order; use boot UUID and host-monotonic times.",
+  "validation_limit": "Recorded arm sessions, not proof of takeoff, trajectory accuracy, EKF fusion or autonomous avoidance."
+}

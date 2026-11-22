@@ -1,0 +1,110 @@
+{
+  "active_components": [
+    "jt16",
+    "cube_proximity",
+    "rc7_alerts",
+    "desktop_sensor_recorder"
+  ],
+  "companion_movement_commands_sent": false,
+  "cube": {
+    "alert_beeps_sent": 0,
+    "armed": false,
+    "baud": 115200,
+    "connected": true,
+    "endpoint": "/dev/ttyTHS1",
+    "health_sample_age_ms": 263,
+    "health_samples": 2,
+    "healthy_samples": 0,
+    "heartbeat_age_ms": 299,
+    "ignored_sys_status_samples": 0,
+    "last_error": null,
+    "last_packet_age_ms": null,
+    "last_statustext": null,
+    "last_sys_status_masks": [
+      1395785199,
+      1379007983,
+      1194458479
+    ],
+    "last_sys_status_source": [
+      1,
+      1
+    ],
+    "latest_scan_age_ms": null,
+    "mode": "POSHOLD",
+    "prearm_messages": [],
+    "proximity_cycles_started": 0,
+    "proximity_healthy": false,
+    "proximity_packets_sent": 0,
+    "proximity_stable": false,
+    "rc_avoidance_enabled": true,
+    "rc_channel": 7,
+    "rc_pwm": 1945,
+    "recent_health_samples": 2,
+    "recent_healthy_samples": 0,
+    "reconnects": 0,
+    "recording_streams_enabled": false,
+    "startup_tune_sent": true,
+    "vio_observation": {
+      "block_reason": "Missing/stale EK3_SRC1_POSXY",
+      "blocked": 0,
+      "cube_reception_proven": false,
+      "cube_vision_health_age_ms": 262.783648,
+      "cube_vision_healthy": false,
+      "enabled": true,
+      "fusion_validated": false,
+      "last_error": null,
+      "last_serial_write_age_ms": null,
+      "log_path": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T081405.356224Z.jsonl",
+      "mode": "reception-only",
+      "parameter_ages_ms": {
+        "AHRS_EKF_TYPE": 231.217376,
+        "EK3_ENABLE": 31.251968
+      },
+      "parameters": {
+        "AHRS_EKF_TYPE": 3.0,
+        "EK3_ENABLE": 1.0
+      },
+      "rejected": 0,
+      "serial_written": 0,
+      "source_switch_commands": 0,
+      "superseded": 0
+    },
+    "vio_recording_cues_sent": 0
+  },
+  "disabled_components": [
+    "fast_lio",
+    "slam",
+    "trajectory",
+    "navigation",
+    "companion_movement_commands"
+  ],
+  "lidar": {
+    "connected": false,
+    "error": "JT16 device is missing: /dev/jt16_usb",
+    "frame_rate_hz": 0.0,
+    "frames": 0,
+    "last_frame_age_ms": null,
+    "latest_points": 0,
+    "nearest_distance_m": null,
+    "points": 0,
+    "valid_sectors": 0
+  },
+  "mode": "obstacle_avoidance_only",
+  "ready": false,
+  "ready_scope": "proximity_transport_only",
+  "reason": null,
+  "recording": {
+    "active": false,
+    "auto_record_on_arm": true,
+    "last_error": null,
+    "last_session_path": null,
+    "session_trigger": null,
+    "thread_alive": true,
+    "updated_utc": "2026-11-18T08:14:07.369640+00:00",
+    "vehicle_armed": false
+  },
+  "running": true,
+  "schema_version": 1,
+  "started_at": "2026-11-18T08:14:05.315224+00:00",
+  "updated_at": "2026-11-18T08:14:07.369678+00:00"
+}
