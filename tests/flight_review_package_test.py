@@ -17,6 +17,33 @@ spec.loader.exec_module(package)
 
 
 class FlightReviewPackageTest(unittest.TestCase):
+    def test_inventory_distinguishes_unindexed_images_from_readable_pairs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / 'original/input'
+            (source / 'left').mkdir(parents=True)
+            (source / 'right').mkdir()
+            good = b'P5\n1 1\n255\n\x00'
+            for side in ['left', 'right']:
+                (source / side / 'indexed.pgm').write_bytes(good)
+                (source / side / 'unindexed.pgm').write_bytes(good[:-1])
+            (source / 'frames.csv').write_bytes(
+                b'timestamp_s,left,right\n1,left/indexed.pgm,right/indexed.pgm\n\0\0')
+            package.dump(source / 'recording.json', {'frames_written': 2})
+            reviews = root / 'reviews'
+            package.dump(reviews / 'session/manifest.json', {
+                'id': 'session', 'original_vio_folder': str(source.parent),
+                'input_integrity': {'indexed_pairs': 1}})
+            subprocess.run(['python3', str(Path(__file__).resolve().parents[1]
+                                          / 'tools/audit_flight_review_inputs.py'), str(reviews)],
+                           check=True, capture_output=True)
+            audit = json.loads((reviews / 'session/input-inventory.json').read_text())
+            self.assertEqual(audit['metadata_frames_written'], 2)
+            self.assertEqual(audit['inspected_index_pairs'], 1)
+            self.assertTrue(audit['index_has_nul_corruption'])
+            self.assertEqual(audit['sides']['left']['unindexed_pgm_files'], ['left/unindexed.pgm'])
+            self.assertEqual(audit['sides']['left']['invalid_pgm_files'], ['left/unindexed.pgm'])
+
     def test_damaged_and_missing_frames_are_reported_without_changing_originals(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

@@ -65,6 +65,15 @@ headers and exact payload length; it does not establish image quality,
 stereo calibration, timestamp synchronization, or VIO accuracy. Original bytes
 are preserved rather than silently trimming invalid tails.
 
+`input-inventory.json` in each Git review separately counts every saved PGM
+file, lists structurally invalid files, and identifies files absent from the
+readable frame-index prefix. The catalog-level `input-inventory.json` combines
+these audits and is also supplied as a release asset. Metadata's
+`frames_written` can exceed the readable index row count after corruption;
+unindexed images are retained in the archive but are not claimed to have a
+trustworthy recovered pairing/timestamp index. This audit is an external
+addendum and does not change the immutable archives or their internal manifests.
+
 The VIO frames are the selected processed, rectified stereo pairs before
 CLAHE. They do not include overwritten camera pairs or native unrectified
 images. Each replay archive retains the complete available input directory.
@@ -104,7 +113,9 @@ Install the GitHub CLI, `zstd`, and GNU tar. From a fresh directory:
 
 ```bash
 gh release download flight-data-20261122 --repo triyankk/BHUslam_v3 \
-  --pattern catalog.json --pattern SHA256SUMS
+  --pattern catalog.json --pattern SHA256SUMS \
+  --pattern input-inventory.json --pattern METADATA-SHA256SUMS
+sha256sum --check METADATA-SHA256SUMS
 ```
 
 Choose the session in the review catalog, then download the filenames linked
@@ -128,6 +139,8 @@ extracting (use this in place of the final `tar` command above):
 cat "${session}.tar.zst".part[0-9][0-9][0-9] | zstd -dc | tar -xf - -C restored
 ```
 
+`METADATA-SHA256SUMS` verifies the downloaded catalog and input-inventory
+addendum; `SHA256SUMS` covers the 22 archive assets in this snapshot.
 `files.json` inside the extracted session lists hashes and sizes of the original
 members. `SHA256SUMS` authenticates the compressed bytes against the committed
 manifest, while member hashes support checking the restored originals. Do not
@@ -145,6 +158,7 @@ python3 tools/package_flight_reviews.py \
   --reviews flight-reviews-next \
   --archives release-assets/flight-data-NEXT \
   --tag flight-data-NEXT
+python3 tools/audit_flight_review_inputs.py flight-reviews-next
 ```
 
 The script refuses existing output directories and detects files that change
@@ -156,6 +170,7 @@ at or above 1 GiB are split into smaller release assets; this stays below
 
 Review the catalog, completeness warnings, source associations and file list;
 commit the review directory, tooling, and documentation. Create a release at
-that commit, upload all assets plus `catalog.json` and `SHA256SUMS`, and verify
+that commit, upload all assets plus `catalog.json`, `SHA256SUMS`, the combined
+`input-inventory.json`, and `METADATA-SHA256SUMS` for the metadata hashes, and verify
 the remote asset names, sizes, and hashes. Keep archives under the ignored
 `release-assets/` directory. Do not use `git add -f` on bulk recordings.
