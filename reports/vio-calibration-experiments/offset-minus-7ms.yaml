@@ -1,0 +1,45 @@
+%YAML:1.0
+File.version: "1.0"
+Camera.type: "Rectified"
+Camera1.fx: 308.164947510
+Camera1.fy: 308.164947510
+Camera1.cx: 317.250000000
+Camera1.cy: 201.000000000
+Camera.width: 640
+Camera.height: 400
+Camera.fps: 30
+Camera.RGB: 0
+Stereo.b: 0.0947195968628
+Stereo.ThDepth: 40.0
+# Factory extrinsics, with left-camera rectification rotation applied.
+# T_b_c1 maps rectified left-camera coordinates into gyro/body coordinates.
+IMU.T_b_c1: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: f
+   data: [1.00000000000, 0.00000000000, 0.00000000000, -0.00788600015640, 0.00000000000, 1.00000000000, 0.00000000000, -0.00108599996567, 0.00000000000, 0.00000000000, 1.00000000000, 0.0142480001450, 0.00000000000, 0.00000000000, 0.00000000000, 1.00000000000]
+IMU.Frequency: 200.0
+IMU.InsertKFsWhenLost: 0
+# Adapter convention: camera-clock time = IMU timestamp + offset.
+IMU.TimeOffsetSeconds: -0.007
+# Provisional noise parameters: MUST validate by stationary recording/Allan analysis.
+Calibration.imuValidated: 0
+IMU.NoiseGyro: 0.001
+IMU.NoiseAcc: 0.01
+IMU.GyroWalk: 0.000001
+IMU.AccWalk: 0.0001
+ORBextractor.nFeatures: 1000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -3.5
+Viewer.ViewpointF: 500.0

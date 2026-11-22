@@ -1,0 +1,31 @@
+# GPS-free VIO bench profile, corrected and applied on 18 November 2026.
+# NOT FOR FLIGHT: calibration, continuous VIO, origin/Home and heading validation remain incomplete.
+# GPS/compass disabled; primary source uses VIO with barometric height.
+# Unused sources 2/3 have no GPS, compass, position or velocity dependencies.
+AHRS_EKF_TYPE 3
+COMPASS_ENABLE 0
+EK3_ENABLE 1
+EK3_SRC1_POSXY 6
+EK3_SRC1_POSZ 1
+EK3_SRC1_VELXY 6
+EK3_SRC1_VELZ 6
+EK3_SRC1_YAW 6
+EK3_SRC_OPTIONS 0
+GPS1_TYPE 0
+GPS2_TYPE 0
+VISO_ORIENT 0
+VISO_POS_X 0.13
+VISO_POS_Y 0
+VISO_POS_Z 0.05
+VISO_QUAL_MIN 40
+VISO_TYPE 3
+EK3_SRC2_POSXY 0
+EK3_SRC2_VELXY 0
+EK3_SRC2_POSZ 1
+EK3_SRC2_VELZ 0
+EK3_SRC2_YAW 0
+EK3_SRC3_POSXY 0
+EK3_SRC3_VELXY 0
+EK3_SRC3_POSZ 1
+EK3_SRC3_VELZ 0
+EK3_SRC3_YAW 0

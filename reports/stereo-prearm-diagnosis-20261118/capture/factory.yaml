@@ -1,0 +1,106 @@
+%YAML:1.0
+---
+K_left: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 3.0816494750976562e+02, 0., 3.1725000000000000e+02, 0.,
+       3.0816494750976562e+02, 201., 0., 0., 1. ]
+D_left: !!opencv-matrix
+   rows: 1
+   cols: 8
+   dt: d
+   data: [ 0., 0., 0., 0., 0., 0., 0., 0. ]
+K_right: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 3.0816494750976562e+02, 0., 3.1725000000000000e+02, 0.,
+       3.0816494750976562e+02, 201., 0., 0., 1. ]
+D_right: !!opencv-matrix
+   rows: 1
+   cols: 8
+   dt: d
+   data: [ 0., 0., 0., 0., 0., 0., 0., 0. ]
+R_left_to_right: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+t_left_to_right_m: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ -9.4719596862792965e-02, 0., 0. ]
+R1: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+R2: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+P1: !!opencv-matrix
+   rows: 3
+   cols: 4
+   dt: d
+   data: [ 3.0816494750976568e+02, 0., 3.1725000000000000e+02, 0., 0.,
+       3.0816494750976568e+02, 201., 0., 0., 0., 1., 0. ]
+P2: !!opencv-matrix
+   rows: 3
+   cols: 4
+   dt: d
+   data: [ 3.0816494750976568e+02, 0., 3.1725000000000000e+02,
+       -2.9189259595368760e+01, 0., 3.0816494750976568e+02, 201., 0., 0.,
+       0., 1., 0. ]
+T_body_rectified_left: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 1., 0., 0., -7.8860001564025877e-03, 0., 1., 0.,
+       -1.0859999656677246e-03, 0., 0., 1., 1.4248000144958497e-02, 0.,
+       0., 0., 1. ]
+R_accel_to_gyro: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+serial: CPC2963000JJ
+firmware: "1.8.10"
+accel_csv_units: "m/s^2"
+gyro_csv_units: rad/s
+sdk_accel_to_si: 1.
+sdk_gyro_to_si: 1.
+R_native_left_to_gyro: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+accel_scale_misalignment: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+gyro_scale_misalignment: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+accel_bias: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 0., 0., 0. ]
+gyro_bias: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 0., 0., 0. ]
+accel_reference_temperature: 3.2026703329999997e+01
+gyro_reference_temperature: 3.2026703329999997e+01
+accel_sdk_noise_density: 4.0000000000000002e-04
+gyro_sdk_noise_density: 3.1999999999999999e-05
+accel_sdk_random_walk: 8.0000000000000007e-05
+gyro_sdk_random_walk: 1.9999999999999999e-06

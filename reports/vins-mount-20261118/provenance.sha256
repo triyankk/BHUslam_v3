@@ -1,0 +1,3 @@
+f679c60b4e67ef67f5fe574b1d804fb31c969fe92ff9205e9b30cb6c389b2646  configs/vins-fusion-extnav.yaml
+5027888eff215c6f89935ace9810a501812d7ecda1f61d8a36c100b479fbaade  src/cube_vio_config.cpp
+e0704df00d04a6dc2888905e419c4502d30c5c6a728163e2594641513ec64e2e  tests/external_nav_test.cpp

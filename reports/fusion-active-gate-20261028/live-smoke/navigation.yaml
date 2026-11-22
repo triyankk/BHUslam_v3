@@ -1,0 +1,19 @@
+%YAML:1.0
+# User-approved testing assumption: forward-facing, upright; optical centre
+# 0.15 m forward of the vehicle reference point. Measure before flight use.
+Mount.R_body_optical: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [0, 0, 1, 1, 0, 0, 0, 1, 0]
+Mount.camera_position_body_m: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [0.15, 0.0, 0.0]
+Publisher.persistent_min: 40
+# VINS-Fusion uses a 500 ms continuous-good recovery gate.
+# MAVLink quality remains the measured persistent-feature count (capped at 100).
+# Relay/Cube quality filters are independent and currently retain minimum 60.
+# Requires initialized VINS-Fusion inertial solution (gravity along -world-Z).
+# Local FRD yaw is arbitrary and needs alignment to Cube AHRS/heading.

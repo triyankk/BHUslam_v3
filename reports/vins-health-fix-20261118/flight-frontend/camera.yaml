@@ -1,0 +1,16 @@
+%YAML:1.0
+---
+model_type: PINHOLE
+camera_name: rectified
+image_width: 640
+image_height: 400
+distortion_parameters:
+   k1: 0.
+   k2: 0.
+   p1: 0.
+   p2: 0.
+projection_parameters:
+   fx: 3.0816494750999999e+02
+   fy: 3.0816494750999999e+02
+   cx: 3.1725000000000000e+02
+   cy: 201.

@@ -1,0 +1,27 @@
+# UNAPPLIED engineering candidate ONLY. NOT FOR FLIGHT.
+# Entire Here4 removed, no separate compass. VIO must supply validated yaw.
+# Dual-profile bridge now recognizes this exact candidate while disarmed.
+# Requires actual transport/fusion validation, calibrated VIO, clipping mitigation,
+# correct origin/home/heading alignment, ground/SITL EKF tests, loss-of-VIO strategy.
+# Barometer remains height source; VIO supplies horizontal position and XYZ velocity.
+AHRS_EKF_TYPE 3
+EK3_ENABLE 1
+EK3_SRC1_POSXY 6
+EK3_SRC1_VELXY 6
+EK3_SRC1_POSZ 1
+EK3_SRC1_VELZ 6
+EK3_SRC1_YAW 6
+EK3_SRC_OPTIONS 0
+VISO_TYPE 3
+GPS1_TYPE 0
+GPS2_TYPE 0
+COMPASS_ENABLE 0
+VISO_ORIENT 0
+VISO_POS_X 0.13
+VISO_POS_Y 0
+VISO_POS_Z 0.05
+VISO_QUAL_MIN 40
+# Origin/home must be supplied correctly for the site; deliberately omitted here.
+# Do not change AHRS_OPTIONS to restore an all-zero or stale origin.
+# VISO_DELAY_MS and noise parameters require measured tuning, not guessed presets.
+# No RC source-switch, scripting or arming-check bypass is added.

@@ -1,0 +1,40 @@
+%YAML:1.0
+---
+model_type: PINHOLE
+camera_name: gemini_rectified_left
+image_width: 640
+image_height: 400
+distortion_parameters:
+   k1: 0.
+   k2: 0.
+   p1: 0.
+   p2: 0.
+projection_parameters:
+   fx: 3.0816494750999999e+02
+   fy: 3.0816494750999999e+02
+   cx: 3.1725000000000000e+02
+   cy: 201.
+extrinsicRotation: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+extrinsicTranslation: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ -7.8859999775886536e-03, -1.0860000038519502e-03,
+       1.4248000457882881e-02 ]
+estimate_extrinsic: 0
+estimate_td: 0
+td: 0.
+acc_n: 1.4142135623730950e-01
+gyr_n: 1.4142135623730951e-02
+acc_w: 1.4142135623730952e-03
+gyr_w: 1.4142135623730951e-05
+max_cnt: 150
+min_dist: 30
+equalize: 1
+max_solver_time: 4.0000000000000001e-02
+max_num_iterations: 8
+loop_closure: 0

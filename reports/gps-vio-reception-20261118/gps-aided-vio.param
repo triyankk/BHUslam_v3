@@ -1,0 +1,20 @@
+# GPS-aided VINS recording and Cube reception. GPS navigation remains primary.
+# VISO_TYPE=3 requires Cube reboot; no automatic source switching.
+# VIO accuracy/fusion and flight readiness are not established by this file.
+AHRS_EKF_TYPE 3
+COMPASS_ENABLE 1
+EK3_ENABLE 1
+EK3_SRC1_POSXY 3
+EK3_SRC1_POSZ 1
+EK3_SRC1_VELXY 3
+EK3_SRC1_VELZ 3
+EK3_SRC1_YAW 1
+EK3_SRC_OPTIONS 0
+GPS1_TYPE 9
+GPS2_TYPE 0
+VISO_ORIENT 0
+VISO_POS_X 0.13
+VISO_POS_Y 0
+VISO_POS_Z 0.05
+VISO_QUAL_MIN 40
+VISO_TYPE 3

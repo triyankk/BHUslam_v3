@@ -1,0 +1,19 @@
+%YAML:1.0
+---
+recording: "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/flights/flight-518567821/input"
+decoded: /home/atas/BHUslamV3/reports/livo-replay-readiness-20261120/flight213-decoded
+lidar_to_camera_time_offset_s: -1.7241120080984876e+09
+R_camera_lidar: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ -1., 0., 0., 0., 4.8849769795613396e-02,
+       -9.9880613734143409e-01, 0., -9.9880613734143409e-01,
+       -4.8849769795613375e-02 ]
+t_camera_lidar_m: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 4.0000000000000001e-02, -1.0627916418068147e-01,
+       -8.2642236544370917e-02 ]
+voxel_size_m: 2.0

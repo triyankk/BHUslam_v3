@@ -1,0 +1,61 @@
+# Latest four Cube flight sessions — review completed20 November2026
+
+[Open selectable stereo / sparse-cloud / VIO viewer](index.html)
+
+Reviewed Cube DataFlash logs211–214 and matching Gemini VINS recordings from18 November. Ordering uses Cube log IDs, boot UUIDs and exact VISP.RTimeUS / companion capture timestamps. Host wall clocks repeatedly restarted at14:13 UTC, so folder dates and mtimes are not reliable flight order. Six recent Cube logs were downloaded;211–214 are the newest four. Cube211 includes multiple arm cycles; the table selects its last one. All analysis is read-only; flight configuration and gates were not changed.
+
+## Findings
+
+RTL was requested and explicitly rejected in logs213 and214. Log213 records three failures at85.593,96.865 and162.992 seconds of Cube uptime. Log214 records one at282.990 seconds. All say “Mode change to RTL failed: init failed”; neither log contains a successful MODE6 transition. In exact firmwareArduCopter4.7.1(dbe79216), ModeRTL::init returns false when Home is unset; the generic mode dispatcher labels that return “init failed.” This is a source-code-based diagnosis supported by the flight messages. It is not evidence that an active RTL controller tried and failed to fly home. No RTL rejection is recorded in the selected211/212 sessions.
+
+Neither213 nor214 has an ORGN Home/Origin record. Cube212 does record both origin(Type0) and Home(Type1). A Home/origin established during one boot was therefore not a reliable per-boot prerequisite in these tests. GPS1_TYPE=0 and AHRS_ORIGIN_* remain0 in the recorded profiles. The zero-valued parameters alone do not prove an unset runtime origin; the positive evidence here is the exact RTL failure path. Restoring Home alone would not make these flights ready for autonomous return because pose delivery and VIO integrity also failed.
+
+Firmware sources: [RTL initializer](https://github.com/ArduPilot/ardupilot/blob/dbe79216/ArduCopter/mode_rtl.cpp#L71-L94), [mode failure dispatch](https://github.com/ArduPilot/ardupilot/blob/dbe79216/ArduCopter/mode.cpp#L402-L405).
+
+## Cube-confirmed forwarding gaps
+
+| Cube log | Armed interval, approximate s | Saved VIO input s | Cube poses while armed | Longest armed delivery gap s | Near-rail accel samples | RTL failures |
+|---|---:|---:|---:|---:|---:|---:|
+| 211 | 63.9 | 21.5 | 7 | 48.22 | 1.06% | 0 |
+| 212 | 88.8 | 90.5 | 11 | 88.17 | 4.87% | 0 |
+| 213 | 143.0 | 145.8 | 16 | 140.92 | 6.88% | 3 |
+| 214 | 137.1 | 140.0 | 12 | 135.28 | 1.73% | 1 |
+
+These are actual Cube VISP reception intervals, including armed-window start/end gaps, not a modeled stream or producer eligibility counts. VISP.Ign=0 in the listed armed receipts establishes frontend acceptance only; it does not validate EKF fusion or position accuracy. Source-set records remain primary(SS0) in all four logs. ARM1 is absent at the start of212–214, so their armed start is estimated from the earliest recorded MODE; later ARM0 gives disarm. Cube211 has explicit ARM1/0 and is less ambiguous.
+
+The companion logs independently show the forwarding gate changing to “Cube heartbeat stale,” followed by “No disarmed startup heartbeat.” A heartbeat interval over1.5 s revokes disarmed/profile qualification; while armed the bridge cannot regain it. The same gate exists in the C++ relay and final serial owner. Normal forwarding resumes only on a subsequent disarmed heartbeat. For213/214, the first stale-heartbeat event appears about16 seconds into the saved input and the no-disarmed lock persists until the end. The18 November timing change removed pose-age/recovery waits and throttles; it deliberately retained heartbeat/session/configuration guards. This remaining session guard is now a confirmed armed-time blocker.
+
+The available logs prove heartbeat processing gaps and the lockout policy. They do not uniquely identify whether each initial gap originated in USB, outbound writes, CPU scheduling or service work. Recording startup requests additional telemetry and the sole-owner loop combines proximity, stream commands, recorder tapping, auditing and pose writes; record this as a candidate interference path, not a proved sole cause. Preserve the safety function while correcting transport scheduling and defining/test-validating same-session recovery.
+
+Cube211's last actual armed interval is63.9 s, but its saved VIO recording starts46.8 s after arming and covers only the final21.5 s including the disarm tail. This is an additional arm-state/recording-latency problem. A short saved recording must not be called the entire flight.
+
+## VIO integrity
+
+All four saved acceleration streams contain samples at39.2000008 m/s², the configured ±4 g rail. Near-rail sample fractions range1.06–6.88%; the existing200 ms IMU health holdoff consequently rejects a much larger proportion of image frames. These figures use the saved rotated acceleration channels and the existing99% rail criterion; gyro near-rail counts are in final-analysis.json. Clipping destroys information, and calibration or relaxed timing gates cannot reconstruct it.
+
+The live trajectory for Cube213 diverges about38.6 km from its first recorded pose within a145.8 s recording, while the estimator remains initialized. This is an invalid navigation estimate, not actual aircraft travel. The live initialized flag and feature count are insufficient as validity evidence. Upstream VINS failureDetection is disabled in this build; invalid-velocity/IMU checks withheld most of these estimates. Other shorter paths also remain unvalidated; visual plausibility is not ground truth.
+
+## Follow-up: shared startup stall identified
+
+An isolated read-only probe of installed pyrealsense2(2.57.7.10387), requesting a deliberately nonexistent device serial, reproduced15.090 s in pipeline.start and15.081 s without execution of another Python heartbeat thread. The startup call holds the interpreter lock. Every selected recorder manifest reports three failed D415 startup attempts even though that camera is absent. Gemini VINS is a separate native process.
+
+The affected Python service also handles Cube telemetry and drains the native JT16 point-output pipe. The native JT16 cloud callback performs a blocking write to that pipe before its mapping fan-out, so a frozen consumer can stop map delivery. The mapper exits after10 s without feed; the pose-forwarding guard revokes qualification after a1.5 s heartbeat gap and cannot recover while armed. This is a reproducible shared failure mechanism consistent with the15-second-spaced flight stalls; a full controlled arm-time regression is still needed to verify every link historically. It substantially narrows the earlier generic USB/CPU/recording interference hypothesis.
+
+First skip absent/unused D415 capture entirely, isolate optional SDK startup, and make LiDAR fan-out independent of blocking consumers. Turning off video alone does not bypass the unconditional pipeline.start call. Retain legitimate profile/IMU checks and test guarded recovery after transport is fixed. No runtime setting was changed by this diagnosis. Probe and findings:discontinuity-cause/. SDK binding reference:https://github.com/realsenseai/librealsense/blob/v2.57.7/wrappers/python/pyrs_pipeline.cpp#L100-L110
+
+## Biggest improvement opportunities, in order
+
+1. Fix armed-time delivery continuity. Instrument the sole owner with per-loop/read/write latency and queue/backlog metrics; prioritize heartbeat/odometry, make recording and stream reconfiguration nonblocking, and regression-test arming under full recording/LiDAR load. Validate a bounded same-session recovery path with fresh unchanged Cube identity/profile; retain blocking for true reconnect/profile change. Do not merely extend the heartbeat timeout or delete source validation. This addresses near-whole-flight outages even when many VINS frames pass their own checks.
+2. Fix camera IMU saturation and estimator integrity. Reduce mount vibration and check the SDK's actually supported acceleration ranges, then perform temporal/extrinsic/IMU calibration. Re-enable or replace the disabled upstream failure detector with validated divergence checks. Do not forward a38 km numerical divergence to keep the status green. Validate motor-on operation before EKF reliance.
+3. Make origin/Home readiness an explicit per-boot requirement, read back and log it before any RTL test. Use the real configured launch reference and verify local-heading alignment; avoid fabricated0,0 coordinates. Then test ExternalNav fusion and RTL in simulation and props-off ground tests before another autonomous return attempt.
+4. Improve evidence integrity: sync/anchor clocks without depending on GPS, persist boot IDs and Cube time mappings, and make log shutdown/power-loss handling durable. Input-integrity audit found109 empty stereo pairs at the end of212 and156 at the end of214. Their intact replay prefixes cover81.70 and125.52 seconds respectively; no frames or clouds are fabricated for the missing tail. Several Jetson files have zero-filled tails; all four Cube downloads end with an incomplete DataFlash tail despite matching advertised file sizes. Counts are therefore lower bounds near file ends. Do not infer all reception solely from missing companion write rows.
+
+## Viewer interpretation
+
+The flight selector provides synchronized stereo images with tracked feature overlays, an orbitable sparse cloud and trajectory, playback/seeking and a camera-perspective checkbox. These sparse landmarks and their trajectory are reconstructed offline by the existing native C++ VINS-Fusion replay, restarted at the saved recording's beginning; this does not recreate the continuously warm live estimator state. No loop closure/global map optimization is introduced. The separate “Recorded live trajectory” tab displays actual saved live poses, including unpublished estimates and divergence, translated to their first position with scale unchanged. Independent reset epochs remain separate. Neither path is ground truth, and replay outputs must not be substituted for the trajectory sent during flight. For213, even the fresh offline replay reaches about200 m displacement while the saved live estimate reaches38.6 km; this difference illustrates estimator-state dependence, not validated accuracy.
+
+The “Forwarding gaps” tab shows Cube-confirmed gaps and the companion guard timeline for each flight. Point clouds are exported as per-epoch PLY files beside each replay viewer.212 and214 are explicitly marked partial because empty image tails stop their sparse replays; the separate live-pose display retains all intact saved pose records. Cube211's missing beginning cannot be reconstructed from absent images.
+
+## Evidence and reproducibility
+
+flights.json identifies each source directory and boot. boot-cube-matches.json records timestamp matches. final-analysis.json contains complete metrics, gate transitions, Cube-arm alignment, origin records and decode summaries. flight-N-evidence.json retains producer/companion/telemetry data; decoded-N/cube-extnav.jsonl comes from the native C++ decoder. Original Cube BINs are in cube-logs/. Native replay logs/config/summary/PLY are under viewers/. No new Python runtime was added; existing disarmed-only log-download tooling was reused. Optical-flow velocity/internal-compass yaw and recording/beep behavior remain unchanged. Native viewer UI tests exercise software/WebGL projection, timeline synchronization, camera perspective, finite drawing and no network requests. Catalog tests exercise all four flight choices and replay/live/gap tabs. Artifact validation checks source timestamps, saved poses, JPEG files and PLY counts. Browser visual inspection could not be performed because the app URL policy blocks local file:// navigation; no browser-policy workaround was attempted. Services were restored after log download; no flight parameter or live gate was edited.

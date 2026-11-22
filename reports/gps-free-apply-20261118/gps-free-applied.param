@@ -1,0 +1,19 @@
+# GPS-free VIO parameters applied to Cube on 18 November 2026 for ground-controller saving.
+# Flight validation, origin/Home and north alignment remain incomplete.
+AHRS_EKF_TYPE 3
+COMPASS_ENABLE 0
+EK3_ENABLE 1
+EK3_SRC1_POSXY 6
+EK3_SRC1_POSZ 1
+EK3_SRC1_VELXY 6
+EK3_SRC1_VELZ 6
+EK3_SRC1_YAW 6
+EK3_SRC_OPTIONS 0
+GPS1_TYPE 0
+GPS2_TYPE 0
+VISO_ORIENT 0
+VISO_POS_X 0.13
+VISO_POS_Y 0
+VISO_POS_Z 0.05
+VISO_QUAL_MIN 40
+VISO_TYPE 3
