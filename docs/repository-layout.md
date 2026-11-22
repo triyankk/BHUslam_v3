@@ -28,6 +28,12 @@ and historical source/binary backups are not an archive supplied by a clone.
 References in dated reports can therefore point to local-only evidence.
 Back up those datasets separately when transferring or preserving a test.
 
+Selected arm-session evidence is now preserved separately through
+[flight review packages and release archives](flight-data-storage.md).
+`flight-reviews/` contains committed summaries, small diagnostics and sampled
+map previews; complete selected input/map/raw files are downloadable release
+assets, with local archive copies under the ignored `release-assets/` directory.
+
 `bin/` contains launch scripts and is tracked; compiled programs in `build/`
 are rebuilt locally. The small ToF firmware asset is a required vendor input,
 not a generated executable, and remains tracked.

@@ -18,6 +18,10 @@ The primary VINS-Fusion workflow, current configuration, operator test methods,
 and architecture/pipeline charts are consolidated in the
 [operator testing guide](docs/operator-testing-guide.md).
 
+Saved arm-session evidence is indexed in the [flight review catalog](flight-reviews/README.md).
+See [flight data storage and restoration](docs/flight-data-storage.md) for the
+local recording paths, GitHub replay archives, checksums, and known data gaps.
+
 For isolated performance tests, use **[`bin/vio-test`](bin/vio-test)**:
 QR start/stop, 15 W profile checks, loop-closure evidence and 3D reports.
 See [the VIO performance workflow](docs/vio-performance.md).

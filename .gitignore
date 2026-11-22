@@ -18,6 +18,7 @@ compile_commands.json
 /recordings/
 /Log/
 /runs/
+/release-assets/
 *.log
 *.pid
 *.sock
