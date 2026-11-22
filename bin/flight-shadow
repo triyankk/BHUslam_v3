@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+set -euo pipefail
+shadow_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+case "${1:-help}" in
+  install)
+    # Installing changes a live acquisition process; only allow the currently
+    # hardware-absent setup stage. A connected setup needs a separate bench audit.
+    if compgen -G '/dev/serial/by-id/usb-CubePilot*' >/dev/null || node -e '
+      const fs=require("fs");try{const p="/home/atas/vscode/optFlow_slam/runtime/obstacle_avoidance_status.json",s=JSON.parse(fs.readFileSync(p,"utf8"));process.exit(s.cube?.armed===true||(Date.now()-fs.statSync(p).mtimeMs<3000&&s.running===true&&s.cube?.connected===true)?0:1)}catch{process.exit(1)}
+    '; then echo 'Cube is connected or last reported armed: installation requires a separate disarmed bench audit' >&2; exit 1; fi
+    shadow_driver=/home/atas/vscode/optFlow_slam/build/jt16_bridge/optflow-jt16-bridge
+    strings "$shadow_driver" | rg OPTFLOW_JT16_MAPPING_PORT > /dev/null || { echo 'Build the opt-in JT16 shadow environment support first' >&2; exit 1; }
+    for shadow_binary in "$shadow_root/build/vins-fusion/bin/vins_fusion_live" "$shadow_root/build/vins-fusion/bin/fusion_boot_wait" "$shadow_root/build/jt16/bin/jt16_map_bridge" "$shadow_root/build/main/bin/cube_vio_observe" /usr/bin/tegrastats; do
+      [[ -x "$shadow_binary" ]] || { echo "Missing binary: $shadow_binary" >&2; exit 1; }
+    done
+    shadow_backup="$shadow_root/runs/flight-shadow/install-$(date -u +%Y%m%dT%H%M%S.%NZ)"
+    mkdir -p "$shadow_backup" "$HOME/.config/systemd/user/optflow-flight-logger.service.d"
+    for shadow_unit in bhu-vins-fusion.service bhu-jt16-map.service bhu-shadow-performance.service bhu-vio-observe.service optflow-flight-logger.service; do
+      printf '%s ' "$shadow_unit" >> "$shadow_backup/previous-units.txt"
+      systemctl --user is-enabled "$shadow_unit" >> "$shadow_backup/previous-units.txt" 2>/dev/null || true
+      systemctl --user cat "$shadow_unit" > "$shadow_backup/$shadow_unit.txt" 2>/dev/null || true
+    done
+    shadow_override="$HOME/.config/systemd/user/optflow-flight-logger.service.d/50-bhu-jt16-shadow.conf"
+    if [[ -f "$shadow_override" ]]; then cp "$shadow_override" "$shadow_backup/previous-shadow.conf"; fi
+    for shadow_unit in bhu-vins-fusion.service bhu-jt16-map.service bhu-shadow-performance.service bhu-vio-observe.service; do
+      install -m 0644 "$shadow_root/deploy/systemd/$shadow_unit" "$HOME/.config/systemd/user/$shadow_unit"
+    done
+    install -m 0644 "$shadow_root/deploy/systemd/50-bhu-jt16-shadow.conf" "$shadow_override"
+    install -m 0644 "$shadow_root/deploy/systemd/60-bhu-vio-observation.conf" "$HOME/.config/systemd/user/optflow-flight-logger.service.d/60-bhu-vio-observation.conf"
+    systemctl --user daemon-reload
+    systemctl --user stop bhu-vins-fusion.service bhu-jt16-map.service bhu-shadow-performance.service bhu-vio-observe.service
+    systemctl --user restart optflow-flight-logger.service
+    systemctl --user enable --now bhu-vins-fusion.service bhu-jt16-map.service bhu-shadow-performance.service bhu-vio-observe.service
+    echo "GPS-aided observation capture and gated reception configured. Cube source parameters must be audited separately. Previous service state: $shadow_backup"
+    echo 'Both estimators wait for a live disarmed Cube; VINS also requires Gemini.'
+    ;;
+  status)
+    systemctl --user --no-pager status bhu-vins-fusion.service bhu-jt16-map.service bhu-shadow-performance.service bhu-vio-observe.service optflow-flight-logger.service || true
+    "$shadow_root/bin/vins-fusion-boot" status
+    ;;
+  stop)
+    # Stop estimators gracefully, retaining acquisition/proximity and raw logs.
+    systemctl --user stop bhu-vins-fusion.service bhu-jt16-map.service bhu-shadow-performance.service bhu-vio-observe.service
+    echo 'VIO/mapping stopped and flushed. JT16/proximity owner remains running.'
+    ;;
+  cube-review)
+    [[ $# == 3 ]] || { echo "Usage: bin/flight-shadow cube-review INPUT.BIN NEW_OUTPUT_DIRECTORY" >&2; exit 1; }
+    exec "$shadow_root/build/main/bin/cube_vio_log_review" "$2" "$3"
+    ;;
+  review)
+    exec node "$shadow_root/tools/flight_shadow_review.js" "${2:-$(cat /proc/sys/kernel/random/boot_id)}"
+    ;;
+  *) echo 'Usage: bin/flight-shadow {install|status|stop|review [BOOT_ID]|cube-review INPUT.BIN NEW_OUTPUT_DIRECTORY}' ;;
+esac

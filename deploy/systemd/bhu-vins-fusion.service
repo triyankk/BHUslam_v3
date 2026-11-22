@@ -1,0 +1,27 @@
+[Unit]
+Description=Continuous VINS-Fusion after Gemini and Cube startup readiness
+Documentation=file:%h/BHUslamV3/docs/vins-fusion-boot.md
+Wants=optflow-flight-logger.service
+Wants=bhu-vio-observe.service
+After=bhu-vio-observe.service
+Conflicts=bhu-vio-record.service bhu-cube-vio-test.service bhu-vio-test.service
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+Environment=BHU_CUBE_DEVICE=/dev/ttyTHS1
+WorkingDirectory=%h/BHUslamV3
+ExecStart=%h/BHUslamV3/bin/vins-fusion-boot run
+KillSignal=SIGINT
+KillMode=control-group
+TimeoutStopSec=45
+# The native observation relay and existing UART owner gate the optional output.
+Restart=on-failure
+RestartSec=10
+UMask=0027
+StandardOutput=journal
+StandardError=inherit
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,50 @@
+# Advisory design profile only; no runtime currently consumes this file.
+# Existing hardware owner and flight services have not been changed.
+status: proposed_not_applied
+purpose: per_flight_3d_mapping_with_vins_fusion
+transport:
+  device: /dev/jt16_usb
+  stable_device: /dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller_DCCEb114J19-if00-port0
+  point_cloud_baud: 3000000
+  owner: /home/atas/vscode/optFlow_slam/build/jt16_bridge/optflow-jt16-bridge
+  sdk_revision: 534c707846a810e8211b93446f878dbf415f7000
+  serial_reader_count: 1
+  firmware_writes: false
+  control_port: null  # Existing bridge uses /dev/null for command output.
+acquisition:
+  observed_scan_hz: 4.99
+  rings: 16
+  retain_fields: [x, y, z, intensity, ring, confidence, sensor_timestamp, host_monotonic_timestamp]
+  retain_raw_imu: true
+  retain_raw_transport: true
+  viewer_feed_port: 18776
+  proposed_full_mapping_feed_port: 18777  # Present in bridge source, NOT enabled in inspected process.
+  correction_file_current: /home/atas/vscode/optFlow_slam/data/calibrations/jt16/JT16_sample_angle-2.csv
+  correction_for_current_unit_verified: false
+mapping:
+  estimator: vins_fusion_stereo_imu
+  separate_from_cube_publication_gate: true
+  publish_to_cube: false
+  voxel_size_m: 0.20  # Initial engineering choice; validate detail and RAM.
+  minimum_range_m: 0.30  # Trial near filter; add a measured airframe mask.
+  maximum_range_m: 30.0  # Initial trial filter, not sensor maximum or guaranteed range.
+  require_scan_deskew: true
+  local_map_reset_each_flight: true
+  pause_integration_on_invalid_pose: true
+  split_on_pose_reset: true
+  memory_bounded: true
+calibration:
+  lidar_to_camera_transform: null
+  lidar_to_body_transform: null
+  use_other_project_mount_without_remeasurement: false
+  lidar_camera_time_offset_s: null
+  sensor_clock_mapping_verified: false
+  imu_units_output: [m_per_s2, rad_per_s]
+  sdk_acceleration_scale_to_si: 9.80665
+  sdk_angular_rate_scale_to_si: 0.017453292519943295
+optional_lio_comparison:
+  backend_candidate: hesai_fast_lio2_cpp
+  use_jt16_internal_imu: true
+  fuse_into_vins_or_cube_automatically: false
+  loop_closure_verified: false
+  performance_at_15w_verified: false

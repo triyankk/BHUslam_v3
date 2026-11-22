@@ -1,0 +1,12 @@
+# Scoped H-Flow down / TF03 rear profile; verify live slot assignments before applying.
+# Reboot required for rangefinder/proximity backend activation. PRX1 front ToF stays MAVLink.
+PRX2_TYPE 4
+RNGFND1_ORIENT 4
+RNGFND2_ADDR 0
+RNGFND2_MAX 30
+RNGFND2_MIN 0.0799999982
+RNGFND2_ORIENT 25
+RNGFND2_POS_X 0
+RNGFND2_POS_Y 0
+RNGFND2_POS_Z 0.100000001
+RNGFND2_TYPE 24

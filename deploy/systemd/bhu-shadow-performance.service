@@ -1,0 +1,15 @@
+[Unit]
+Description=Jetson load and thermal evidence for shadow VIO and mapping
+Wants=optflow-flight-logger.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/BHUslamV3
+ExecStart=%h/BHUslamV3/bin/flight-shadow-performance
+KillMode=control-group
+Restart=on-failure
+RestartSec=10
+UMask=0027
+
+[Install]
+WantedBy=default.target

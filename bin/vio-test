@@ -1,0 +1,155 @@
+#!/usr/bin/env bash
+set -euo pipefail
+vio_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+source "$vio_root/scripts/env.sh"
+command_name="${1:-help}"
+if (( $# )); then shift; fi
+case "$command_name" in
+  install-usb-rule)
+    sudo install -m 0644 "$vio_root/deploy/udev/99-bhu-gemini.rules" /etc/udev/rules.d/99-bhu-gemini.rules
+    sudo udevadm control --reload-rules
+    sudo udevadm trigger --action=change --subsystem-match=usb --attr-match=idVendor=2bc5 --attr-match=idProduct=0807
+    echo 'Gemini USB rule installed for plugdev users, including headless sessions.'
+    ;;
+  cube-beep)
+    exec "$vio_root/build/main/bin/cube_vio_bridge" --output "$vio_root/runs/cube-beep-$(date -u +%Y%m%dT%H%M%S.%NZ)" --seconds 4 --cue "${1:-ready}"
+    ;;
+  cube-config)
+    exec "$vio_root/build/main/bin/cube_vio_config" --output "$vio_root/runs/cube-config-$(date -u +%Y%m%dT%H%M%S.%NZ)" "$@"
+    ;;
+  boot-record|boot-vio)
+    if [[ "$command_name" == boot-record ]]; then target_unit=bhu-vio-record.service; other_unit=bhu-cube-vio-test.service; else target_unit=bhu-cube-vio-test.service; other_unit=bhu-vio-record.service; fi
+    mkdir -p "$HOME/.config/systemd/user"
+    install -m 0644 "$vio_root/deploy/systemd/$target_unit" "$HOME/.config/systemd/user/$target_unit"
+    systemctl --user daemon-reload
+    systemctl --user disable --now "$other_unit" 2>/dev/null || true
+    systemctl --user enable "$target_unit"
+    echo "Next boot: $target_unit. Select 15W before shutdown. No capture started now."
+    ;;
+  cube-arm|cube-record)
+    cube_subdir=cube-vio;child_command=arm;bridge_options=();child_options=(--cube-test --udp-port 14600 --cube-feedback-port 14601)
+    if [[ "$command_name" == cube-record ]]; then cube_subdir=cube-record;child_command=record-arm;bridge_options=(--feedback-only);child_options=(); fi
+    cube_run="$vio_root/runs/$cube_subdir/$(date -u +%Y%m%dT%H%M%S.%NZ)"
+    mkdir -p "$cube_run"
+    cat /proc/sys/kernel/random/boot_id > "$cube_run/boot-id.txt"
+    cat /proc/uptime > "$cube_run/boot-uptime.txt"
+    printf '%s\n' "${INVOCATION_ID:-manual}" > "$cube_run/service-invocation.txt"
+    cube_device="${BHU_CUBE_DEVICE:-/dev/serial/by-id/usb-CubePilot_CubeOrange+_36003F000B51333338373339-if00}"
+    cube_baud="${BHU_CUBE_BAUD:-115200}"
+    cube_pid=''; live_pid=''
+    cube_cleanup() {
+      trap - EXIT INT TERM
+      if [[ -n "$live_pid" ]]; then kill -INT -- "-$live_pid" 2>/dev/null || true; wait "$live_pid" 2>/dev/null || true; fi
+      if [[ -n "$cube_pid" ]]; then kill -INT "$cube_pid" 2>/dev/null || true; wait "$cube_pid" 2>/dev/null || true; fi
+    }
+    trap cube_cleanup EXIT
+    trap 'exit 130' INT
+    trap 'exit 143' TERM
+    "$vio_root/build/main/bin/cube_vio_bridge" --uart "$cube_device" --baud "$cube_baud" --output "$cube_run/bridge" --startup-seconds 60 --seconds 7200 "${bridge_options[@]}" > "$cube_run/bridge.console.log" 2>&1 &
+    cube_pid=$!
+    for ((attempt=0;attempt<650;attempt++)); do
+      [[ -f "$cube_run/bridge/ready.json" ]] && break
+      kill -0 "$cube_pid" 2>/dev/null || { cat "$cube_run/bridge.console.log" >&2; exit 1; }
+      sleep .1
+    done
+    [[ -f "$cube_run/bridge/ready.json" ]] || { echo 'Cube link startup timed out' >&2; exit 1; }
+    echo "Cube telemetry: $cube_run"
+    # Run in a separate process group: signal the complete live launcher/tee
+    # group on link failure, allowing camera cleanup and report finalization.
+    setsid "$vio_root/bin/vio-test" "$child_command" "${child_options[@]}" "$@" > "$cube_run/live.console.log" 2>&1 &
+    live_pid=$!
+    while kill -0 "$live_pid" 2>/dev/null; do
+      if ! kill -0 "$cube_pid" 2>/dev/null; then
+        echo 'Cube bridge exited; stopping VIO test.' >&2
+        kill -INT -- "-$live_pid" 2>/dev/null || true
+        wait "$live_pid" 2>/dev/null || true; live_pid=''
+        exit 1
+      fi
+      sleep .2
+    done
+    set +e
+    wait "$live_pid"; cube_live_status=$?
+    set -e
+    live_pid=''
+    echo "Cube run complete (status $cube_live_status). Logs: $cube_run"
+    exit "$cube_live_status"
+    ;;
+  record-arm)
+    if systemctl --quiet is-active vio-flight.service 2>/dev/null; then echo 'Older camera service is active' >&2; exit 1; fi
+    mkdir -p "$vio_root/recordings/diagnostic"
+    record_path="$vio_root/recordings/diagnostic/$(date -u +%Y%m%dT%H%M%S.%NZ)"
+    echo "Diagnostic recording: $record_path"
+    trap '' INT
+    set +e
+    "$vio_root/build/main/bin/gemini_record" "$record_path" 120 --diagnostic --boot-timed --power-profile 15W --cube-feedback-port 14601 "$@" 2>&1 | tee -i "$record_path.console.log"
+    record_status=${PIPESTATUS[0]}
+    set -e
+    if [[ -d "$record_path" ]]; then
+      mv "$record_path.console.log" "$record_path/console.log"
+      sha256sum "$vio_root/build/main/bin/gemini_record" > "$record_path/binary.sha256"
+      cat /proc/sys/kernel/random/boot_id > "$record_path/boot-id.txt"
+      if (( record_status == 0 )); then "$vio_root/build/main/bin/gemini_record_check" "$record_path" > "$record_path/check.console.log" 2>&1 || record_status=1; fi
+      echo "Recording results: $record_path"
+    fi
+    exit "$record_status"
+    ;;
+  arm)
+    [[ -x "$vio_root/build/main/bin/gemini_live" && -x "$vio_root/build/main/bin/vio_report" ]] || { echo 'Build first: bash scripts/build.sh' >&2; exit 1; }
+    if systemctl --quiet is-active vio-flight.service 2>/dev/null; then
+      echo 'The older vio-flight.service is active. Resolve camera ownership before running this independent test.' >&2
+      exit 1
+    fi
+    mkdir -p "$vio_root/runs/vio"
+    run_path="$vio_root/runs/vio/$(date -u +%Y%m%dT%H%M%S.%NZ)"
+    sha256sum "$vio_root/build/main/bin/gemini_live" > "$run_path.binary.sha256"
+    echo "Run directory: $run_path"
+    echo 'Wait for ARMED, then present the printed test_vio QR. Remove it before re-presenting to stop.'
+    echo 'Live 3D plot: http://127.0.0.1:8766 (on this Jetson).'
+    # gemini_live installs its own SIGINT handler. Keep the shell/tee alive
+    # until it has flushed logs and restored the camera, including service stop.
+    trap '' INT
+    set +e
+    "$vio_root/build/main/bin/gemini_live" \
+      "$vio_root/third_party/ORB_SLAM3/Vocabulary/ORBvoc.txt" \
+      "$vio_root/configs/vio-benchmark.yaml" "$vio_root/configs/cube-extnav-bench.yaml" \
+      "$run_path" --qr-trigger --seconds 600 --idle-seconds 600 --allow-provisional "$@" \
+      2>&1 | tee -i "$run_path.console.log"
+    run_status=${PIPESTATUS[0]}
+    set -e
+    if [[ -d "$run_path" ]]; then
+      mv -- "$run_path.console.log" "$run_path/console.log"
+      mv -- "$run_path.binary.sha256" "$run_path/binary.sha256"
+      ps -eo pid,comm,pcpu,pmem > "$run_path/processes-after.txt"
+      if [[ -f "$run_path/run.json" ]]; then "$vio_root/build/main/bin/vio_report" "$run_path"; fi
+      echo "Results: $run_path/report.html"
+    else
+      echo "Startup failed; log: $run_path.console.log" >&2
+    fi
+    exit "$run_status"
+    ;;
+  report) exec "$vio_root/build/main/bin/vio_report" "$@" ;;
+  record-check) exec "$vio_root/build/main/bin/gemini_record_check" "$@" ;;
+  qr) exec "$vio_root/build/main/bin/vio_qr" "${1:-$vio_root/assets/test_vio}" ;;
+  power-info)
+    /usr/sbin/nvpmodel -q
+    echo 'Configured modes:'
+    awk '/^< POWER_MODEL /{print}' /etc/nvpmodel.conf
+    ;;
+  power-15w)
+    mode_id="$(sed -n 's/^< POWER_MODEL ID=\([0-9][0-9]*\) NAME=15W >.*/\1/p' /etc/nvpmodel.conf)"
+    [[ "$mode_id" =~ ^[0-9]+$ ]] || { echo 'Cannot identify the local 15W profile' >&2; exit 1; }
+    echo "Selecting local 15W mode $mode_id; nvpmodel may request a reboot if required."
+    sudo /usr/sbin/nvpmodel -m "$mode_id"
+    /usr/sbin/nvpmodel -q
+    ;;
+  status)
+    /usr/sbin/nvpmodel -q
+    systemctl --user --no-pager status bhu-cube-vio-test.service bhu-vio-record.service || true
+    ;;
+  *)
+    echo 'Usage: bin/vio-test {power-info|power-15w|install-usb-rule|arm|cube-arm|cube-record|boot-record|boot-vio|cube-beep [ready]|cube-config [--apply --reboot]|qr|report RUN_DIRECTORY|status}'
+    echo 'arm defaults: 15W, QR start/stop, 600s run limit, localhost 3D dashboard :8766.'
+    echo 'Explicit comparison: bin/vio-test arm --power-profile MAXN_SUPER'
+    echo 'arm: no navigation transmission. cube-arm: gated bench odometry + Cube buzzer; see docs/cube-vio-test.md.'
+    ;;
+esac

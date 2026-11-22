@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+shadow_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+shadow_status=/home/atas/vscode/optFlow_slam/runtime/obstacle_avoidance_status.json
+echo 'Waiting for JT16 device access before starting the mapping backend.'
+while [[ ! -r /dev/jt16_usb || ! -w /dev/jt16_usb ]]; do sleep 1; done
+echo 'Mapping waits for a fresh disarmed Cube heartbeat; no Cube serial access.'
+until "$shadow_root/build/vins-fusion/bin/fusion_boot_wait" "$shadow_status" 120; do sleep 3; done
+shadow_boot="$(cat /proc/sys/kernel/random/boot_id)"
+shadow_run="$shadow_root/runs/flight-shadow/$shadow_boot/mapping-$(date -u +%Y%m%dT%H%M%S.%NZ)"
+mkdir -p "$(dirname -- "$shadow_run")"
+cp "$shadow_status" "$(dirname -- "$shadow_run")/mapping-startup-cube.json"
+export BHU_MAPPING_FLIGHT_STATUS="$shadow_status"
+exec "$shadow_root/bin/jt16-map" "$shadow_run" continuous --shared

@@ -1,0 +1,16 @@
+[Unit]
+Description=Gemini QR-triggered VIO performance test (C++)
+Documentation=file:%h/BHUslamV3/docs/vio-performance.md
+ConditionFileIsExecutable=%h/BHUslamV3/build/main/bin/gemini_live
+
+[Service]
+Type=simple
+WorkingDirectory=%h/BHUslamV3
+ExecStart=%h/BHUslamV3/bin/vio-test arm
+KillSignal=SIGINT
+TimeoutStopSec=180
+Restart=no
+UMask=0027
+
+[Install]
+WantedBy=default.target

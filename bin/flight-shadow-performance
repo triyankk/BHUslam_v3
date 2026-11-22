@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+shadow_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+until "$shadow_root/build/vins-fusion/bin/fusion_boot_wait" /home/atas/vscode/optFlow_slam/runtime/obstacle_avoidance_status.json 120; do sleep 3; done
+shadow_dir="$shadow_root/runs/flight-shadow/$(cat /proc/sys/kernel/random/boot_id)"
+mkdir -p "$shadow_dir"
+exec /usr/bin/tegrastats --interval 1000 >> "$shadow_dir/tegrastats.log" 2>&1

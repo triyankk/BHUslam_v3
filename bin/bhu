@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+bhu_workspace="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+source "$bhu_workspace/scripts/env.sh"
+operation="${1:-help}"
+if (( $# ));then shift;fi
+case "$operation" in
+  vio-test) exec "$bhu_workspace/bin/vio-test" "$@" ;;
+  live|record|replay|inspect|preview) exec "$bhu_workspace/build/main/bin/gemini_$operation" "$@" ;;
+  vio-diagnose) exec "$bhu_workspace/build/main/bin/gemini_vio_diagnose" "$@" ;;
+  imu-stationary) exec "$bhu_workspace/build/main/bin/gemini_imu_stationary" "$@" ;;
+  vins-replay) exec bash "$bhu_workspace/bin/vins-mono" "$@" ;;
+  vins-fusion-viewer) exec bash "$bhu_workspace/bin/vins-fusion-viewer" "$@" ;;
+  vins-fusion-replay) exec bash "$bhu_workspace/bin/vins-fusion" "$@" ;;
+  vins-fusion-live) exec bash "$bhu_workspace/bin/vins-fusion-live" "$@" ;;
+  cube-inspect) exec "$bhu_workspace/build/main/bin/cube_extnav_inspect" "$@" ;;
+  tof-viewer) exec "$bhu_workspace/tools/tof_bridge/cpp/build/tof_viewer" "$@" ;;
+  build) exec bash "$bhu_workspace/scripts/build.sh" "$@" ;;
+  *) echo 'Usage: bin/bhu {vio-test|live|record|replay|inspect|preview|vio-diagnose|imu-stationary|vins-replay|vins-fusion-replay|vins-fusion-live|vins-fusion-viewer|cube-inspect|tof-viewer|build} [arguments]' ;;
+esac

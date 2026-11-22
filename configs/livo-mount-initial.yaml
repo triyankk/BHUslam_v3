@@ -1,0 +1,26 @@
+# Operator measurements for offline replay initialization, 2026-11-20.
+# Offline replay preparation uses this file; no live settings changed.
+status: operator_measured_initial_estimate
+calibration_validated: false
+offset_reference: gemini_left_lens_centre_to_jt16_physical_centre
+offset_axes: aircraft_body_FRD
+jt16_centre_relative_to_left_lens_body_m: [-0.035, 0.040, -0.130]
+jt16_mount:
+  tilt_forward_from_aircraft_platform_upright_deg: 20.0
+  angle_reference: aircraft_platform_not_camera
+  sdk_axis_to_mount_rotation_verified: false
+  sdk_axis_drawing_checked: true
+  connector_direction_aircraft: rear
+  additional_roll_measured: false
+  nominal_sdk_y_axis_direction_aircraft: rear
+  nominal_sdk_z_axis_direction_aircraft: up_before_forward_tilt
+camera_mount_reference:
+  file: configs/vins-fusion-extnav.yaml
+  recorded_downward_optical_pitch_deg: 22.8
+  use_recording_specific_mount_on_replay: true
+previous_flight_mount_unchanged_confirmed: true
+confirmed_replay_flight: 213
+# Physical centre and lens centre are initial references, not certified
+# LiDAR measurement origin or camera optical-centre calibration.
+# Offline preparation constructs an initial transform using the vendor axes.
+# Refine physical origins, rotation and timing against image/point alignment.

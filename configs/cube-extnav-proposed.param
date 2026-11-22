@@ -1,0 +1,17 @@
+# PROPOSED BENCH CONFIGURATION. Not applied automatically.
+# Read docs/cube-external-nav.md before importing. Requires stable live VIO,
+# a measured mounting/alignment, and a configured EKF origin if GPS supplies none.
+# Source set 1 is deliberately omitted; preserve its existing GPS/optical-flow setup.
+# Source set 2 currently uses optical-flow velocity: this proposal replaces that
+# secondary set with external horizontal position and no velocity fusion.
+VISO_TYPE 3
+VISO_ORIENT 0
+VISO_POS_X 0.15
+VISO_POS_Y 0.0
+VISO_POS_Z 0.0
+VISO_QUAL_MIN 40
+EK3_SRC2_POSXY 6
+EK3_SRC2_VELXY 0
+EK3_SRC2_POSZ 1
+EK3_SRC2_VELZ 0
+EK3_SRC2_YAW 1

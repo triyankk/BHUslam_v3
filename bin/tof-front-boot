@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+tof_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+tof_boot="$(cat /proc/sys/kernel/random/boot_id)"
+tof_run="$tof_root/runs/tof-front/$tof_boot/$(date -u +%Y%m%dT%H%M%S.%NZ)"
+mkdir -p "$tof_run"
+ln -sfn -- "$tof_boot/$(basename -- "$tof_run")" "$tof_root/runs/tof-front/latest"
+sha256sum "$tof_root/tools/tof_bridge/cpp/build/tof_viewer" > "$tof_run/binary.sha256"
+exec "$tof_root/tools/tof_bridge/cpp/build/tof_viewer" \
+  --orientation front --mux-address none --aggregation zone-mean \
+  --min-active-zones 1 --confidence 51 --cube-udp-port 14605 --cube-feedback-port 14606 \
+  --vio-udp-port 0 --output "$tof_run/capture"

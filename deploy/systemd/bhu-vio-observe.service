@@ -1,0 +1,16 @@
+[Unit]
+Description=Gated VINS observation handoff to the existing Cube MAVLink owner
+Wants=optflow-flight-logger.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/BHUslamV3
+ExecStart=%h/BHUslamV3/bin/vio-observe
+KillSignal=SIGINT
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+UMask=0027
+
+[Install]
+WantedBy=default.target

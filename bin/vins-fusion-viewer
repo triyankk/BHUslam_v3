@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+bhu_workspace="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+if (( $# < 2 ));then
+  echo 'Usage: bin/vins-fusion-viewer RECORDING NEW_OUTPUT [--viewer-stride 1..30] [--native-noise] [--max-frames N]' >&2
+  exit 2
+fi
+viewer_recording="$1" viewer_output="$2";shift 2
+[[ -f "$viewer_recording/frames.csv" ]] || { echo 'Choose a recording directory containing frames.csv' >&2;exit 1; }
+"$bhu_workspace/bin/vins-fusion" "$viewer_recording" "$viewer_output" --viewer --opencv-threads 1 "$@"
+printf 'Open %s/viewer.html\n' "$(cd -- "$viewer_output" && pwd)"

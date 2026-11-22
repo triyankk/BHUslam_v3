@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+observe_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+observe_boot="$(cat /proc/sys/kernel/random/boot_id)"
+observe_run="$observe_root/runs/vins-forwarding/$observe_boot/$(date -u +%Y%m%dT%H%M%S.%NZ)"
+mkdir -p "$(dirname -- "$observe_run")"
+ln -sfn -- "$observe_boot/$(basename -- "$observe_run")" "$observe_root/runs/vins-forwarding/latest"
+exec "$observe_root/build/main/bin/cube_vio_observe" "$observe_run"

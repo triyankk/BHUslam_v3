@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then echo 'Usage: bin/cube-ekf-audit NEW_OUTPUT_DIRECTORY'; exit 0; fi
+audit_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+(( $# == 1 )) || { echo 'Usage: bin/cube-ekf-audit NEW_OUTPUT_DIRECTORY' >&2; exit 2; }
+audit_out="$(realpath -m -- "$1")"
+[[ ! -e "$audit_out" ]] || { echo 'Output exists' >&2; exit 1; }
+[[ -x "$audit_root/build/cube-offline/bin/cube_tlog_audit" ]] || { echo 'Build tools/cube into build/cube-offline first' >&2; exit 1; }
+mkdir -p "$audit_out"
+mapfile -t audit_logs < <(rg --files "$audit_root/runs" "$audit_root/reports" -g '*.tlog' | sort)
+(( ${#audit_logs[@]} )) || { echo 'No Cube tlogs found' >&2; exit 1; }
+exec "$audit_root/build/cube-offline/bin/cube_tlog_audit" "$audit_out/tlog-audit.json" "${audit_logs[@]}"

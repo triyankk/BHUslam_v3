@@ -1,0 +1,19 @@
+[Unit]
+Description=Native front ToF proximity through the existing Cube USB owner
+Documentation=file:%h/BHUslamV3/docs/tof-front-proximity.md
+# Do not order after the USB owner: it starts after default.target.
+# ToF may publish before its receiver; Wants ensures both are started.
+Wants=optflow-flight-logger.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/BHUslamV3
+ExecStart=%h/BHUslamV3/bin/tof-front-boot
+KillSignal=SIGINT
+TimeoutStopSec=15
+Restart=on-failure
+RestartSec=5
+UMask=0027
+
+[Install]
+WantedBy=default.target

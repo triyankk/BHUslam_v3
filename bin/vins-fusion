@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+bhu_workspace="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+source "$bhu_workspace/scripts/env.sh"
+export LD_LIBRARY_PATH="$bhu_workspace/third_party/vins-deps/install/lib:$bhu_workspace/third_party/vins-deps/sysroot/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH"
+exec "$bhu_workspace/build/vins-fusion/bin/vins_fusion_replay" "$@"

@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+# Boot estimator. Existing service remains the sole Cube UART owner.
+set -euo pipefail
+fusion_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+fusion_unit=bhu-vins-fusion.service
+case "${1:-help}" in
+  run)
+    mkdir -p "$fusion_root/runs/vins-fusion-boot"
+    exec 9>"$fusion_root/runs/vins-fusion-boot/startup.lock"
+    flock -n 9 || { echo 'Another boot VINS process is already running' >&2; exit 1; }
+    echo 'Waiting for Gemini USB access and a live, disarmed Cube. No QR required.'
+    while ! bash "$fusion_root/scripts/wait-vio-devices.sh" 120; do sleep 3; done
+    fusion_status=/home/atas/vscode/optFlow_slam/runtime/obstacle_avoidance_status.json
+    until "$fusion_root/build/vins-fusion/bin/fusion_boot_wait" "$fusion_status" 120; do sleep 3; done
+    # Recheck access after the potentially long Cube readiness wait.
+    bash "$fusion_root/scripts/wait-vio-devices.sh" 5
+    fusion_run="$fusion_root/runs/vins-fusion-boot/$(date -u +%Y%m%dT%H%M%S.%NZ)"
+    mkdir -p "$fusion_run"
+    cat /proc/sys/kernel/random/boot_id > "$fusion_run/boot-id.txt"
+    cat /proc/uptime > "$fusion_run/boot-uptime.txt"
+    /usr/sbin/nvpmodel -q > "$fusion_run/power-mode.txt"
+    cp "$fusion_status" "$fusion_run/cube-startup-status.json"
+    cp "$fusion_root/configs/vins-fusion-extnav.yaml" "$fusion_run/navigation-mount.yaml"
+    cp "$fusion_root/configs/gemini336l-CPC2963000JJ-fast.yaml" "$fusion_run/camera.yaml"
+    sha256sum "$fusion_root/build/vins-fusion/bin/vins_fusion_live" > "$fusion_run/binary.sha256"
+    sha256sum "$fusion_root/bin/vins-fusion-live" "$fusion_root/bin/vins-fusion-boot" > "$fusion_run/runtime-profile.sha256"
+    ln -sfn -- "$(basename -- "$fusion_run")" "$fusion_root/runs/vins-fusion-boot/latest"
+    echo "Starting continuous VINS-Fusion: $fusion_run/live; gated observation output on localhost:14600"
+    # Preserve the estimator map across arming. Never open Cube USB here.
+    exec "$fusion_root/bin/vins-fusion-live" \
+      "$fusion_root/configs/gemini336l-CPC2963000JJ-fast.yaml" \
+      "$fusion_root/configs/vins-fusion-extnav.yaml" "$fusion_run/live" \
+      --continuous --record-input --flight-status "$fusion_status" --record-cue-port 14602 --udp-port 14600 --allow-provisional --opencv-threads 4 --clahe-clip 2
+    ;;
+  install)
+    [[ -x "$fusion_root/build/vins-fusion/bin/vins_fusion_live" && -x "$fusion_root/build/vins-fusion/bin/fusion_boot_wait" ]] || { echo 'Build first: scripts/build-vins-fusion.sh' >&2; exit 1; }
+    mkdir -p "$HOME/.config/systemd/user" "$fusion_root/runs/vins-fusion-boot"
+    fusion_backup="$fusion_root/runs/vins-fusion-boot/install-$(date -u +%Y%m%dT%H%M%S.%NZ)"
+    mkdir "$fusion_backup"
+    for fusion_old in bhu-vio-record.service bhu-cube-vio-test.service bhu-vio-test.service "$fusion_unit"; do
+      printf '%s ' "$fusion_old" >> "$fusion_backup/previous-units.txt"
+      systemctl --user is-enabled "$fusion_old" >> "$fusion_backup/previous-units.txt" 2>/dev/null || true
+      if [[ -f "$HOME/.config/systemd/user/$fusion_old" ]]; then cp "$HOME/.config/systemd/user/$fusion_old" "$fusion_backup/"; fi
+    done
+    install -m 0644 "$fusion_root/deploy/systemd/$fusion_unit" "$HOME/.config/systemd/user/$fusion_unit"
+    systemctl --user daemon-reload
+    # Retire the competing recorder/legacy ORB camera users; leave JT16 intact.
+    for fusion_old in bhu-vio-record.service bhu-cube-vio-test.service bhu-vio-test.service; do
+      systemctl --user disable --now "$fusion_old" 2>/dev/null || true
+    done
+    systemctl --user enable --now "$fusion_unit"
+    echo "Enabled $fusion_unit; previous unit state: $fusion_backup"
+    ;;
+  status)
+    systemctl --user --no-pager status "$fusion_unit" || true
+    if [[ -f "$fusion_root/runs/vins-fusion-boot/latest/live/status.json" ]]; then
+      cat "$fusion_root/runs/vins-fusion-boot/latest/live/status.json"
+      echo 'Check host_monotonic_us freshness; saved status alone is not current health.'
+    fi
+    ;;
+  stop) exec systemctl --user stop "$fusion_unit" ;;
+  *) echo 'Usage: bin/vins-fusion-boot {install|status|stop}'; echo 'Starts continuous VINS after Gemini and a live disarmed Cube; gated observation output.' ;;
+esac

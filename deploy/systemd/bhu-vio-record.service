@@ -1,0 +1,23 @@
+[Unit]
+Description=Automatic two-minute stereo and IMU recording with three-beep Cube cues
+Documentation=file:%h/BHUslamV3/docs/vio-diagnostic-recording.md
+ConditionFileIsExecutable=%h/BHUslamV3/build/main/bin/gemini_record
+Conflicts=bhu-cube-vio-test.service bhu-vio-test.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/BHUslamV3
+ExecStartPre=/bin/bash %h/BHUslamV3/scripts/wait-vio-devices.sh 120
+ExecStart=%h/BHUslamV3/bin/vio-test cube-record --seconds 120
+TimeoutStartSec=150
+KillSignal=SIGINT
+KillMode=mixed
+SuccessExitStatus=130 143
+TimeoutStopSec=180
+Restart=no
+UMask=0027
+StandardOutput=append:%h/BHUslamV3/runs/record-boot.log
+StandardError=inherit
+
+[Install]
+WantedBy=default.target

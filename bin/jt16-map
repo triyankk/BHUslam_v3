@@ -1,0 +1,89 @@
+#!/usr/bin/env bash
+# JT16-only mapping; no Cube link or navigation output. Existing service restored.
+set -euo pipefail
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then echo 'Usage: bin/jt16-map NEW_OUTPUT [SECONDS=120|continuous] [--isolated|--shared]'; exit 0; fi
+map_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+map_owner=/home/atas/vscode/optFlow_slam
+if (( $# < 1 || $# > 3 )); then
+ echo 'Usage: bin/jt16-map NEW_OUTPUT [SECONDS=120] [--isolated]'; exit 2
+fi
+map_out="$(realpath -m -- "$1")"
+map_seconds="${2:-120}"
+map_mode="${3:---shared}"
+[[ "$map_seconds" == continuous ]] || { [[ "$map_seconds" =~ ^[0-9]+$ ]] && ((map_seconds>=5 && map_seconds<=600)); } || { echo 'Duration must be 5..600 seconds or continuous' >&2; exit 2; }
+[[ "$map_mode" == --shared || "$map_mode" == --isolated ]] || { echo 'Use --isolated to borrow the LiDAR while no Cube is attached; default listens to full mapping feed.' >&2; exit 2; }
+[[ ! -e "$map_out" ]] || { echo 'Output already exists' >&2; exit 1; }
+[[ -x "$map_root/build/jt16/bin/jt16_map_bridge" ]] || { echo 'Build tools/jt16 with BHU_JT16_MAPPING=ON first' >&2; exit 1; }
+source "$map_owner/scripts/lio_env.sh"
+export ROS_DOMAIN_ID=91 ROS_LOCALHOST_ONLY=1 OMP_NUM_THREADS=2
+mkdir -p "$map_out"
+export ROS_LOG_DIR="$map_out/ros-log" ROS_HOME="$map_out/ros-home"
+map_restore=false
+map_driver=''
+map_lio=''
+map_adapter=''
+render_maps(){
+ for map_data in "$map_out/data" "$map_out/data/flights"/*; do
+  if [[ -s "$map_data/map-data.json" && ! -s "$map_data/map.html" ]]; then node "$map_root/tools/jt16/render_map.js" "$map_data"; fi
+ done
+ return 0
+}
+cleanup_map(){
+ trap - EXIT INT TERM
+ for map_pid in "$map_adapter" "$map_driver" "$map_lio"; do
+  if [[ -n "$map_pid" ]]; then kill -INT "$map_pid" 2>/dev/null || true; fi
+ done
+ for map_pid in "$map_adapter" "$map_driver" "$map_lio"; do
+  if [[ -n "$map_pid" ]]; then wait "$map_pid" 2>/dev/null || true; fi
+ done
+ if [[ "$map_mode" == --isolated ]]; then flock -u 9 2>/dev/null || true; fi
+ if [[ "$map_restore" == true ]]; then systemctl --user start optflow-flight-logger.service; fi
+ render_maps || true
+}
+trap cleanup_map EXIT
+trap 'exit 130' INT
+trap 'exit 143' TERM
+if [[ "$map_mode" == --isolated ]]; then
+ # This isolated bench mode refuses a connected Cube; flight sharing needs an
+ # enabled full-data side feed from its existing acquisition owner instead.
+ if compgen -G '/dev/serial/by-id/usb-CubePilot*' >/dev/null; then echo 'Cube is connected: isolated ownership transfer is refused. Use the shared mapping feed.' >&2; exit 1; fi
+ map_state="$(systemctl --user is-active optflow-flight-logger.service || true)"
+ if [[ "$map_state" == active ]]; then map_restore=true; systemctl --user stop optflow-flight-logger.service; fi
+ [[ -e "$map_owner/runtime/locks/jt16.lock" ]] || { echo 'Existing JT16 ownership lock not found' >&2; exit 1; }
+ exec 9< "$map_owner/runtime/locks/jt16.lock"
+ flock -n 9 || { echo 'JT16 is owned by another process' >&2; exit 1; }
+ if fuser /dev/jt16_usb >/dev/null 2>&1; then echo 'JT16 serial port still has another owner' >&2; exit 1; fi
+fi
+/usr/sbin/nvpmodel -q > "$map_out/power-mode.txt"
+printf '%s\n' "$map_mode" > "$map_out/ownership-mode.txt"
+cp "$map_root/configs/jt16-lio-mapping.yaml" "$map_out/lio-config.yaml"
+map_parameters=()
+if [[ "$map_seconds" == continuous ]]; then
+ # The adapter exports a capped map with periodic checkpoints; avoid retaining
+ # a second growing full-flight PCD save buffer inside the backend.
+ map_parameters=(-p pcd_save.pcd_save_en:=false)
+fi
+"$map_owner/runtime/lio/fastlio/fast_lio/lib/fast_lio/fastlio_mapping" --ros-args --params-file "$map_out/lio-config.yaml" -p "map_file_path:=$map_out/full-map.pcd" "${map_parameters[@]}" > "$map_out/lio.log" 2>&1 &
+map_lio=$!
+map_flight_options=()
+if [[ -n "${BHU_MAPPING_FLIGHT_STATUS:-}" ]]; then map_flight_options=(--flight-status "$BHU_MAPPING_FLIGHT_STATUS"); fi
+"$map_root/build/jt16/bin/jt16_map_bridge" "$map_out/data" "$map_seconds" --allow-provisional "${map_flight_options[@]}" > "$map_out/adapter.log" 2>&1 &
+map_adapter=$!
+if [[ "$map_mode" == --isolated ]]; then
+ "$map_owner/build/jt16_bridge/optflow-jt16-bridge" --device /dev/jt16_usb --baud 3000000 --correction "$map_owner/data/calibrations/jt16/JT16_sample_angle-2.csv" --mapping-port 18777 --viewer-port 18776 --raw-output "$map_out/jt16-packets.raw" > /dev/null 2> "$map_out/driver.log" &
+ map_driver=$!
+fi
+echo "JT16 mapping started: keep still for the first 5 seconds; output $map_out"
+while kill -0 "$map_adapter" 2>/dev/null; do
+ kill -0 "$map_lio" 2>/dev/null || { echo 'FAST-LIO stopped' >&2; exit 1; }
+ if [[ -n "$map_driver" ]]; then kill -0 "$map_driver" 2>/dev/null || { echo 'JT16 acquisition stopped' >&2; exit 1; }; fi
+ sleep .2
+done
+wait "$map_adapter"
+map_adapter=''
+# Flush C++ backend map after the bounded adapter has saved PLY and trajectory.
+kill -INT "$map_lio" 2>/dev/null || true
+wait "$map_lio"
+map_lio=''
+render_maps
+echo "Maps saved under: $map_out/data"
