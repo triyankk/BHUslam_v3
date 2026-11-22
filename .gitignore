@@ -1,0 +1,61 @@
+# Downloaded dependencies, SDKs and package archives (see configs/dependency-sources.json).
+/downloads/
+/third_party/
+
+# Build trees and compiled artifacts. Keep scripts in bin/ and sensor firmware assets.
+build/
+/build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.a
+*.so
+*.so.*
+
+# Acquired recordings and runtime output; retain local data on disk.
+/recordings/
+/Log/
+/runs/
+*.log
+*.pid
+*.sock
+/tools/tof_bridge/.i2c-*.lock
+
+# Keep written findings and compact configuration/identity evidence in reports/.
+# Raw telemetry, images, maps, generated viewers and source/binary backups stay local.
+/reports/**
+!/reports/**/
+!/reports/**/*.md
+!/reports/**/*.yaml
+!/reports/**/*.yml
+!/reports/**/*.param
+!/reports/**/*.sha256
+
+# Language environments and caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+
+# Credentials and machine-local agent/editor settings.
+/.aws/
+/.agents/
+/.codex/
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+*~
+*.swp
+*.swo
