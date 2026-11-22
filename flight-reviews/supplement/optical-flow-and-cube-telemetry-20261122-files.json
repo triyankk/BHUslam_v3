@@ -1,0 +1,796 @@
+{
+  "files": [
+    {
+      "path": "18-11-2026_13-44-45_068/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-44-45_068/cube_mavlink.csv",
+      "bytes": 44722,
+      "sha256": "5cad45fa51e5752a7b308656981bb5dea6b4b38ff01ddda71b20ffe22fe9230e"
+    },
+    {
+      "path": "18-11-2026_13-44-45_068/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-44-45_068/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "18-11-2026_13-44-45_068/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-44-45_068/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "18-11-2026_13-44-45_068/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-44-45_068/jt16.csv",
+      "bytes": 197,
+      "sha256": "8259543d3bb66cf53c74939639a9379816b543d6924e62d7ad6c929ff8d55975"
+    },
+    {
+      "path": "18-11-2026_13-44-45_068/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-44-45_068/manifest.json",
+      "bytes": 1224,
+      "sha256": "b9e2cf7a016b7d672ffdeab1fe1a57558a487351b09390f09b2d8851280f5e1a"
+    },
+    {
+      "path": "18-11-2026_13-44-45_068/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-44-45_068/sensor_data.csv",
+      "bytes": 47482,
+      "sha256": "f399e76a3c90ab12d445a3629d5bb5e05ba47caee88c14005d3a752428e06549"
+    },
+    {
+      "path": "18-11-2026_13-45-36_069/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-45-36_069/cube_mavlink.csv",
+      "bytes": 349,
+      "sha256": "4be451a53adda385630e46498c8bf63e6ad1a2001beaeca477c08627f43a30f3"
+    },
+    {
+      "path": "18-11-2026_13-45-36_069/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-45-36_069/depth_camera.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_13-45-36_069/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-45-36_069/im10a.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_13-45-36_069/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-45-36_069/jt16.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_13-45-36_069/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-45-36_069/manifest.json",
+      "bytes": 938,
+      "sha256": "8941e3ecf7a6907995211b704aa64a4eb112931652b6f5003a70c82ee8ff67ae"
+    },
+    {
+      "path": "18-11-2026_13-45-36_069/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-45-36_069/sensor_data.csv",
+      "bytes": 391,
+      "sha256": "a08c9df80a7ad14b8ae652e7f49b22888b4dd478c0f22cb69b396bab6417dbdc"
+    },
+    {
+      "path": "18-11-2026_13-48-21_070/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-48-21_070/cube_mavlink.csv",
+      "bytes": 12288,
+      "sha256": "edfbc2f60c2487a14f123d8059e493924c07f93ba1746b3920fd9719fb4ac54a"
+    },
+    {
+      "path": "18-11-2026_13-48-21_070/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-48-21_070/depth_camera.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_13-48-21_070/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-48-21_070/im10a.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_13-48-21_070/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-48-21_070/jt16.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_13-48-21_070/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-48-21_070/manifest.json",
+      "bytes": 1222,
+      "sha256": "f95473d59d69ecee76ce287aca78d9111a67361976a0c0e184ad4cd99d603a4b"
+    },
+    {
+      "path": "18-11-2026_13-48-21_070/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-48-21_070/sensor_data.csv",
+      "bytes": 12288,
+      "sha256": "f57dfdd789739b74eb2f42c4956f13680ec27af5b893430880f4c01ee2b9d61c"
+    },
+    {
+      "path": "18-11-2026_14-47-05_071/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_14-47-05_071/cube_mavlink.csv",
+      "bytes": 9454971,
+      "sha256": "54432894ab6c9691e8e1b4daa08eb2b9b6fb8d57c41b45f328989457999a265e"
+    },
+    {
+      "path": "18-11-2026_14-47-05_071/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_14-47-05_071/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "18-11-2026_14-47-05_071/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_14-47-05_071/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "18-11-2026_14-47-05_071/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_14-47-05_071/jt16.csv",
+      "bytes": 197,
+      "sha256": "8259543d3bb66cf53c74939639a9379816b543d6924e62d7ad6c929ff8d55975"
+    },
+    {
+      "path": "18-11-2026_14-47-05_071/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_14-47-05_071/manifest.json",
+      "bytes": 1228,
+      "sha256": "723cd4df9edfa14a4aa04ae131683be4f7437dfa02b115bb11fcb3bd883d512c"
+    },
+    {
+      "path": "18-11-2026_14-47-05_071/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_14-47-05_071/sensor_data.csv",
+      "bytes": 10012815,
+      "sha256": "186f3468765c99b1b8124f6b154301bf4f65e1d9fd0252f8f4e40557002c6aa5"
+    },
+    {
+      "path": "18-11-2026_18-08-21_072/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_18-08-21_072/cube_mavlink.csv",
+      "bytes": 600052,
+      "sha256": "26bb79f7d82f4665621235a4a6c5bbf800a05ae201a7424af57572fedd5944e5"
+    },
+    {
+      "path": "18-11-2026_18-08-21_072/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_18-08-21_072/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "18-11-2026_18-08-21_072/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_18-08-21_072/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "18-11-2026_18-08-21_072/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_18-08-21_072/jt16.csv",
+      "bytes": 667,
+      "sha256": "e1416b7364e78234d1c65d7af65666a959104ef36bd809ce2ecbc29694ad66d7"
+    },
+    {
+      "path": "18-11-2026_18-08-21_072/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_18-08-21_072/manifest.json",
+      "bytes": 1226,
+      "sha256": "fefaf9918324292782d8d29ebb79952234b661ac92513f164dce81de61f43d62"
+    },
+    {
+      "path": "18-11-2026_18-08-21_072/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_18-08-21_072/sensor_data.csv",
+      "bytes": 634879,
+      "sha256": "5004ec2acb026755cd1ed0564283cee4b5d5053a0910cf5713ae851e67afdd60"
+    },
+    {
+      "path": "18-11-2026_19-05-41_073/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-05-41_073/cube_mavlink.csv",
+      "bytes": 33187,
+      "sha256": "3abcb338d437787a5d08197ccc189e01d3a18a515d59f94e198c8dcf64cd328d"
+    },
+    {
+      "path": "18-11-2026_19-05-41_073/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-05-41_073/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "18-11-2026_19-05-41_073/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-05-41_073/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "18-11-2026_19-05-41_073/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-05-41_073/jt16.csv",
+      "bytes": 664,
+      "sha256": "54b0f5a092f2cfd5e2a7dbc1b3b4d27db49bb9bbc540013c4c4c4653e321a63a"
+    },
+    {
+      "path": "18-11-2026_19-05-41_073/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-05-41_073/manifest.json",
+      "bytes": 1224,
+      "sha256": "a1061fb14f7665387ecef80c3025d771ba433da9fb74ce82cfefcf0368fd52a6"
+    },
+    {
+      "path": "18-11-2026_19-05-41_073/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-05-41_073/sensor_data.csv",
+      "bytes": 35719,
+      "sha256": "cc93b60b15e1c455fc2cb959a9834e810aba327de142dd4920d15d0e5a3867a1"
+    },
+    {
+      "path": "18-11-2026_19-09-48_074/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-09-48_074/cube_mavlink.csv",
+      "bytes": 287213,
+      "sha256": "ca42c94bae3973c7e4023ca2130ce09821a7e3ed5571e58a3dba011251744659"
+    },
+    {
+      "path": "18-11-2026_19-09-48_074/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-09-48_074/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "18-11-2026_19-09-48_074/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-09-48_074/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "18-11-2026_19-09-48_074/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-09-48_074/jt16.csv",
+      "bytes": 8302,
+      "sha256": "b3b4698fb7515cf5bdaea01f26e8ee1e0ece4af5ac5f91ef4d5f156e774f1030"
+    },
+    {
+      "path": "18-11-2026_19-09-48_074/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-09-48_074/manifest.json",
+      "bytes": 1225,
+      "sha256": "51f16204403404464aa8fb9a2bcc8a999b57e6944fae82109d4f83d000804c3c"
+    },
+    {
+      "path": "18-11-2026_19-09-48_074/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-09-48_074/sensor_data.csv",
+      "bytes": 311895,
+      "sha256": "7a27beb716609cd3d8f83ec8e46dc5903dbad28564a915a728ae98f588e3c606"
+    },
+    {
+      "path": "18-11-2026_19-44-51_080/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-51_080/cube_mavlink.csv",
+      "bytes": 4976640,
+      "sha256": "ac6329b93b8b955ce6ee2b6cc421dc65b3d4feb87fe6390b1e3661d12a982b8e"
+    },
+    {
+      "path": "18-11-2026_19-44-51_080/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-51_080/depth_camera.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_19-44-51_080/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-51_080/im10a.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_19-44-51_080/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-51_080/jt16.csv",
+      "bytes": 274432,
+      "sha256": "e8441e0b2f01a9a34d7c34ba1b2af890ed65551659f8227493366f79fda34f46"
+    },
+    {
+      "path": "18-11-2026_19-44-51_080/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-51_080/manifest.json",
+      "bytes": 1230,
+      "sha256": "3cb175c6bae175e52139c45ebf06f9a2c4910b7c2ea06d612bb93354015a56a2"
+    },
+    {
+      "path": "18-11-2026_19-44-51_080/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-51_080/sensor_data.csv",
+      "bytes": 5529600,
+      "sha256": "dcdafb7d078bc9ff24fa27d576d01392bfd20ad10f14a05d5827bc2a521f2910"
+    },
+    {
+      "path": "18-11-2026_19-44-54_075/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-54_075/cube_mavlink.csv",
+      "bytes": 33352,
+      "sha256": "9163094d3fb50a8d91edb17cd9bf9d3b8fa01709161a75ab4fb1fecc203b4f9e"
+    },
+    {
+      "path": "18-11-2026_19-44-54_075/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-54_075/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "18-11-2026_19-44-54_075/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-54_075/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "18-11-2026_19-44-54_075/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-54_075/jt16.csv",
+      "bytes": 760,
+      "sha256": "96e61c337e2fbb2375c3845c28ffb49c47c464c8ac9b60cb5f238e1368bd5cc3"
+    },
+    {
+      "path": "18-11-2026_19-44-54_075/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-54_075/manifest.json",
+      "bytes": 1224,
+      "sha256": "3fea9efd02ae9928079a2fef4acd98d8269303a411e04495ba8e9be76a7c54be"
+    },
+    {
+      "path": "18-11-2026_19-44-54_075/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-44-54_075/sensor_data.csv",
+      "bytes": 36016,
+      "sha256": "482e979cca8245ae15ab04dfa3be2470521bd1d872a6cb8e254e026bb5896eb0"
+    },
+    {
+      "path": "18-11-2026_19-46-49_076/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-46-49_076/cube_mavlink.csv",
+      "bytes": 4485452,
+      "sha256": "51d68ded8d6ca836f418e781d4182096f069117576b214ebd6b37abff77cb468"
+    },
+    {
+      "path": "18-11-2026_19-46-49_076/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-46-49_076/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "18-11-2026_19-46-49_076/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-46-49_076/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "18-11-2026_19-46-49_076/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-46-49_076/jt16.csv",
+      "bytes": 198564,
+      "sha256": "76d1df1fd9f98d55fe7d131c102449c38f5a008aa5590a8af65435540ebba2fe"
+    },
+    {
+      "path": "18-11-2026_19-46-49_076/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-46-49_076/manifest.json",
+      "bytes": 1230,
+      "sha256": "1282689abb7d00c96d83266832b356d7e17f031dae938eab44a156d8e460a085"
+    },
+    {
+      "path": "18-11-2026_19-46-49_076/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-46-49_076/sensor_data.csv",
+      "bytes": 4938084,
+      "sha256": "94bd4afeda2aa07cde11d4fb90ace498840f4342924c85c9ee122a2f65b81a17"
+    },
+    {
+      "path": "18-11-2026_19-49-50_077/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-49-50_077/cube_mavlink.csv",
+      "bytes": 1413120,
+      "sha256": "156c3e3df7ad7a09b6e7193279d63b8d2af216ce6cc7756cda232156843091c7"
+    },
+    {
+      "path": "18-11-2026_19-49-50_077/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-49-50_077/depth_camera.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_19-49-50_077/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-49-50_077/im10a.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18-11-2026_19-49-50_077/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-49-50_077/jt16.csv",
+      "bytes": 57344,
+      "sha256": "c35e17d8fd7e51bea6066353fdc27efd3a39673eb49b2d63f56c6b865bfffea2"
+    },
+    {
+      "path": "18-11-2026_19-49-50_077/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-49-50_077/manifest.json",
+      "bytes": 1228,
+      "sha256": "2aeb87d091747627bd2a2073253e0b3a4a24122b15ca4d7bf58c436a39857bd9"
+    },
+    {
+      "path": "18-11-2026_19-49-50_077/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-49-50_077/sensor_data.csv",
+      "bytes": 1556480,
+      "sha256": "00ec6cd813c2e30028f03842fa8b63171bd88f441d0c31dc622123bb95593c8f"
+    },
+    {
+      "path": "18-11-2026_19-50-51_079/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-50-51_079/cube_mavlink.csv",
+      "bytes": 5320469,
+      "sha256": "7bb683da916e5e3eb1240caeaf96704de4abe15040de51cb589c7104f02e03a6"
+    },
+    {
+      "path": "18-11-2026_19-50-51_079/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-50-51_079/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "18-11-2026_19-50-51_079/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-50-51_079/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "18-11-2026_19-50-51_079/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-50-51_079/jt16.csv",
+      "bytes": 296664,
+      "sha256": "e2f56ed6d7b241ec620494ce48196017a37d46b7549eefac7d81eef8b7e6a70e"
+    },
+    {
+      "path": "18-11-2026_19-50-51_079/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-50-51_079/manifest.json",
+      "bytes": 1230,
+      "sha256": "3c47bc7c71312e94a193666fdc06757ea99b8eb98b06fd67409c54f76201886f"
+    },
+    {
+      "path": "18-11-2026_19-50-51_079/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-50-51_079/sensor_data.csv",
+      "bytes": 5923655,
+      "sha256": "19fa9329921644015f368b18441df8821c217957622c8b2573a30126a775beab"
+    },
+    {
+      "path": "18-11-2026_19-55-35_078/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-55-35_078/cube_mavlink.csv",
+      "bytes": 2711104,
+      "sha256": "6a4d3a3b25e17828cff6ddfe94d92a8792479a0bd5702f36a4270acc77016748"
+    },
+    {
+      "path": "18-11-2026_19-55-35_078/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-55-35_078/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "18-11-2026_19-55-35_078/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-55-35_078/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "18-11-2026_19-55-35_078/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-55-35_078/jt16.csv",
+      "bytes": 144390,
+      "sha256": "678b98c13f24e3ecdde87d612fdd9f724dcbf1492fd23a079bc50e1b4488bf2a"
+    },
+    {
+      "path": "18-11-2026_19-55-35_078/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-55-35_078/manifest.json",
+      "bytes": 1228,
+      "sha256": "c0da9a3f003d2d80c53531a57f49b882279f67dad89563fb65216dfa6bc7db7b"
+    },
+    {
+      "path": "18-11-2026_19-55-35_078/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_19-55-35_078/sensor_data.csv",
+      "bytes": 3010407,
+      "sha256": "c3c004cda85f86fad5ed9c9ee49966c6be86109a3aac9bc3b2efd8663fbc1011"
+    },
+    {
+      "path": "20-11-2026_16-26-55_081/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/20-11-2026_16-26-55_081/cube_mavlink.csv",
+      "bytes": 1553063,
+      "sha256": "a6aa156192cefe9cb3afee3aa026d379194d4c28da52a1a694d3f0a3484aa62e"
+    },
+    {
+      "path": "20-11-2026_16-26-55_081/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/20-11-2026_16-26-55_081/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "20-11-2026_16-26-55_081/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/20-11-2026_16-26-55_081/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "20-11-2026_16-26-55_081/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/20-11-2026_16-26-55_081/jt16.csv",
+      "bytes": 69265,
+      "sha256": "223fb6eb569aacd8d7713bebab452f6056c67351ccdb3f055183cf49c839ff30"
+    },
+    {
+      "path": "20-11-2026_16-26-55_081/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/20-11-2026_16-26-55_081/manifest.json",
+      "bytes": 1117,
+      "sha256": "40c5cd9d27b8debe6ec96c61de03738218cfbf94b74ed5bfea9f35d5efbaa454"
+    },
+    {
+      "path": "20-11-2026_16-26-55_081/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/20-11-2026_16-26-55_081/sensor_data.csv",
+      "bytes": 1709593,
+      "sha256": "a402959534b5a64e453eb59eec577fa2121c3fba4196235b8d16ce0a0d05cf00"
+    },
+    {
+      "path": "21-11-2026_16-57-21_082/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-21_082/cube_mavlink.csv",
+      "bytes": 391153,
+      "sha256": "f1b2d8bc3f9ac3e5cfa58df9d8ee292a51789cebf733bb5950b3766bf6c180e4"
+    },
+    {
+      "path": "21-11-2026_16-57-21_082/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-21_082/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "21-11-2026_16-57-21_082/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-21_082/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "21-11-2026_16-57-21_082/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-21_082/jt16.csv",
+      "bytes": 18737,
+      "sha256": "fdd8d0711fe3b397e41feace3ccfd90240c23bc6391959374c96ce2dba0fd4e0"
+    },
+    {
+      "path": "21-11-2026_16-57-21_082/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-21_082/manifest.json",
+      "bytes": 1115,
+      "sha256": "cc7d04cbaba5ffcc1b473df597e963adea22bb64dbe3d9e45582ca504fe07aae"
+    },
+    {
+      "path": "21-11-2026_16-57-21_082/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-21_082/sensor_data.csv",
+      "bytes": 432553,
+      "sha256": "005f2c3bc59215e9e054e7d252b32003c531d6bdf9650086d67d7b0b980fa6e9"
+    },
+    {
+      "path": "21-11-2026_16-57-29_083/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-29_083/cube_mavlink.csv",
+      "bytes": 1145183,
+      "sha256": "7887b7d3082a17a494b6c9ebafbbae3b5824eeec3365fe6a51c36dd35a3585da"
+    },
+    {
+      "path": "21-11-2026_16-57-29_083/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-29_083/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "21-11-2026_16-57-29_083/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-29_083/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "21-11-2026_16-57-29_083/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-29_083/jt16.csv",
+      "bytes": 55907,
+      "sha256": "c76b960ef0a7b0de8dfb3b57f688748bdf08589b59f90e7e255cbb0a5d3e7230"
+    },
+    {
+      "path": "21-11-2026_16-57-29_083/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-29_083/manifest.json",
+      "bytes": 1115,
+      "sha256": "6a1d422ee9ac802ffb5667511bf45bb34b9b32c0b5c293aa5d452ec3c5bfec8d"
+    },
+    {
+      "path": "21-11-2026_16-57-29_083/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-29_083/sensor_data.csv",
+      "bytes": 1267751,
+      "sha256": "5999baf153d44f320c4ab3e97ccf5fc73cfeaf97b4b1a97f22f660682abe82fb"
+    },
+    {
+      "path": "21-11-2026_16-57-52_084/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-52_084/cube_mavlink.csv",
+      "bytes": 392530,
+      "sha256": "f8fb79525bf38971d79a141d74c1240e9e0244fdbeb6e0c671643c68dfbaa6b8"
+    },
+    {
+      "path": "21-11-2026_16-57-52_084/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-52_084/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "21-11-2026_16-57-52_084/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-52_084/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "21-11-2026_16-57-52_084/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-52_084/jt16.csv",
+      "bytes": 18767,
+      "sha256": "93444241263daa8bb28c23aa98fb27de683c33e8b1e5bed5fd71d6861fae7e68"
+    },
+    {
+      "path": "21-11-2026_16-57-52_084/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-52_084/manifest.json",
+      "bytes": 1115,
+      "sha256": "3635a809611598293af53bcaab6a7b4a4405d1affde6a50cd5d3605c35535a63"
+    },
+    {
+      "path": "21-11-2026_16-57-52_084/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_16-57-52_084/sensor_data.csv",
+      "bytes": 434068,
+      "sha256": "4bd4c5a4e48d267eef9948ec2b98062027d9907aef13faa1b06625ba125b6d8d"
+    },
+    {
+      "path": "21-11-2026_17-06-25_089/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-06-25_089/cube_mavlink.csv",
+      "bytes": 532480,
+      "sha256": "fe74a25c0809a44f69ebc33a6f669607a7171a3425a64543c9151a53a095b4e0"
+    },
+    {
+      "path": "21-11-2026_17-06-25_089/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-06-25_089/depth_camera.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "21-11-2026_17-06-25_089/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-06-25_089/im10a.csv",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "21-11-2026_17-06-25_089/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-06-25_089/jt16.csv",
+      "bytes": 28672,
+      "sha256": "c52b5ef316c765dde138d6eac00fa5041f1d94a605762d9a3651e6f4b1b359a8"
+    },
+    {
+      "path": "21-11-2026_17-06-25_089/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-06-25_089/manifest.json",
+      "bytes": 1116,
+      "sha256": "403ac8c4424c51172afaa33a415a973adcd17a7c01a8c1ae6437aceb75d1353f"
+    },
+    {
+      "path": "21-11-2026_17-06-25_089/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-06-25_089/sensor_data.csv",
+      "bytes": 585728,
+      "sha256": "2653753fbe5912aebab7de9d2fe8f301bc00d395c7d1bafc64ae6ad8c31242b0"
+    },
+    {
+      "path": "21-11-2026_17-07-46_085/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-07-46_085/cube_mavlink.csv",
+      "bytes": 1889262,
+      "sha256": "8fab27bc3d84e44b0ad18500c788f5454fb56884c77f2725bd3adcab1ef57339"
+    },
+    {
+      "path": "21-11-2026_17-07-46_085/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-07-46_085/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "21-11-2026_17-07-46_085/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-07-46_085/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "21-11-2026_17-07-46_085/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-07-46_085/jt16.csv",
+      "bytes": 99077,
+      "sha256": "e09dfd0e220fae953ab2aa8f8f4f677807f33166ccf23dd12a13a0fcc928fb43"
+    },
+    {
+      "path": "21-11-2026_17-07-46_085/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-07-46_085/manifest.json",
+      "bytes": 1116,
+      "sha256": "009bc456f9dfccab5ba328233a262b87f89e4dfd9d0dd5ad313bf2a863d9b88e"
+    },
+    {
+      "path": "21-11-2026_17-07-46_085/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-07-46_085/sensor_data.csv",
+      "bytes": 2099212,
+      "sha256": "47c5189a5bb07626a5ec9c0e83f22f1eb750527060834fd37f222e6e183725c6"
+    },
+    {
+      "path": "21-11-2026_17-09-08_086/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-09-08_086/cube_mavlink.csv",
+      "bytes": 3381943,
+      "sha256": "4d87400f07d6518dd9cc84e7f6d88d48de08af03d984e1f463196ae2ed696195"
+    },
+    {
+      "path": "21-11-2026_17-09-08_086/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-09-08_086/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "21-11-2026_17-09-08_086/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-09-08_086/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "21-11-2026_17-09-08_086/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-09-08_086/jt16.csv",
+      "bytes": 158042,
+      "sha256": "e5ec7a162d4e83707d8107d938580bafc33c58cbbc1fa9fb5b07ab430c5a0405"
+    },
+    {
+      "path": "21-11-2026_17-09-08_086/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-09-08_086/manifest.json",
+      "bytes": 1118,
+      "sha256": "21e356c3ee7bb66557eec5ededdc7831940e421af658ce26803691907cf4162b"
+    },
+    {
+      "path": "21-11-2026_17-09-08_086/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-09-08_086/sensor_data.csv",
+      "bytes": 3736105,
+      "sha256": "69351ec909f55692429246f1f96027834c025ca201351e5e5d0cc95f3a870d9f"
+    },
+    {
+      "path": "21-11-2026_17-11-21_087/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-11-21_087/cube_mavlink.csv",
+      "bytes": 3449332,
+      "sha256": "d79ef2cb7c199856627db9ebf84fde8e12e4c90acddf815c5cbf6712dc51b61c"
+    },
+    {
+      "path": "21-11-2026_17-11-21_087/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-11-21_087/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "21-11-2026_17-11-21_087/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-11-21_087/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "21-11-2026_17-11-21_087/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-11-21_087/jt16.csv",
+      "bytes": 161137,
+      "sha256": "8df66a01dee74d700cfdd79d767c05a0f7ff60a2ff7abdb2e25c8750386f634a"
+    },
+    {
+      "path": "21-11-2026_17-11-21_087/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-11-21_087/manifest.json",
+      "bytes": 1118,
+      "sha256": "5a22272c2542b2d45bf08927604fb2fca65077e0bd8a37d4723da23b0f439882"
+    },
+    {
+      "path": "21-11-2026_17-11-21_087/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-11-21_087/sensor_data.csv",
+      "bytes": 3810512,
+      "sha256": "5481818675adfada233eddcddbd32af532ec7e2586980135aca21cd4bbe7f27f"
+    },
+    {
+      "path": "21-11-2026_17-12-50_088/cube_mavlink.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-12-50_088/cube_mavlink.csv",
+      "bytes": 6833651,
+      "sha256": "e79069b6033de70603ab4e3f5dbbc5dd0de50403b573e68a2e57d83d08e4fbde"
+    },
+    {
+      "path": "21-11-2026_17-12-50_088/depth_camera.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-12-50_088/depth_camera.csv",
+      "bytes": 216,
+      "sha256": "19baf4496c49ebed89ab1a18602b0ab9d30bb892ec806fc4a1466731f1b9e99e"
+    },
+    {
+      "path": "21-11-2026_17-12-50_088/im10a.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-12-50_088/im10a.csv",
+      "bytes": 166,
+      "sha256": "32f970991a5a33e56fb1e4e352a97acff400ec648827d2f319b05ffe4c25c114"
+    },
+    {
+      "path": "21-11-2026_17-12-50_088/jt16.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-12-50_088/jt16.csv",
+      "bytes": 318363,
+      "sha256": "a06855d9340856b92a2a5808a0fab261a612540b3c21fe7a3f762114e61b1d2d"
+    },
+    {
+      "path": "21-11-2026_17-12-50_088/manifest.json",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-12-50_088/manifest.json",
+      "bytes": 1118,
+      "sha256": "670ce0e428da40c8575f4b09869974d9b1c703670a29df63618f8ea7939bc828"
+    },
+    {
+      "path": "21-11-2026_17-12-50_088/sensor_data.csv",
+      "original_source": "/home/atas/Desktop/Drone_Sensor_Recordings/21-11-2026_17-12-50_088/sensor_data.csv",
+      "bytes": 7548487,
+      "sha256": "2d6f6f980c6b0d64bf103f817d2b63b6a67db4d7639d8d46ba187d93f60975e8"
+    }
+  ]
+}

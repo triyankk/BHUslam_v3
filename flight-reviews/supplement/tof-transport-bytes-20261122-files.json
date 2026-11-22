@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "path": "runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/capture/bridge-001/mavlink.bin",
+      "bytes": 40960,
+      "sha256": "e580d74d88239a7dc9dedfa4a7c2118ee3f69efd42f96ffec10a95223e9c6e21"
+    },
+    {
+      "path": "runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 18075,
+      "sha256": "94bf227ca1b8368ae30fad1a5a3ea9d19e0cc20c62c30a3124b6bc2309ac1304"
+    },
+    {
+      "path": "runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/capture/bridge-001/mavlink.bin",
+      "bytes": 338468,
+      "sha256": "2205d3c7009ec31c7448af107c65715348b82b8fab47292fae12914509e2987e"
+    },
+    {
+      "path": "runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 200704,
+      "sha256": "cd8a7b1926ae78d93f96c421d212ce10a50df5c11009901e6d91e0db2d39eadf"
+    },
+    {
+      "path": "runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/capture/bridge-001/mavlink.bin",
+      "bytes": 163840,
+      "sha256": "c50c06d5d4f98ca16a390f2d9702458cb68fa51e34b88560d070ade75988b430"
+    },
+    {
+      "path": "runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 117960,
+      "sha256": "9e80b8bc0e634838c840515eceda2bfff4c18384696f23e44e3c4e48b2c40395"
+    },
+    {
+      "path": "runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/capture/bridge-001/mavlink.bin",
+      "bytes": 239382,
+      "sha256": "20f8b4a86046ff16ebec80497b9f4598ed89c853195c26340abe6286b27a9573"
+    },
+    {
+      "path": "runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 40960,
+      "sha256": "69f32be88418676105588d2f51653ed66b4cdd4d1317cb737e73995702ac7d1e"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/mavlink.bin",
+      "bytes": 1170225,
+      "sha256": "2f60efaa70f1f2e9a91421a03c47c5e2dd60efb5cf72764d85073e487d503f04"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 4923309,
+      "sha256": "01d5c34feace2e1d34cf920bd38f2b6104e1db39fef76466fd65aed1d1279db6"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/mavlink.bin",
+      "bytes": 814934,
+      "sha256": "7bba0459a662809264831232f1d49a17bc54239c57aa99d73f4f4c711d38ca0b"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 2629742,
+      "sha256": "6b5561a63f73595d4d062c1f750b292ae2628f3915631c9377565f6acdd34527"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/mavlink.bin",
+      "bytes": 184234,
+      "sha256": "fa85a98294ddb9990b113eb9447022561a0720cbe60b6882c280642527a33ff3"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 1149547,
+      "sha256": "c27e62b149d3aa52fb7f765c3dc7cb24855621420a437e361ac23a42918bb864"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/mavlink.bin",
+      "bytes": 158782,
+      "sha256": "3bd0a2749b9fc7bf756501d9f3bdaddfed8b1024301688eaf37b4476a7f52652"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 98184,
+      "sha256": "78f71e2f455c56492c4c4084978baf0ebefb9cc23fa0ce6941efb10fef0af3e8"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/mavlink.bin",
+      "bytes": 48958,
+      "sha256": "8e224ad732675db623b6c4c02a21188dee64373a8592cae2e477883762da170b"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 29516,
+      "sha256": "92b50dd9f993da98b3be815f61f6f4199622b3ffdae1e98362167d5fe56af1a7"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/capture/bridge-001/mavlink.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/capture/bridge-001/mavlink.bin",
+      "bytes": 817570,
+      "sha256": "172502db1cec45d27e969dc8d45abe0b5a6cec5dfcd4075bb0132040a9f99809"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/capture/bridge-001/uart-rx.bin",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/capture/bridge-001/uart-rx.bin",
+      "bytes": 507484,
+      "sha256": "388cd9fba70b1df00b250b402d73ffc77598213b1c7f9d2792a369db3a10c56e"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+timestamp_local,timestamp_utc,monotonic_ns,message_type,source_system,source_component,flow_x,flow_y,flow_comp_m_x,flow_comp_m_y,flow_rate_x,flow_rate_y,quality,ground_distance,sensor_id,time_usec,original_fields_json

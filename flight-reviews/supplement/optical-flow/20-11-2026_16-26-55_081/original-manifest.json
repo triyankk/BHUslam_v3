@@ -1,0 +1,46 @@
+{
+  "disabled_sources": [
+    "depth_camera"
+  ],
+  "files": {
+    "all_sensors": "sensor_data.csv",
+    "cube": "cube_mavlink.csv",
+    "depth_camera": "depth_camera.csv",
+    "im10a": "im10a.csv",
+    "jt16": "jt16.csv",
+    "video": null
+  },
+  "row_counts": {
+    "all_sensors": 4817,
+    "cube": 4695,
+    "depth_camera": 0,
+    "im10a": 0,
+    "jt16": 122
+  },
+  "schema_version": 1,
+  "settings": {
+    "auto_record_on_arm": true,
+    "depth_grid_columns": 8,
+    "depth_grid_rows": 6,
+    "depth_max_m": 8.0,
+    "output_root": "/home/atas/Desktop/Drone_Sensor_Recordings",
+    "video_enabled": false,
+    "video_mode": "combined"
+  },
+  "source_errors": {
+    "im10a": "[Errno 2] could not open port /dev/imu_usb: [Errno 2] No such file or directory: '/dev/imu_usb'"
+  },
+  "started_utc": "2026-11-20T10:56:55.363109+00:00",
+  "state": "complete",
+  "stopped_utc": "2026-11-20T10:57:20.034169+00:00",
+  "trigger": "manual",
+  "video_status": {
+    "codec": null,
+    "container": null,
+    "enabled": false,
+    "finalized": false,
+    "frames_written": 0,
+    "playable": null,
+    "target_fps": null
+  }
+}

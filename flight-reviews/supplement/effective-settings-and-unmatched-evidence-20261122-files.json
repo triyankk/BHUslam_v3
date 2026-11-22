@@ -1,0 +1,1768 @@
+{
+  "files": [
+    {
+      "path": "effective-settings/systemd/bhu-cube-vio-test.service",
+      "original_source": "/home/atas/.config/systemd/user/bhu-cube-vio-test.service",
+      "bytes": 628,
+      "sha256": "c485be40cb8ca815615f38a158749658d9f4504586cba1d131d35182c04bae15",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/bhu-jt16-map.service",
+      "original_source": "/home/atas/.config/systemd/user/bhu-jt16-map.service",
+      "bytes": 530,
+      "sha256": "cc88630dc110ef5aad72c59c6359676e90a59077bae039244862efb6570a57e0",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/bhu-shadow-performance.service",
+      "original_source": "/home/atas/.config/systemd/user/bhu-shadow-performance.service",
+      "bytes": 323,
+      "sha256": "9829f2a15fbe3d66210d33dd83efd53b199d32c5f3bb24fbf46b6fb25f398945",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/bhu-tof-front.service",
+      "original_source": "/home/atas/.config/systemd/user/bhu-tof-front.service",
+      "bytes": 526,
+      "sha256": "44afdd8c245156186634e50ef8648ab6a7e00128886578a4c14957f818bf8832",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/bhu-vins-fusion.service",
+      "original_source": "/home/atas/.config/systemd/user/bhu-vins-fusion.service",
+      "bytes": 765,
+      "sha256": "20747b59643515d6527a723a7120fc37a7c828b3467dbff0abce3b9032808c7e",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/bhu-vio-observe.service",
+      "original_source": "/home/atas/.config/systemd/user/bhu-vio-observe.service",
+      "bytes": 327,
+      "sha256": "da6fbe3efa7912121dd013661c7ce49e5849506ff9673d28c80d71e8d47cf162",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/bhu-vio-record.service",
+      "original_source": "/home/atas/.config/systemd/user/bhu-vio-record.service",
+      "bytes": 697,
+      "sha256": "6d74231b3b47d75a98a74638d81dfc99a4ef0b362d5af1e9588c1d2485fa1112",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/optflow-flight-logger.service.d/50-bhu-jt16-shadow.conf",
+      "original_source": "/home/atas/.config/systemd/user/optflow-flight-logger.service.d/50-bhu-jt16-shadow.conf",
+      "bytes": 447,
+      "sha256": "f82049d72769d58e77c961a51d19e542f49e4e7fafc98c081e380a71b5c28fbe",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/optflow-flight-logger.service.d/60-bhu-vio-observation.conf",
+      "original_source": "/home/atas/.config/systemd/user/optflow-flight-logger.service.d/60-bhu-vio-observation.conf",
+      "bytes": 128,
+      "sha256": "1610ae1192ab71899805e2f227f28dc94356a98cc69fed59d610ac16ca3c98f6",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/optflow-flight-logger.service.d/70-bhu-cube-usb-test.conf",
+      "original_source": "/home/atas/.config/systemd/user/optflow-flight-logger.service.d/70-bhu-cube-usb-test.conf",
+      "bytes": 189,
+      "sha256": "6a0a9661e0776a5f3f247b1ead9a90c77dbd55365f9852f2402b468b5eacddb3",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "effective-settings/systemd/optflow-flight-logger.service.d/80-bhu-tof-usb.conf",
+      "original_source": "/home/atas/.config/systemd/user/optflow-flight-logger.service.d/80-bhu-tof-usb.conf",
+      "bytes": 180,
+      "sha256": "d9368127f6384defa4174435f07d5d41c3580486e4fb3bfff127fa9c78358762",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "runs/flight-shadow/087d15ee-6e9d-4406-8cb9-bec44997e769/mapping-20261118T141313.068208144Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/087d15ee-6e9d-4406-8cb9-bec44997e769/mapping-20261118T141313.068208144Z/adapter.log",
+      "bytes": 165,
+      "sha256": "9c241d7f45aeff25a6963cee9b5891cbae086037c23a382743556732b4475152",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/087d15ee-6e9d-4406-8cb9-bec44997e769/mapping-20261118T141313.068208144Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/087d15ee-6e9d-4406-8cb9-bec44997e769/mapping-20261118T141313.068208144Z/lio.log",
+      "bytes": 900,
+      "sha256": "2526cf285bfd761873e4d135392c249160cc40dfd56f8e9d5ccd619588369cbc",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/087d15ee-6e9d-4406-8cb9-bec44997e769/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/087d15ee-6e9d-4406-8cb9-bec44997e769/tegrastats.log",
+      "bytes": 5261,
+      "sha256": "b989f56cebfff385293b8aa4ace4759b0533869c3ef8cf533a6479cc0e311f7f",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/164aba13-1159-43e6-b1a2-3bf359dabbde/mapping-20261118T141312.975478160Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/164aba13-1159-43e6-b1a2-3bf359dabbde/mapping-20261118T141312.975478160Z/adapter.log",
+      "bytes": 165,
+      "sha256": "62ff1785f02c7b79f960393c2a9d4aab180794a573e2776aa419f6798bd38681",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/164aba13-1159-43e6-b1a2-3bf359dabbde/mapping-20261118T141312.975478160Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/164aba13-1159-43e6-b1a2-3bf359dabbde/mapping-20261118T141312.975478160Z/lio.log",
+      "bytes": 900,
+      "sha256": "69eab3b0f760ea5e2ee96a63940fa556a80478012ebce643a62ee69571add3d9",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/164aba13-1159-43e6-b1a2-3bf359dabbde/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/164aba13-1159-43e6-b1a2-3bf359dabbde/tegrastats.log",
+      "bytes": 88793,
+      "sha256": "ae6bb19cafdb044bdb26a2375f337b38900695621cb7e1ba9b61c75c664dbd8b",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/31e9d0ed-cd87-4f3f-948a-12d6c0964f96/mapping-20261121T105805.686214246Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/31e9d0ed-cd87-4f3f-948a-12d6c0964f96/mapping-20261121T105805.686214246Z/adapter.log",
+      "bytes": 307,
+      "sha256": "e7d00b9a78e2e276790c33c533c3d6f75d37aeb049b8a4fba166f51737be3000",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/31e9d0ed-cd87-4f3f-948a-12d6c0964f96/mapping-20261121T105805.686214246Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/31e9d0ed-cd87-4f3f-948a-12d6c0964f96/mapping-20261121T105805.686214246Z/lio.log",
+      "bytes": 949,
+      "sha256": "36ac5c1303a98568d2f963331a81e0202dea4734363b7002e774b48d482847f5",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/31e9d0ed-cd87-4f3f-948a-12d6c0964f96/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/31e9d0ed-cd87-4f3f-948a-12d6c0964f96/tegrastats.log",
+      "bytes": 144475,
+      "sha256": "2fbf65add985932c5f28b24ea735756ec9802c433535b0c19257349ac1d0169d",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3b92e784-791f-4389-9664-4f1bb20548f7/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3b92e784-791f-4389-9664-4f1bb20548f7/tegrastats.log",
+      "bytes": 909312,
+      "sha256": "37f471bbe4effa8bc17df33d6ce9b33ef494e605447d0910035358705f6ea0dd",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111039.639383731Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111039.639383731Z/adapter.log",
+      "bytes": 196,
+      "sha256": "0bcbcefafaca75c22c6d53512c3e74b7deb72a6e39b3788a351b36b912858c5a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111039.639383731Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111039.639383731Z/lio.log",
+      "bytes": 754,
+      "sha256": "cc8c4831572cbf059502a0f9cf836733d0c520bd1c25f6025cf62fc2041d6a0c",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111102.306636019Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111102.306636019Z/adapter.log",
+      "bytes": 196,
+      "sha256": "fa76bf88a79c8a5934fc08cbb195cf57f8342814839a71332c1d9e298ad6dc85",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111102.306636019Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111102.306636019Z/lio.log",
+      "bytes": 754,
+      "sha256": "b2bfa12c4c67ecc7f45ea0967bb78bccc8bfc0a38b04923b5d95fff8c1adc427",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111124.378826972Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111124.378826972Z/adapter.log",
+      "bytes": 196,
+      "sha256": "aa6dac74a6e07a9aa405d31a8026774e2e04b78a74529e81be2abccdf29f2f26",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111124.378826972Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111124.378826972Z/lio.log",
+      "bytes": 754,
+      "sha256": "50899b86c38c65644b94a3fe1ef8d4b0632c20837a61f8e23232ec10dc1c4f73",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111146.542542601Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111146.542542601Z/adapter.log",
+      "bytes": 196,
+      "sha256": "29e7df5265f38bb3380b7d394e59192a0f33a5f1b19643aca0f2a3ac00475f3f",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111146.542542601Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111146.542542601Z/lio.log",
+      "bytes": 754,
+      "sha256": "0547b2f6b96dc64ccd16ac5f466a34d7306da13134bdec192aacea474235be24",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111208.136567068Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111208.136567068Z/adapter.log",
+      "bytes": 196,
+      "sha256": "d8bbe53c64d2fd31a752ea6a689d47330d7e7391ad50c2a69938590780395a31",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111208.136567068Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111208.136567068Z/lio.log",
+      "bytes": 754,
+      "sha256": "324289bd4a55242cabdf63f26af28a547cffba18cab510c8d98f7fa7371f9a6a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111230.133970566Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111230.133970566Z/adapter.log",
+      "bytes": 196,
+      "sha256": "7a7a016ca69bb20a2425f4c64d49d998f425b4a367bb3aced1c22e0a3c032c4b",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111230.133970566Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/mapping-20261118T111230.133970566Z/lio.log",
+      "bytes": 754,
+      "sha256": "1a6276b788fef4d42589b7eb408f5087c20424aa7d3c520b9febc471cff4d290",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/3e9b11e0-76db-4a67-81f0-1b37cfe9010c/tegrastats.log",
+      "bytes": 261087,
+      "sha256": "f89778b756215b1f2fc9a29630ccaa47c88cfae4ce7f6968388efd971b23b57a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/48defaaa-65a0-4f53-a331-a0c7109d77ff/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/48defaaa-65a0-4f53-a331-a0c7109d77ff/tegrastats.log",
+      "bytes": 16827,
+      "sha256": "390a7ee8b97a4026cba2ab0d542ab8d9ac1328ff34a49c18a79310179eca6404",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/49c1afcd-98eb-4e49-be07-4f867f9c26ad/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/49c1afcd-98eb-4e49-be07-4f867f9c26ad/tegrastats.log",
+      "bytes": 966550,
+      "sha256": "90b6c6e3e460679e6c5298e92ef57aa4e78781851fe5b2d734243e36a6504da0",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/597a9a1d-d623-435a-8980-702213b78988/mapping-20261121T110749.498376212Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/597a9a1d-d623-435a-8980-702213b78988/mapping-20261121T110749.498376212Z/adapter.log",
+      "bytes": 165,
+      "sha256": "e10fab31b0652c5dd839363b47678fb5126a9983dae0c8f53b287b8587fe13b8",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/597a9a1d-d623-435a-8980-702213b78988/mapping-20261121T110749.498376212Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/597a9a1d-d623-435a-8980-702213b78988/mapping-20261121T110749.498376212Z/lio.log",
+      "bytes": 900,
+      "sha256": "52c8ffacd5468ff11812d94e855a5b3ea290e82bc5e917fadf1bbd7103866c72",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/597a9a1d-d623-435a-8980-702213b78988/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/597a9a1d-d623-435a-8980-702213b78988/tegrastats.log",
+      "bytes": 27383,
+      "sha256": "1bec873310b0bcca89745b309783635ac5dbead6e85c51ed1d752a3f1f6f2218",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/6d2caa31-b95a-4215-a383-3b5554fe3a4e/mapping-20261121T111724.286870672Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6d2caa31-b95a-4215-a383-3b5554fe3a4e/mapping-20261121T111724.286870672Z/adapter.log",
+      "bytes": 165,
+      "sha256": "b3a47515bdb4d737680c0c8d73def869aa5081c68eb228139d49033d47ed512a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/6d2caa31-b95a-4215-a383-3b5554fe3a4e/mapping-20261121T111724.286870672Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6d2caa31-b95a-4215-a383-3b5554fe3a4e/mapping-20261121T111724.286870672Z/lio.log",
+      "bytes": 900,
+      "sha256": "57b7b05c7bef869c7fd6795fd844f9550a79dc073675c98b3c2fde54ca119c43",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/6d2caa31-b95a-4215-a383-3b5554fe3a4e/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6d2caa31-b95a-4215-a383-3b5554fe3a4e/tegrastats.log",
+      "bytes": 52224,
+      "sha256": "f20d09019ba014c9d6ecbcd711f89c4619d8c2a30577cbf6e29ec5ad31e67935",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T112758.724004546Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T112758.724004546Z/adapter.log",
+      "bytes": 196,
+      "sha256": "58236dfbb662b4e60b73b1f0503c0f89d5f6ee6888f16ac62e673d2d1bfb5df0",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T112758.724004546Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T112758.724004546Z/lio.log",
+      "bytes": 949,
+      "sha256": "29c3921f2c846d1166c36fe9ca2f925a9f7f04ac8c7a2ed51c7d6877730722ac",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T113402.272590087Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T113402.272590087Z/adapter.log",
+      "bytes": 196,
+      "sha256": "3121f4b133bd3ff28336f8349385714bff7154e31481130d845c22996b06ef17",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T113402.272590087Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T113402.272590087Z/lio.log",
+      "bytes": 949,
+      "sha256": "a472f38f07c2a6cd8cf7643e31b696edc2b2863257653b69cbfb6984e0d85cb2",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T113621.635582440Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T113621.635582440Z/adapter.log",
+      "bytes": 196,
+      "sha256": "2430a5dbdbb12e3dbc72d1a141e89e07b72d67952e67bbec1f488685abbdbf94",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T113621.635582440Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T113621.635582440Z/lio.log",
+      "bytes": 949,
+      "sha256": "9fd864a9a90a15e707a57e52d7823a8345ace86d7e383ebc5ab5627811ff3596",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120050.261943304Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120050.261943304Z/adapter.log",
+      "bytes": 307,
+      "sha256": "6439fc5adbb19da25e632458a20e56f0cef92c33f95826e129feff53eaf643ff",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120050.261943304Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120050.261943304Z/lio.log",
+      "bytes": 963,
+      "sha256": "2199953e5bc6a84e1181cf5b1168487155044a6423a2d249d46d198111c4f969",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120345.423531524Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120345.423531524Z/adapter.log",
+      "bytes": 307,
+      "sha256": "1ccd1b3dd7bea608f714513c50e5b9d4e345be1f75b47e981167b0ba09af7ee1",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120345.423531524Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120345.423531524Z/lio.log",
+      "bytes": 949,
+      "sha256": "8442fa39ad7d9cc08688d86ba241c070d8bbee8f7130b1c4325026f079fbe374",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120417.449441441Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120417.449441441Z/adapter.log",
+      "bytes": 307,
+      "sha256": "9fad238be03cd63cbc3eb14a0049e9a3619dc086aa29514a2901724edfcb1791",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120417.449441441Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T120417.449441441Z/lio.log",
+      "bytes": 949,
+      "sha256": "ea300ddd61efe0ac324d96742350b31d250d3afbeeb343314b9bf91f72554034",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121114.752815836Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121114.752815836Z/adapter.log",
+      "bytes": 236,
+      "sha256": "d8628b61f64780fc254459caf2887f8a1544ecf1f87569760d42f3a0eaad1834",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121114.752815836Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121114.752815836Z/lio.log",
+      "bytes": 949,
+      "sha256": "f7afb9560d91c5b237b841109e16534880227bb4f1f9cb00d989b550e29791b1",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121145.734158005Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121145.734158005Z/adapter.log",
+      "bytes": 307,
+      "sha256": "43147474a9bf61cf5f83def52ce7166c2c8a8fc6972da8d35db1ba49b2c8cd99",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121145.734158005Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121145.734158005Z/lio.log",
+      "bytes": 963,
+      "sha256": "21538251f3c9696123119ab9cac82952774e911edd3049d90266d317091c057f",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121923.123579916Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121923.123579916Z/adapter.log",
+      "bytes": 165,
+      "sha256": "ff3296c1475e8c81f8d3fe92d144e0c74f19afc1434108bf49196f3a403259aa",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121923.123579916Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/mapping-20261118T121923.123579916Z/lio.log",
+      "bytes": 900,
+      "sha256": "f14cd1f4f4c3ef11d4a4e519b1b01830530520f0ea22861111157fe03ab02ad2",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/88c81b0f-a22c-4624-a99b-0ecb5909acb5/tegrastats.log",
+      "bytes": 954850,
+      "sha256": "5862b3d32fd7f47678d4b8809144c64c0f5ed5b7d012c7988531d3443653568c",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/9f78d475-5f67-437b-a64c-35903b113b69/mapping-20261118T141313.075736496Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/9f78d475-5f67-437b-a64c-35903b113b69/mapping-20261118T141313.075736496Z/adapter.log",
+      "bytes": 165,
+      "sha256": "c64493b3ee5920dd7ab6f51cc3a6d707cc625b7798bb4557eddaed1f3328d7f7",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/9f78d475-5f67-437b-a64c-35903b113b69/mapping-20261118T141313.075736496Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/9f78d475-5f67-437b-a64c-35903b113b69/mapping-20261118T141313.075736496Z/lio.log",
+      "bytes": 900,
+      "sha256": "327d6c1a00c9b5711b86aa7b60ecdacdc4bc030c2978d981212ab26fef098cad",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/9f78d475-5f67-437b-a64c-35903b113b69/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/9f78d475-5f67-437b-a64c-35903b113b69/tegrastats.log",
+      "bytes": 86016,
+      "sha256": "df261f71cdbb437c8844acc0f46c8e2bb672598a0adee1ed297ed0bb7348ee75",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261118T141314.591248784Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261118T141314.591248784Z/adapter.log",
+      "bytes": 307,
+      "sha256": "fcf4bf95968baa5d9e00394bd8ce8f282a0501a193ceda981e972d0553e2c56c",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261118T141314.591248784Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261118T141314.591248784Z/lio.log",
+      "bytes": 949,
+      "sha256": "726d955a9d15cbe7be6ccbea2a32906e2827eb59ff5a8d818c4fcec6003f20f4",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T100434.298583158Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T100434.298583158Z/adapter.log",
+      "bytes": 236,
+      "sha256": "da0fca43713c9832cc15d3c2be0e21d3e57f6d98fc18f57f832e7ce01dce57ad",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T100434.298583158Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T100434.298583158Z/lio.log",
+      "bytes": 963,
+      "sha256": "bf24aa209b601a5b42453cedd2ca1f3417a26e9a22dd0c237f9fad17a352a171",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T105655.311750188Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T105655.311750188Z/adapter.log",
+      "bytes": 236,
+      "sha256": "9af7757289874a131ac6ef0fd15a937629a4742540510ebf67ed138dddb3b313",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T105655.311750188Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T105655.311750188Z/lio.log",
+      "bytes": 963,
+      "sha256": "3062296c5c194a428d32fe283711c5ef8a600b2285ab71c428c4bba92d517428",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T110409.020816076Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T110409.020816076Z/adapter.log",
+      "bytes": 236,
+      "sha256": "39da93d3a2faccfa1303d612cfc45db7a8a26e4efcabf192ccbc9bf3a6d02dcc",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T110409.020816076Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T110409.020816076Z/lio.log",
+      "bytes": 963,
+      "sha256": "b1993e650161d1d265c91375dc52fbf3cec09227ae0a2b0c13ffbe18d42dd46a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T110748.071316347Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T110748.071316347Z/adapter.log",
+      "bytes": 307,
+      "sha256": "be0a93cfb0c2b842814f5195d28f03b79a6b98fb5b4ce6cdda22d147300d8e77",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T110748.071316347Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T110748.071316347Z/lio.log",
+      "bytes": 963,
+      "sha256": "231a694989a3ded6d131bf6966d7fe08bf2a966583a9e01f3de4a5b6e53f1cb6",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T112840.562792849Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T112840.562792849Z/adapter.log",
+      "bytes": 307,
+      "sha256": "5e598da037cc6b77ba65f1fbe134b23c1be6ae932656bcd72d65f9530637f17a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T112840.562792849Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T112840.562792849Z/lio.log",
+      "bytes": 928,
+      "sha256": "02bddefab1fca76ca66f689c45913bb25d4081e64877f1de6c06a25a2bb1c1ad",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T114052.826586070Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T114052.826586070Z/adapter.log",
+      "bytes": 236,
+      "sha256": "cc9a259ec2706a7df31f766b42149ba8fcaf931e6765c54445ef19e262f71837",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T114052.826586070Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T114052.826586070Z/lio.log",
+      "bytes": 963,
+      "sha256": "b8e172602ad41db9d606f8aa5772c9158f93c3e2b2d02f1a7c3117bb3755ce05",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T115845.095247855Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T115845.095247855Z/adapter.log",
+      "bytes": 236,
+      "sha256": "762e467588ace055a9df81a3ab3b0dce7d8997eb3fa6c1844b947b41d8322163",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T115845.095247855Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T115845.095247855Z/lio.log",
+      "bytes": 963,
+      "sha256": "dd0948e689ad7c7208bfe072c3e9306cd5aa1a36399995e52949c4aa203fc32c",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T115955.849817315Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T115955.849817315Z/adapter.log",
+      "bytes": 307,
+      "sha256": "854cf8bbe4b1f89af590ec90b563b6944e6ae18db578813fecfb0d83771542e8",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T115955.849817315Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T115955.849817315Z/lio.log",
+      "bytes": 963,
+      "sha256": "7a9a3a75560def9384665187ab2f9829caa0bef2aa504bd965de9b2bfb8a4112",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T120119.291050828Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T120119.291050828Z/adapter.log",
+      "bytes": 307,
+      "sha256": "7c8151c6a192fff5eac3f49c7cba09ee6e33738e925f56ec4629f925077584c6",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T120119.291050828Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T120119.291050828Z/lio.log",
+      "bytes": 963,
+      "sha256": "9ab8406047daea56fb39f80663842fb4ce2c1a19dec68d9d4752c75f814ad4b9",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T120323.380955309Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T120323.380955309Z/adapter.log",
+      "bytes": 236,
+      "sha256": "441c62eace01dc9537eb4bc74d604ef7e8846d5f4e30e8d712e555b46a6f728e",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T120323.380955309Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T120323.380955309Z/lio.log",
+      "bytes": 949,
+      "sha256": "b69caf8de168cd775fbc4dd7cfb8ae80ad807e2aa3bc07fdf1aba027ee93967b",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T121151.177230026Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T121151.177230026Z/adapter.log",
+      "bytes": 196,
+      "sha256": "f52d9431b61f163ef9026df7a9fb96ff3b53cb565273761db4b3073cfaf8112c",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T121151.177230026Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T121151.177230026Z/lio.log",
+      "bytes": 949,
+      "sha256": "9addf97c55f9dd4b3013b671504b2442e7b1cda6b3563522a9ea66b85d6673f2",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T123317.327032054Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T123317.327032054Z/adapter.log",
+      "bytes": 196,
+      "sha256": "1693710bfafbf25e35494b57b74f0fb0e0cd96e622329620a15c3298dfe18e36",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T123317.327032054Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T123317.327032054Z/lio.log",
+      "bytes": 949,
+      "sha256": "0f017df660d393144de357c9253a94a05d087f8147d2b0dd117bead7717b7744",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T123606.976853822Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T123606.976853822Z/adapter.log",
+      "bytes": 196,
+      "sha256": "24236aafa8d4e993d6de998ac8a4b952bd2ae7d791b7d3b909fb5ee5862dd0a5",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T123606.976853822Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/mapping-20261120T123606.976853822Z/lio.log",
+      "bytes": 949,
+      "sha256": "dedc5f8df1aee379816e8feed5b0c71fe881e8e6ac943612e81eeea0d2c31ea8",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/a7baf35a-310f-4a39-a96f-ec8419f71edb/tegrastats.log",
+      "bytes": 3436544,
+      "sha256": "9128d9c9b06c2ad235c1d6cd3dd601ac6db8ced0447af115673ab173591dc341",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/b382ae7f-b55f-4db0-accf-030c1614388a/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b382ae7f-b55f-4db0-accf-030c1614388a/tegrastats.log",
+      "bytes": 84421,
+      "sha256": "a826d4ee5819d68a4f35782559cd66e5e556204871168fbb3a157599a6983e00",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/cb3fe111-de97-404f-989d-66cc93b7d5cd/mapping-20261121T113539.671342680Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/cb3fe111-de97-404f-989d-66cc93b7d5cd/mapping-20261121T113539.671342680Z/adapter.log",
+      "bytes": 165,
+      "sha256": "3a4f255ab02a1eb7076cb63342c59873b5d26d26533294a6d644f687e268d919",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/cb3fe111-de97-404f-989d-66cc93b7d5cd/mapping-20261121T113539.671342680Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/cb3fe111-de97-404f-989d-66cc93b7d5cd/mapping-20261121T113539.671342680Z/lio.log",
+      "bytes": 900,
+      "sha256": "793e4b87f2df5c7b4d2616c5f8d4fc6362ba92333dfa0d8194602d483b575ac0",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102128.740004388Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102128.740004388Z/adapter.log",
+      "bytes": 196,
+      "sha256": "a89d2a2d7c6a3688e65de63bb5928ecca8e510c54012a9e63006ffe9a457a179",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102128.740004388Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102128.740004388Z/lio.log",
+      "bytes": 754,
+      "sha256": "f840536bdef8da80be4eb92f6ed2c42fc6a328ac825f1482ef232b5df758be38",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102150.845239289Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102150.845239289Z/adapter.log",
+      "bytes": 196,
+      "sha256": "dc1249f80ca61f49c61a4b486ba8e2881ca5d814ae37e889c4d29748205b5bd2",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102150.845239289Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102150.845239289Z/lio.log",
+      "bytes": 754,
+      "sha256": "bb06a6be35e82b964ee3459be9b6a152ebfc4a19c0878d02942ff661cc831eb6",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102212.588862942Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102212.588862942Z/adapter.log",
+      "bytes": 196,
+      "sha256": "52f1bd7ed36395a06507fe344c87c5a3aeecbf714c01e282c2806d3f68ff2031",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102212.588862942Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102212.588862942Z/lio.log",
+      "bytes": 754,
+      "sha256": "f52953b384a750e8d4e398f6ea2bf3feb0636c1bc44954817ca2e651c9d318a5",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102234.088508722Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102234.088508722Z/adapter.log",
+      "bytes": 196,
+      "sha256": "4d91d2c2e817efa2e1d227d488ee9106f7087ebffc06fecda99b1d9f0a94d3cf",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102234.088508722Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102234.088508722Z/lio.log",
+      "bytes": 754,
+      "sha256": "f994921ac348c2ec2b801fd1801bc0696741d9a22e7860d9dfdc9e21decd3b83",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102256.249077074Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102256.249077074Z/adapter.log",
+      "bytes": 196,
+      "sha256": "441f25291af46a27efc427c8a2ddd33ab9614d40f93a48b69a81683594a46e9a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102256.249077074Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102256.249077074Z/lio.log",
+      "bytes": 754,
+      "sha256": "f4f858bfcccc020ac9f948acd6ee8a5edf98f1a344e179a4da897c01d4900349",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102317.838392008Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102317.838392008Z/adapter.log",
+      "bytes": 196,
+      "sha256": "6794d2fc69536e599036f8e73e65721dd85ef662055b2c0837de50a8641e81ee",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102317.838392008Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/mapping-20261118T102317.838392008Z/lio.log",
+      "bytes": 754,
+      "sha256": "ae91fb1a4d24fe76731c3197ecba6403323308112f3597eaddfa4340b5b1f108",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/ef2b1550-27b7-47b2-9faf-ea45e056547a/tegrastats.log",
+      "bytes": 1127497,
+      "sha256": "34531a2d3c0c549e2113e970893bc1d7aa556036d763a75ff70be8f4f2eefb69",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/mapping-20261118T135610.539935212Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/mapping-20261118T135610.539935212Z/adapter.log",
+      "bytes": 307,
+      "sha256": "ef29804911b0382423f4b4919d9c743b31753f3319a07e003ea167ad2a2e2c5d",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/mapping-20261118T135610.539935212Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/mapping-20261118T135610.539935212Z/lio.log",
+      "bytes": 963,
+      "sha256": "d168fd4a526110422e4c07674a5db497dc7f986862cc6f61b4c2e9f4be596341",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/mapping-20261118T140346.932962728Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/mapping-20261118T140346.932962728Z/adapter.log",
+      "bytes": 165,
+      "sha256": "9c5b7ff84debd8609707d6ae19b97c42c695639a26de1cd99f2ac411984fb35b",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/mapping-20261118T140346.932962728Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/mapping-20261118T140346.932962728Z/lio.log",
+      "bytes": 900,
+      "sha256": "56be1386b86acb278c1182e00eb1606cfe4a9d2a25ea52b54a088ae594eb5005",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/effc7382-9bc5-4490-a8c5-999c7738ce66/tegrastats.log",
+      "bytes": 319488,
+      "sha256": "96cb14a7bfc6df3d74f6809b500d91c7b631a96442e543ba108561f0880a3686",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/mapping-20261118T134851.764068771Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/mapping-20261118T134851.764068771Z/adapter.log",
+      "bytes": 196,
+      "sha256": "78ab39ea1b28000127092bbe4cc413973ee765b889b28c40295b0a6660d8200a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/mapping-20261118T134851.764068771Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/mapping-20261118T134851.764068771Z/lio.log",
+      "bytes": 949,
+      "sha256": "abeaef6dee8babf6b09a46c435bbdf2445f011af9bafe5f3b01a59c50dd1d6f9",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/mapping-20261118T135250.073708081Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/mapping-20261118T135250.073708081Z/adapter.log",
+      "bytes": 307,
+      "sha256": "80f1500a813941419c510cb5fc810ad460adeebdfe2ae953f792565186008d1d",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/mapping-20261118T135250.073708081Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/mapping-20261118T135250.073708081Z/lio.log",
+      "bytes": 963,
+      "sha256": "4c3f9ff905c19cd7fe7aff7b6fb95c301a55113a064a7ae0db5afc73ea2643c1",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/f432984d-2fb0-42e9-8f37-f9b5d3983e33/tegrastats.log",
+      "bytes": 101786,
+      "sha256": "b788e3aafbbfb01dbdd133d29aab9da99ecd2776a6a0c2df7c9af2da2a498f27",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261120T124125.206854272Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261120T124125.206854272Z/adapter.log",
+      "bytes": 196,
+      "sha256": "132033907cf892a353dd53ceb59ab7a51526ab8897475843cfd2416c455cc610",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261120T124125.206854272Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261120T124125.206854272Z/lio.log",
+      "bytes": 949,
+      "sha256": "16b6cab2238832b84ce378475e54c729dc3c96c30f636e6bb63cd48088bfb554",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T085044.628236257Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T085044.628236257Z/adapter.log",
+      "bytes": 236,
+      "sha256": "825af54fe2b8d1098847fc6efdcdaa4e2718eed3e6adda982e01b02cdc7515b1",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T085044.628236257Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T085044.628236257Z/lio.log",
+      "bytes": 963,
+      "sha256": "62ddd5ad165d3d4f5805dd95d06efaec4b64211394e3b78374e118326fd95a10",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091329.811469017Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091329.811469017Z/adapter.log",
+      "bytes": 307,
+      "sha256": "3652c63d20a84f8981a8bf2fa7b239d5e0a829a3b5e797a5062843a3cca1d6aa",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091329.811469017Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091329.811469017Z/lio.log",
+      "bytes": 963,
+      "sha256": "0bcc9e480e837fc8f18d038afafeba486147afecdd0866365c14a523fbdc22c8",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091713.567849601Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091713.567849601Z/adapter.log",
+      "bytes": 307,
+      "sha256": "f9d9de7e622a2bc7ef08da3a8c2e504bf147810b9fdbc3ba628b3cb3a12de751",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091713.567849601Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091713.567849601Z/lio.log",
+      "bytes": 949,
+      "sha256": "e0ac5be554b6175a1494342227205dd0751840dd3a08919a252ae0d4b2eab2aa",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091752.144313220Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091752.144313220Z/adapter.log",
+      "bytes": 196,
+      "sha256": "4c104b0834eab87907aadc8cdf0e169db96ffe314571394029fb57cc71081f82",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091752.144313220Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T091752.144313220Z/lio.log",
+      "bytes": 949,
+      "sha256": "9b6067908d87f1580174b9474d8f57b63abba71c197e55a87568c0e9976b72bb",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092531.680042062Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092531.680042062Z/adapter.log",
+      "bytes": 196,
+      "sha256": "8f90946107c8b2f9a37b9e825e76541d470d4311b481bd11dca5c0877a6f80fa",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092531.680042062Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092531.680042062Z/lio.log",
+      "bytes": 754,
+      "sha256": "3c0fb2d2eca953f576fc467ba118072d7a3f9567b1a40148bda935b079f6e87f",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092553.837200901Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092553.837200901Z/adapter.log",
+      "bytes": 196,
+      "sha256": "05841836a797e00e7bf7d6159ffa4296716b7712551d68d30a6305b544e9b383",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092553.837200901Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092553.837200901Z/lio.log",
+      "bytes": 754,
+      "sha256": "977acceca0ed2a2d0e0fbecaff74b2f3d85058922a311e0b1f0aa36ce08405bb",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092615.879097836Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092615.879097836Z/adapter.log",
+      "bytes": 196,
+      "sha256": "d2eb43a94ce443713eb332f738ffbd0db73548d43ebaf1b71c61ddba5d1110a7",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092615.879097836Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092615.879097836Z/lio.log",
+      "bytes": 754,
+      "sha256": "d6caa57854fda6e9b7e167414a9c9c7dc4bc0c18d3eda003770419d8c5fcc28b",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092638.080625473Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092638.080625473Z/adapter.log",
+      "bytes": 196,
+      "sha256": "430f25cb556ed8718b822878938e2a0aa698b32bf47ce18e2a6ce95b304cf092",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092638.080625473Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092638.080625473Z/lio.log",
+      "bytes": 754,
+      "sha256": "a3dedd06ef641444a0f2decd3b46761ccbcb240568e84713c63d837539526862",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092659.677827741Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092659.677827741Z/adapter.log",
+      "bytes": 196,
+      "sha256": "95046b84d4fe0a06cff1b7da05c95a5c5516c737f6849fe63c77dc259f56ae9e",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092659.677827741Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T092659.677827741Z/lio.log",
+      "bytes": 754,
+      "sha256": "b2ad742b6f8103e6038dcb5083b06bbc2a018560deae8cd3af8763befe2f9203",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093545.985124679Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093545.985124679Z/adapter.log",
+      "bytes": 196,
+      "sha256": "1ee62c5e35facfb0636e777d311a75702749ee32a5bd906024e5aa8dfe7a2358",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093545.985124679Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093545.985124679Z/lio.log",
+      "bytes": 754,
+      "sha256": "ad2e5efd819a75934cf0df11fcc518dbb5dae1fab44b0bb7e775b8426a6a32b0",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093608.628951542Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093608.628951542Z/adapter.log",
+      "bytes": 196,
+      "sha256": "75bc3567acaccde53d3f19977aa8231d41f71fc8364a965a69ea64337c05a878",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093608.628951542Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093608.628951542Z/lio.log",
+      "bytes": 754,
+      "sha256": "2f818fe743b9d012ffc74334338837e69dfe16a2d0a8ef0d21a7c022fd395a87",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093630.384237128Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093630.384237128Z/adapter.log",
+      "bytes": 196,
+      "sha256": "39b464bbc0341734b9225124377950c0427b5d9cfd67389d0b1caaba865b2e9c",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093630.384237128Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093630.384237128Z/lio.log",
+      "bytes": 754,
+      "sha256": "2a33b97e3b52b0cee0968c4c12933116522fb0aa5dfb458cf1c7d21c8fb6e5e0",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093651.929212320Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093651.929212320Z/adapter.log",
+      "bytes": 196,
+      "sha256": "df3944f2ffcd1fa3f1924b0f7204463a2a838b6f1d71560a0529afeb010d1c77",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093651.929212320Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093651.929212320Z/lio.log",
+      "bytes": 754,
+      "sha256": "7993844d6f0e11c31d829c6ab86ed58ba9b6f1ecf4bd7e917b38fa502143397f",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093714.077820236Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093714.077820236Z/adapter.log",
+      "bytes": 196,
+      "sha256": "db72ce58e96f0489050712a3bac773342b7a3867e0cac5193b2dd644f5a7068f",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093714.077820236Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T093714.077820236Z/lio.log",
+      "bytes": 754,
+      "sha256": "5eefc71c1bf5a13fd88cc9bb2d9b19034694fa9365b844fde4450c340207c7d0",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094252.144046974Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094252.144046974Z/adapter.log",
+      "bytes": 196,
+      "sha256": "feb4f53c30f0117bd70dd8065c88a9aa753345ebb5708962002933f5f8e899b9",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094252.144046974Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094252.144046974Z/lio.log",
+      "bytes": 754,
+      "sha256": "476d225ef22dd3cfcd9c233e621d6f08798428a8d92c17be6797cd38fd84d238",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094314.879818471Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094314.879818471Z/adapter.log",
+      "bytes": 196,
+      "sha256": "18cc8eb00cd34bdfe1d3076cd8e1dc85ca9ef3ffad2167df5a624db56b82564d",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094314.879818471Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094314.879818471Z/lio.log",
+      "bytes": 754,
+      "sha256": "1a63077d2f3a2769e37a1b981af3ca82461a95e8617a0546d88153ec4ff99e57",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094336.427958224Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094336.427958224Z/adapter.log",
+      "bytes": 196,
+      "sha256": "c56561a726ee2cab0abb970bfec41cfec8dc9c9c2f47ab8efd3e4db7c1a8ae28",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094336.427958224Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094336.427958224Z/lio.log",
+      "bytes": 754,
+      "sha256": "5fa53f821d6ce63bf64edffa5fe42168626393636dbbd24fdac15f4c9723bf3f",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094358.581130628Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094358.581130628Z/adapter.log",
+      "bytes": 196,
+      "sha256": "aaa049e9f6583a8a0385d611e354b5b7005771a96c7e2ac19ac42ccee9ada92a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094358.581130628Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094358.581130628Z/lio.log",
+      "bytes": 754,
+      "sha256": "cc092b20d918c30b2a793446d6a1efe4f4d8b746c7bd5f14fda3e1e68212d570",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094420.184750943Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094420.184750943Z/adapter.log",
+      "bytes": 196,
+      "sha256": "370763a1f7ecc885ad17046faadac644efb0f5af9cc8e854e10af400daf526a3",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094420.184750943Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T094420.184750943Z/lio.log",
+      "bytes": 754,
+      "sha256": "7497ca4ebfa4d2b5ee9cb2a9ac1cf0162233ccadc80b7d34b8cfbcdf3026cd33",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T095337.681126894Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T095337.681126894Z/adapter.log",
+      "bytes": 165,
+      "sha256": "32f2ca1e5443c8c2d5c2314962e6a894a230960d38a86df6ca36ef43e34e3698",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T095337.681126894Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/mapping-20261121T095337.681126894Z/lio.log",
+      "bytes": 900,
+      "sha256": "b002d37aa480b42c8aca08f093a2e953159e9ccaf8bb88c43cd7991e53f2c37e",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/tegrastats.log",
+      "bytes": 2578650,
+      "sha256": "6c27706337f8dff2aac7a4aaab83f51dfceb91a36fef5b966b8edfa7cc6ad38d",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "8f39f2112752aaf343e939604295f33604f59d2468c4830a30f4558fab760842",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 180224,
+      "sha256": "4fe205af032a7949daea970e1395d70611a332f8fc9746ee920b3de85e9e9fbd",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6d2caa31-b95a-4215-a383-3b5554fe3a4e/20261121T110838.765711760Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 4517888,
+      "sha256": "2720c649674f6f4ac1b8a6ace0eb221e8645b426508c60bf549da01fee9b3007",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/cb3fe111-de97-404f-989d-66cc93b7d5cd/20261121T113452.423345944Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/cb3fe111-de97-404f-989d-66cc93b7d5cd/20261121T113452.423345944Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "8f39f2112752aaf343e939604295f33604f59d2468c4830a30f4558fab760842",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "99f8a730d2cbdb597790b4695ea66d1d46b47bf8d65c0fa40157b1dd826919d9",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 95708,
+      "sha256": "0b9b12b3fa3d8e8337743e410fb1ee9246d1c6192091692d5b03101b689c2701",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 13722159,
+      "sha256": "136b25c6e3319fbe48647aae5e25f553750a23097dff86a1f9388425e930d21a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/bridge-001/summary.json",
+      "bytes": 1285,
+      "sha256": "4b8c1c4eabdecdc0fb60b175447fb17f852d243d058b0df8191929cf90b8f66a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/viewer-summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T084956.518153332Z/capture/viewer-summary.json",
+      "bytes": 64033,
+      "sha256": "c109b2b0603b76cac03286d18bceb8afcd5c73d135b966a89795e9c559641892",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "99f8a730d2cbdb597790b4695ea66d1d46b47bf8d65c0fa40157b1dd826919d9",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 91888,
+      "sha256": "64685693945e816e1a03c06dc8211fc1b5966080a496c545c68d43646d5bc73f",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 9397103,
+      "sha256": "911289e1dab1b9a1c32476855ed19b1234f9cad06c1a32496723a1c02ced32ae",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/bridge-001/summary.json",
+      "bytes": 1198,
+      "sha256": "f9120338cd28fdbe6bbac45c571d205976fe228e7ea301b3fbcb3db629732700",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/viewer-summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T091950.338069200Z/capture/viewer-summary.json",
+      "bytes": 67206,
+      "sha256": "17f1ac567989bb5d838845395e8f1070b0f8a1abff5deedbf05d1cb6b3a0e101",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "ab038af5fcdb31640c0317f6491224ce8674d1f628310afbe38e5760bffddde6",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 20759,
+      "sha256": "f1d8ec4ee3a3f99a19aa675cad8bda4fc227a4d38d30592125325a3cd1343501",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 2093251,
+      "sha256": "310459cefce675a08811280f68f72d5264cc322643a578a39085a45c96e89c48",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/bridge-001/summary.json",
+      "bytes": 1248,
+      "sha256": "4cf11eb7c4af5dbbeca3a402dc89f2bf31d63436af136ce5306c4e830522b667",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/viewer-summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094031.220338298Z/capture/viewer-summary.json",
+      "bytes": 63929,
+      "sha256": "7e4b533c434c7226338ccfec3def64a87bf166e098f740b2412d3f02cc916703",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "8f39f2112752aaf343e939604295f33604f59d2468c4830a30f4558fab760842",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 480130,
+      "sha256": "405e9d512a02e005c81a70056f7e3c1f63c974f68833e0428343b7e702635e69",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 3042228,
+      "sha256": "61b263a9779b46e6ecbfa6af46082e2680d61a5346b8e814e5ed291801a9520b",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/bridge-001/summary.json",
+      "bytes": 1199,
+      "sha256": "e32d7d0b68e3be7babddca581ddab109fbbda1bca00ebb2c9db3d16100b3522a",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/viewer-summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T094512.826145746Z/capture/viewer-summary.json",
+      "bytes": 162907,
+      "sha256": "732af47705145da0392823750b24542c8f720917fc08fa004901bd5e97010c03",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "8f39f2112752aaf343e939604295f33604f59d2468c4830a30f4558fab760842",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 144153,
+      "sha256": "0dab4f654ff6ed5bba5455a20b00566d8531ffa407b6c390ad3953218dc73902",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 937977,
+      "sha256": "02906cd678bf0a0153f221c48b83058af5143431145fb372ca923f307e9b2059",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/bridge-001/summary.json",
+      "bytes": 1198,
+      "sha256": "2299dbd0f3ef6b0d7dbc3f42d3daa4ed6051934cadf6b07b0bdf9fd403894cbb",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/viewer-summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095200.233566155Z/capture/viewer-summary.json",
+      "bytes": 164947,
+      "sha256": "2f414e1bb7718bf61c24f6c010b9680a8a7c6bdf56e032c61bff8f5ec5626384",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "8f39f2112752aaf343e939604295f33604f59d2468c4830a30f4558fab760842",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 2476025,
+      "sha256": "10528b63b7f78898bb7a938754ff911add68aee765a7fcd563169df0ca3b3747",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261121T095408.489960020Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 15646720,
+      "sha256": "4781778a972f0be13bb7152ac66c3240809cee23d7078d0859e75c1c0346edf6",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    },
+    {
+      "path": "effective-settings/optFlow_slam/system.yaml",
+      "original_source": "/home/atas/vscode/optFlow_slam/config/system.yaml",
+      "bytes": 11261,
+      "sha256": "50740ba2fe4c3ee2d14cf0100a8f0fe052bfcadc3a69bd12311115fddf0faa4b",
+      "sanitized": true,
+      "redacted_lines": 0,
+      "capture_note": "Current installed file; not proven historical flight configuration"
+    },
+    {
+      "path": "unassociated-jt16/9bc61283-fa59-417a-8383-8532935d3032/capture-7285839938972-24524.raw",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/jt16-shadow/9bc61283-fa59-417a-8383-8532935d3032/capture-7285839938972-24524.raw",
+      "bytes": 378570400,
+      "sha256": "33e45ce8473cfd09d295afac98516b9f860fce6beaf5cb7619bcc33b281b0e07",
+      "sanitized": false,
+      "redacted_lines": 0,
+      "capture_note": "Unassociated or boot-level evidence, not forced into a flight"
+    }
+  ]
+}

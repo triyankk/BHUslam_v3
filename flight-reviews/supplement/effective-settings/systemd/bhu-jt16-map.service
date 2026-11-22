@@ -1,0 +1,23 @@
+[Unit]
+Description=Independent JT16 FAST-LIO shadow mapping for GPS-aided test flights
+Documentation=file:%h/BHUslamV3/docs/flight-shadow-test.md
+Wants=optflow-flight-logger.service
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+WorkingDirectory=%h/BHUslamV3
+ExecStart=%h/BHUslamV3/bin/jt16-map-boot
+KillSignal=SIGINT
+KillMode=control-group
+TimeoutStopSec=120
+SuccessExitStatus=130 143
+Restart=on-failure
+RestartSec=10
+UMask=0027
+StandardOutput=journal
+StandardError=inherit
+
+[Install]
+WantedBy=default.target

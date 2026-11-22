@@ -1,5 +1,10 @@
 # Saved flight review catalog
 
+[Published asset verification and preservation checks](release-verification.json).
+
+[Optical-flow telemetry and remaining-evidence supplement](supplement/README.md)
+includes the remaining-local-data audit.
+
 The [complete image inventory](input-inventory.json) lists invalid and unindexed
 PGM files, including images beyond corrupted frame-index tails. Saved image
 counts and readable indexed-pair counts are distinct.

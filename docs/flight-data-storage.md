@@ -23,6 +23,44 @@ Start with [the review catalog](../flight-reviews/README.md). A normal Git clone
 includes the lightweight reviews, not the large raw recordings. Archives are
 separate release assets. The original recordings are not moved or deleted.
 
+The base 22 November 2026 snapshot contains 19 session reviews, 22 archive assets
+(7,091,133,561 compressed bytes), and four metadata/checksum assets. The
+[release verification receipt](../flight-reviews/release-verification.json)
+records GitHub's SHA-256 digests, byte counts, download URLs and the offline
+file-preservation checks. Data gaps remain documented; this is not a new
+estimator-performance or flight-validation result.
+
+The [optical-flow supplement](../flight-reviews/supplement/README.md) adds
+7,980 readable numerical flow records from 22 November Desktop recorder
+sessions, full original telemetry CSVs, omitted forwarding/estimator/performance
+and ToF evidence, sanitized installed settings, report data and the unmatched
+JT16 raw capture. It adds five archives plus its catalog and checksums to the
+same release. The combined verification receipt covers all 33 assets.
+
+Optical-flow review tables are committed under
+`flight-reviews/supplement/optical-flow/<Desktop-session>/`. They are recorded
+MAVLink measurements, not H-Flow sensor images. Full `cube_mavlink.csv`,
+`sensor_data.csv`, auxiliary CSVs and manifests are preserved in the telemetry
+archive. Do not assign them to a VIO flight using folder dates alone.
+
+Download the supplement with:
+
+```bash
+gh release download flight-data-20261122 --repo triyankk/BHUslam_v3 \
+  --pattern supplement-catalog.json --pattern SUPPLEMENT-SHA256SUMS
+# Download the archive names listed in that catalog, then:
+sha256sum --check SUPPLEMENT-SHA256SUMS
+```
+
+Each supplement archive also has a single top-level directory and internal
+`files.json` member hashes. `provenance.json` maps snapshot files to original
+sources. Installed settings are captured on 22 November, with sensitive-setting
+lines redacted; they are not proven historical flight settings. The unmatched
+JT16 capture is deliberately outside any flight association. See the
+[remaining local-data audit](../flight-reviews/supplement/remaining-local-data.json)
+for older datasets, generated outputs, rebuildable files and recent/live files
+excluded from the snapshot. Original data and running services are preserved.
+
 ## What each archive contains
 
 All paths are relative to a single `<run>_flight-<host-us>/` directory:

@@ -1,0 +1,44 @@
+{
+  "files": {
+    "all_sensors": "sensor_data.csv",
+    "cube": "cube_mavlink.csv",
+    "depth_camera": "depth_camera.csv",
+    "im10a": "im10a.csv",
+    "jt16": "jt16.csv",
+    "video": "depthcam_combined.mp4"
+  },
+  "row_counts": {
+    "all_sensors": 13995,
+    "cube": 13662,
+    "depth_camera": 0,
+    "im10a": 0,
+    "jt16": 333
+  },
+  "schema_version": 1,
+  "settings": {
+    "auto_record_on_arm": true,
+    "depth_grid_columns": 8,
+    "depth_grid_rows": 6,
+    "depth_max_m": 8.0,
+    "output_root": "/home/atas/Desktop/Drone_Sensor_Recordings",
+    "video_enabled": true,
+    "video_mode": "combined"
+  },
+  "source_errors": {
+    "depth_camera": "D415 start failed; attempt 1: No device connected | attempt 2: No device connected | attempt 3: No device connected",
+    "im10a": "[Errno 2] could not open port /dev/imu_usb: [Errno 2] No such file or directory: '/dev/imu_usb'"
+  },
+  "started_utc": "2026-11-18T14:16:49.749493+00:00",
+  "state": "complete",
+  "stopped_utc": "2026-11-18T14:18:43.157561+00:00",
+  "trigger": "armed",
+  "video_status": {
+    "codec": "H.264",
+    "container": "MP4",
+    "enabled": true,
+    "finalized": false,
+    "frames_written": 0,
+    "playable": null,
+    "target_fps": 20.0
+  }
+}

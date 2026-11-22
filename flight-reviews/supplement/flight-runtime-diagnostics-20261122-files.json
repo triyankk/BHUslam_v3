@@ -1,0 +1,2674 @@
+{
+  "files": [
+    {
+      "path": "runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/adapter.log",
+      "bytes": 387,
+      "sha256": "f8e414c7afc14255f1b64e38be57008dcb58a1e177a34499095391e76a0625a8"
+    },
+    {
+      "path": "runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/lio.log",
+      "bytes": 1950,
+      "sha256": "fb2fed344a8b93e9768a05b9f86b6d8b02f540dc8a49500488cf48539a7555f6"
+    },
+    {
+      "path": "runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/ros-log/fastlio_mapping_2541_1795260941236.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/ros-log/fastlio_mapping_2541_1795260941236.log",
+      "bytes": 756,
+      "sha256": "122223cc1227a6b3f31dea6a0fabd427df108875e025bc0ff3ea0bf9d3374a16"
+    },
+    {
+      "path": "runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/ros-log/jt16_map_bridge_2542_1795260941124.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/ros-log/jt16_map_bridge_2542_1795260941124.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-startup-cube.json",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-startup-cube.json",
+      "bytes": 4436,
+      "sha256": "2bfa2ec7cead7ff1878d49ebceb2fa69157323f27f1194f56885d74e321ca653"
+    },
+    {
+      "path": "runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/tegrastats.log",
+      "bytes": 22849,
+      "sha256": "5d85d045a78e005e4d876f07b4ba96f4a1a62e6c3e2e95f280e1c4514612a815"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/adapter.log",
+      "bytes": 366,
+      "sha256": "814246ae60c5d6e3248d9f7d53937849e3d1771ef23a44b0bf9b416cd6ede3ec"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/lio.log",
+      "bytes": 949,
+      "sha256": "b2b27db0c80495abecd5b61724cd4fc20afee0ba6b03b8e0535945fbbcf57970"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/ros-log/fastlio_mapping_2396_1795011196134.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/ros-log/fastlio_mapping_2396_1795011196134.log",
+      "bytes": 756,
+      "sha256": "5ccd15e0cd5d524c6c9f1a0d22cef5aa06ee11ce5d4e5967f82fea3566ab3716"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/ros-log/jt16_map_bridge_2397_1795011196021.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T141314.711124816Z/ros-log/jt16_map_bridge_2397_1795011196021.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/adapter.log",
+      "bytes": 165,
+      "sha256": "d6d6a999e10ad9b6fae495273c153913b180f47c80239404819630612c2fcc72"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/lio.log",
+      "bytes": 900,
+      "sha256": "76de4472b17c9629f450a8b23286f156639acf86f953aca3ce2cf7dab40d3ed6"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/ros-log/fastlio_mapping_8965_1795012025022.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/ros-log/fastlio_mapping_8965_1795012025022.log",
+      "bytes": 756,
+      "sha256": "86bb988b918a3c69e3605b65530d1ea026f77ddf2ee36fb83129193841a64264"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/ros-log/jt16_map_bridge_8966_1795012024924.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-20261118T142704.360481168Z/ros-log/jt16_map_bridge_8966_1795012024924.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-startup-cube.json",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/mapping-startup-cube.json",
+      "bytes": 5001,
+      "sha256": "aeaac303edd0d2969f3749947b3df0963a8cffe1a25fdfb7e78f1fb79680ddbe"
+    },
+    {
+      "path": "runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/tegrastats.log",
+      "bytes": 248669,
+      "sha256": "dfdce8e5e09ee54ad7b441ab493e4ef745d387041d538f4e3f911e68e9111bc7"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/adapter.log",
+      "bytes": 196,
+      "sha256": "f98a49c1ed44c5b03353400e4210678012c7a358708aeeeccf4d1495a85de1a1"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/lio.log",
+      "bytes": 949,
+      "sha256": "df0cdde58d4901eb4ffd7562df22779904b5547669def50ae7835878d14105f2"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/ros-log/fastlio_mapping_3219_1795260120172.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/ros-log/fastlio_mapping_3219_1795260120172.log",
+      "bytes": 756,
+      "sha256": "4e9d151fbc9e9484266e000d89cf3e190a1acf20dfb03e107878f46ccb0b988e"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/ros-log/jt16_map_bridge_3220_1795260119925.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112158.042289923Z/ros-log/jt16_map_bridge_3220_1795260119925.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/adapter.log",
+      "bytes": 1347,
+      "sha256": "745ee5b6349c5c238a9fcf1b557e42e1d4cfdfeb8c63a501abcc554270cad8d4"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/lio.log",
+      "bytes": 31560,
+      "sha256": "04d93b30f9caf5481de61114e7e2e32cb10ff63492ad1dec2759dc4f7441a562"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/ros-log/fastlio_mapping_6262_1795260257688.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/ros-log/fastlio_mapping_6262_1795260257688.log",
+      "bytes": 756,
+      "sha256": "ae915fafe74341a4394ffb8fefec8b115f5a4570833af48c662101a361c8c252"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/ros-log/jt16_map_bridge_6263_1795260257587.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-20261121T112416.917421428Z/ros-log/jt16_map_bridge_6263_1795260257587.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-startup-cube.json",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/mapping-startup-cube.json",
+      "bytes": 5694,
+      "sha256": "2ced9c4292571a29a16f03c8b79d12caf020309c456f0af65b3a17210183dbd5"
+    },
+    {
+      "path": "runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/39f51815-f44a-4eb5-9875-9936c1daee1f/tegrastats.log",
+      "bytes": 237568,
+      "sha256": "f0e07b4abd4b36fee39af361ff939bdd7fa2b6856fec1dcf9d364d4aca4d7645"
+    },
+    {
+      "path": "runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/adapter.log",
+      "bytes": 1741,
+      "sha256": "4b385e93fa66d656fb44290cee8f4f855eb5144c09f85f4827cc410d74d215dc"
+    },
+    {
+      "path": "runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/lio.log",
+      "bytes": 47364,
+      "sha256": "0007bafe3cd860aea917fe8a5fbb5b6c0347e4d238cc0a0843c51005fd400857"
+    },
+    {
+      "path": "runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/ros-log/fastlio_mapping_2538_1795260941974.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/ros-log/fastlio_mapping_2538_1795260941974.log",
+      "bytes": 756,
+      "sha256": "587e1cc2acc760dbe1723c0d52c630459b124fd82a08814521e9ebd2996abe96"
+    },
+    {
+      "path": "runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/ros-log/jt16_map_bridge_2539_1795260941884.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/ros-log/jt16_map_bridge_2539_1795260941884.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-startup-cube.json",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-startup-cube.json",
+      "bytes": 4385,
+      "sha256": "6e2acdf322436c586fac8db8db374d0d5791c603e96538956858a889058b8852"
+    },
+    {
+      "path": "runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/tegrastats.log",
+      "bytes": 163166,
+      "sha256": "c565cd4ecc9c749fdeebd707bd704e8eec2f35aa3dc283024218bdbfb07e4070"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/adapter.log",
+      "bytes": 236,
+      "sha256": "6b3e3dd2fd5dce8434a2e2d895fb3e2a5fb85f3521b67c3cf4e2e618c3c2467f"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/lio.log",
+      "bytes": 963,
+      "sha256": "8825fc134cb3d64591222a435b5aed578b7c23e30af8851aa97ec727a2c1d522"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/ros-log/fastlio_mapping_2750_1795004672087.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/ros-log/fastlio_mapping_2750_1795004672087.log",
+      "bytes": 756,
+      "sha256": "d1ebd8c2b2f07d881e1ac4a8487f8ab357f6b7aff2fc3b329156bcd9092921ab"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/ros-log/jt16_map_bridge_2751_1795004671996.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122430.686255536Z/ros-log/jt16_map_bridge_2751_1795004671996.log",
+      "bytes": 71,
+      "sha256": "be450f3d0c1d4563a2fb2ce392e027239044e56ff69d51017eade84a8730da01"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/adapter.log",
+      "bytes": 307,
+      "sha256": "b92ab4333746c64944f94f10d152f144dd086444fcbd7da4ec9d340172fc9b79"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/lio.log",
+      "bytes": 949,
+      "sha256": "087ae0c3430b8c1527982712345902181f12d588142c8aff618f5424ee0a36c0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/ros-log/fastlio_mapping_15057_1795004913885.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/ros-log/fastlio_mapping_15057_1795004913885.log",
+      "bytes": 756,
+      "sha256": "5c84dc7cca450a5eeaf5513480259711b4049314a331e3f18d0f1f5c2a371a29"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/ros-log/jt16_map_bridge_15058_1795004913809.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T122833.142147150Z/ros-log/jt16_map_bridge_15058_1795004913809.log",
+      "bytes": 71,
+      "sha256": "29c85ab09277b4611eae96419d8ca16267a8b18665935c585de65c8637caf88a"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/adapter.log",
+      "bytes": 418,
+      "sha256": "e00f19daf3c67c51f40c94e7e58bba262484cab021e5c2a466aec47b9a48227f"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/lio.log",
+      "bytes": 949,
+      "sha256": "d50767b6097bddb92b8f438f03d1ba919d1aae9aff5bdc7d6ccdfed68eb05b05"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/ros-log/fastlio_mapping_29496_1795005255877.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/ros-log/fastlio_mapping_29496_1795005255877.log",
+      "bytes": 756,
+      "sha256": "2bf3d291ad6077e41933a8701a321f1109d00cc367cf7a42e4ddc1a5ddf6dca6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/ros-log/jt16_map_bridge_29497_1795005255750.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123415.141489046Z/ros-log/jt16_map_bridge_29497_1795005255750.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/adapter.log",
+      "bytes": 196,
+      "sha256": "b772abc34ee2a609e7213e8e8215a0e2fc5f0ff017aeaee9fb6490ad62b41884"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/lio.log",
+      "bytes": 754,
+      "sha256": "b3a092cf50885b6fedd56bdb771452133eb397219d407994fdd302a71b4c1a31"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/ros-log/fastlio_mapping_42108_1795005559060.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/ros-log/fastlio_mapping_42108_1795005559060.log",
+      "bytes": 578,
+      "sha256": "7bbc22266d919c8a4de2c7a7a7fd498124a18e2d88e0834999feb4c95b1a48f1"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/ros-log/jt16_map_bridge_42109_1795005558923.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123918.389629390Z/ros-log/jt16_map_bridge_42109_1795005558923.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/adapter.log",
+      "bytes": 196,
+      "sha256": "bbe4de5e51b67f8e42506ce70c0ecec74d9015ac000186a393d56b7adc15a631"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/lio.log",
+      "bytes": 754,
+      "sha256": "dd9da041280dddde27bb645c70c265bf659c1796a245300a2031f3c0366e9422"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/ros-log/fastlio_mapping_44183_1795005580669.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/ros-log/fastlio_mapping_44183_1795005580669.log",
+      "bytes": 578,
+      "sha256": "9d450ab3669eae36a36500ec39c13fc8f571ace525ee48528eec5594766361d2"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/ros-log/jt16_map_bridge_44184_1795005580570.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T123940.022975516Z/ros-log/jt16_map_bridge_44184_1795005580570.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/adapter.log",
+      "bytes": 196,
+      "sha256": "8745f654f004add8e83056123aeb9f05c3af1c0a1c653ccf29775a2fde833be5"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/lio.log",
+      "bytes": 754,
+      "sha256": "a056991f3b2b46888494d765825ca692421c141f1218fec41ee76d7e694113db"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/ros-log/fastlio_mapping_45300_1795005602421.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/ros-log/fastlio_mapping_45300_1795005602421.log",
+      "bytes": 578,
+      "sha256": "fab3c4c91ff6a28eed39067622896b9e7f4fb9731845817369f9a7d6d74a5389"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/ros-log/jt16_map_bridge_45301_1795005602310.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124001.776164279Z/ros-log/jt16_map_bridge_45301_1795005602310.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/adapter.log",
+      "bytes": 196,
+      "sha256": "02b76f87bb02f1879a7fd02878d5c33dac7078a397f2fb17cb4d20f3ed2e18cc"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/lio.log",
+      "bytes": 754,
+      "sha256": "0793a5d04475ff5c4c7db2263d57b61f04cb8d3cb06578a59b04533138d6a051"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/ros-log/fastlio_mapping_46518_1795005624358.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/ros-log/fastlio_mapping_46518_1795005624358.log",
+      "bytes": 578,
+      "sha256": "be175fbcb0b4aaae417d6d704709a81eaab69f8e2dc242bb81cac19ffee53aac"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/ros-log/jt16_map_bridge_46519_1795005624256.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124023.727793072Z/ros-log/jt16_map_bridge_46519_1795005624256.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/adapter.log",
+      "bytes": 196,
+      "sha256": "580a98d52374369efc6d5aade3414153483a2c00850247bc6e3018e840ab56dc"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/lio.log",
+      "bytes": 754,
+      "sha256": "def78f5b4bb68642c06bd1dae1b160ed4c3e430273ebbb5ed92171d3614a0e82"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/ros-log/fastlio_mapping_47729_1795005646084.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/ros-log/fastlio_mapping_47729_1795005646084.log",
+      "bytes": 578,
+      "sha256": "3c0aa030403944804db01442e673ff6c5cd02996fb97963cbd0ed9baa8a767b3"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/ros-log/jt16_map_bridge_47730_1795005645993.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124045.474805642Z/ros-log/jt16_map_bridge_47730_1795005645993.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/adapter.log",
+      "bytes": 196,
+      "sha256": "d2214d9fca03535d7e87f4188b8cbfd250bb58223ea0a493c95ebd1ee17970a9"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/lio.log",
+      "bytes": 754,
+      "sha256": "3412c641e589c8806ee3fc8c5f0ed62b8229488490bb796d0c4b0f9de5eb1f2a"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/ros-log/fastlio_mapping_48903_1795005667626.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/ros-log/fastlio_mapping_48903_1795005667626.log",
+      "bytes": 578,
+      "sha256": "91fa028c0b0b87fcc0d6e65baa2d6c1fd18e26362e215e82aeb4703376abc282"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/ros-log/jt16_map_bridge_48904_1795005667538.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T124107.024616199Z/ros-log/jt16_map_bridge_48904_1795005667538.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/adapter.log",
+      "bytes": 236,
+      "sha256": "0c065c34ec79e00e5d680013420e5bafa22f1a2be0fda1eb4a6330e332122c66"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/lio.log",
+      "bytes": 949,
+      "sha256": "7b2c7b33749a9afcf129e717b41df5c5a21b0e68071463c0d885e4ebc567b6bc"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/ros-log/fastlio_mapping_97257_1795006754970.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/ros-log/fastlio_mapping_97257_1795006754970.log",
+      "bytes": 756,
+      "sha256": "df28c8350497328ed165f3c473ac1669181ff7ec38c7e7cdf7e0ce087e5b9e5b"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/ros-log/jt16_map_bridge_97258_1795006754892.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T125913.625206208Z/ros-log/jt16_map_bridge_97258_1795006754892.log",
+      "bytes": 71,
+      "sha256": "d53564a9205027495f8ac6d74f8c47e1bfc80ac1574558bf995a378e51619617"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/adapter.log",
+      "bytes": 236,
+      "sha256": "d7d49fd6dc78e1fe550c2be65d4acf56c494d06965157071be4208f11a440701"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/lio.log",
+      "bytes": 963,
+      "sha256": "cf9783449d665acb1740978e9b5e87472f34e7a2f2121f1aa6468a208d6394c5"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/ros-log/fastlio_mapping_106216_1795006994619.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/ros-log/fastlio_mapping_106216_1795006994619.log",
+      "bytes": 756,
+      "sha256": "5a733c7a91186d79813d1a5562001e8fb60003a19718735f611c618ff34b338f"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/ros-log/jt16_map_bridge_106217_1795006994531.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130313.843662608Z/ros-log/jt16_map_bridge_106217_1795006994531.log",
+      "bytes": 71,
+      "sha256": "4ec66683cc41ffe00d0b0f39d9e6e135b3cdd1ec45c4959a20e7af96284d5f31"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/adapter.log",
+      "bytes": 236,
+      "sha256": "ea91f18e6cad5201b8850528bb58c775aa8ae008cb33f367c5ddfcdf84cef428"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/lio.log",
+      "bytes": 949,
+      "sha256": "cce42f50595e7b31e09578515dc5b6fb6b7eb794e25ec789c2e75c8f69dfdae7"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/ros-log/fastlio_mapping_109020_1795007066000.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/ros-log/fastlio_mapping_109020_1795007066000.log",
+      "bytes": 756,
+      "sha256": "95365c10cc1e85638211f88b888e9ab282ec0eb872df724068136635ed349ff2"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/ros-log/jt16_map_bridge_109021_1795007065899.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T130425.333660796Z/ros-log/jt16_map_bridge_109021_1795007065899.log",
+      "bytes": 71,
+      "sha256": "2e8c836c600388eee194817af8bd97a0061c423e72e346abfc3ba78050304e80"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/adapter.log",
+      "bytes": 165,
+      "sha256": "86d3f4113172b7687f946c6411abc117e45c4c9da9b73de8d754c4844bdc9e74"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/lio.log",
+      "bytes": 900,
+      "sha256": "60bd5c675f066ebc364f9e47029590884aece776bf0386b86c6bac77db56f86b"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/ros-log/fastlio_mapping_152365_1795008324537.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/ros-log/fastlio_mapping_152365_1795008324537.log",
+      "bytes": 756,
+      "sha256": "25cf9e9fb9021a5b3b957b66cf8a4f7bba2752fa636b148a36a747361b49fbb1"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/ros-log/jt16_map_bridge_152366_1795008324413.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-20261118T132523.214406626Z/ros-log/jt16_map_bridge_152366_1795008324413.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-startup-cube.json",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/mapping-startup-cube.json",
+      "bytes": 2996,
+      "sha256": "fc3a0a3765eca17191a0f45065faced7c9d99fe982a3fb65e8363cb8247744c9"
+    },
+    {
+      "path": "runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/61a6e0fc-639e-44a0-ae0e-7728cec377ee/tegrastats.log",
+      "bytes": 1146737,
+      "sha256": "808f947818a455b4ba5dc25981dc6db876988cd5a469fae42c48fca08092714a"
+    },
+    {
+      "path": "runs/flight-shadow/6794f621-9b99-4f37-9e09-11d6930f03bb/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6794f621-9b99-4f37-9e09-11d6930f03bb/tegrastats.log",
+      "bytes": 150917,
+      "sha256": "fad46a9ba4f4e940978f5f49f6c1d041aa3f533a26ee68068d23a1620cf1d708"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/adapter.log",
+      "bytes": 418,
+      "sha256": "f571fcc7d1bafb57fc23c490853b66ff20ce0500e70913ed3542d4cf43534346"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/lio.log",
+      "bytes": 949,
+      "sha256": "a27837c693f00ba54f4b65edf8fd8c1bd2f454903976ab4215c96b23587cbe22"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/ros-log/fastlio_mapping_2372_1795011195829.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/ros-log/fastlio_mapping_2372_1795011195829.log",
+      "bytes": 756,
+      "sha256": "1e8d5751ec03c63098ee37acbd60df001cfb2163ba4e5c5a9e97ec1409933a9b"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/ros-log/jt16_map_bridge_2373_1795011195733.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141314.528429968Z/ros-log/jt16_map_bridge_2373_1795011195733.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/adapter.log",
+      "bytes": 165,
+      "sha256": "d6d58052311322352651b37af309a0a74894ea3915cee409552f4a779a6b4dc7"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/lio.log",
+      "bytes": 900,
+      "sha256": "4a328e4d7a4b4280da6b543d428ce31e06dc097d9558fc4b8d73312a23d6a916"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/ros-log/fastlio_mapping_5967_1795011429558.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/ros-log/fastlio_mapping_5967_1795011429558.log",
+      "bytes": 756,
+      "sha256": "994ea25536e7a45813611b209d8d85a1b581187a72fe3db03f530afec26ec089"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/ros-log/jt16_map_bridge_5968_1795011429500.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-20261118T141708.923429776Z/ros-log/jt16_map_bridge_5968_1795011429500.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-startup-cube.json",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/mapping-startup-cube.json",
+      "bytes": 4974,
+      "sha256": "9ccd7f56e4751fe5b8b1ac592381ae79847e3d48c448d4e5940d887d25062c45"
+    },
+    {
+      "path": "runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/6fc5d417-8f80-442b-850f-e3df9a4140cd/tegrastats.log",
+      "bytes": 73728,
+      "sha256": "35119f2a4a6969238bc154f6606a57af838395b32509e591705e954c1548d71e"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/adapter.log",
+      "bytes": 418,
+      "sha256": "458d1a719caa16978f27cf491ff40c0c9d956c494c9b3b5bd32f86db6cd35d51"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/lio.log",
+      "bytes": 949,
+      "sha256": "61ed5b25912fa6670bd89ea1ab49edb2a1837613ad21834dd808220202d18bfa"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/ros-log/fastlio_mapping_2387_1795011196378.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/ros-log/fastlio_mapping_2387_1795011196378.log",
+      "bytes": 756,
+      "sha256": "d3d2237d1b755900167a59af5bf6149c699db25265290e400fc749324ef697fd"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/ros-log/jt16_map_bridge_2388_1795011196292.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T141315.059744432Z/ros-log/jt16_map_bridge_2388_1795011196292.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/adapter.log",
+      "bytes": 165,
+      "sha256": "d92639434808a4bdea8007eafc5d776c366245710706da1ca947e0479f85ec99"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/lio.log",
+      "bytes": 900,
+      "sha256": "3d1f0ad2e9f9776bcf79374327a2eb3c93aa58506974d532c0af00f7a2e204cc"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/ros-log/fastlio_mapping_16457_1795011797763.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/ros-log/fastlio_mapping_16457_1795011797763.log",
+      "bytes": 756,
+      "sha256": "ca782429bd86bea62d1d0ad077136fecfe45b4cc5e434f19c56e15964d109bf0"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/ros-log/jt16_map_bridge_16458_1795011797702.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-20261118T142317.097699856Z/ros-log/jt16_map_bridge_16458_1795011797702.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-startup-cube.json",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/mapping-startup-cube.json",
+      "bytes": 5160,
+      "sha256": "416a9e275d4fcd14aa110127a458d6d9e646b13986257c5e6765fc13e77a6526"
+    },
+    {
+      "path": "runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/85f03d02-ec4c-4f9d-b518-57d9820692ec/tegrastats.log",
+      "bytes": 184320,
+      "sha256": "de1ae905d85caae7950dd4dd243246ecd52cad50c4fdb509983c63c649e631b0"
+    },
+    {
+      "path": "runs/flight-shadow/b805ee5b-6a12-4758-b903-ac4f638ff468/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b805ee5b-6a12-4758-b903-ac4f638ff468/tegrastats.log",
+      "bytes": 32768,
+      "sha256": "33955cb4c810323a0edf5a5ea2ad1c0ef8d11c47cb1e86c3d00bcc4a39493f25"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/adapter.log",
+      "bytes": 418,
+      "sha256": "cb48acfcd0107f8fd8ede63ad9a918f8c0dbdaaa2e63fb94bfe22b27dfcdaa55"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/lio.log",
+      "bytes": 949,
+      "sha256": "349c08b3006a5536e66917f607e8e0dbb21d59592daa6b9e0a2dfe3914959da9"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/ros-log/fastlio_mapping_2373_1795011195539.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/ros-log/fastlio_mapping_2373_1795011195539.log",
+      "bytes": 756,
+      "sha256": "7e974629f499d6068e5054d551a6d36f5f998691e167cdad5602baf9ed5e152c"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/ros-log/jt16_map_bridge_2374_1795011195441.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141314.208454704Z/ros-log/jt16_map_bridge_2374_1795011195441.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/adapter.log",
+      "bytes": 196,
+      "sha256": "e4eada3026aca70c685a5fd536f0704bbbb6044a30baa75b5617cd06cac57236"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/lio.log",
+      "bytes": 949,
+      "sha256": "a1eb3827330b35c88633214144b371ae38e2099522ff7056eee991d88d74d462"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/ros-log/fastlio_mapping_5190_1795011344327.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/ros-log/fastlio_mapping_5190_1795011344327.log",
+      "bytes": 756,
+      "sha256": "78696881dfb7f58e5a347b34de2c77af4d12d63cf4fe59fd6ee6c6ecfe76cc22"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/ros-log/jt16_map_bridge_5191_1795011344241.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141543.703490224Z/ros-log/jt16_map_bridge_5191_1795011344241.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/adapter.log",
+      "bytes": 196,
+      "sha256": "4d614ac4ea672a1f6093130b9dd59d6f13a3f8c7fb57e4f04b080c2f0d883229"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/lio.log",
+      "bytes": 949,
+      "sha256": "952eb1b4e035e8f84af957548b1aa3203258d35932e1656296f0f12b3e5b9ee3"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/ros-log/fastlio_mapping_12489_1795011521542.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/ros-log/fastlio_mapping_12489_1795011521542.log",
+      "bytes": 756,
+      "sha256": "173469087742a840abbf1f0302e5dde6bb4fdddad8a6778b450f1767cc2679e6"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/ros-log/jt16_map_bridge_12490_1795011521458.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T141840.898460816Z/ros-log/jt16_map_bridge_12490_1795011521458.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/adapter.log",
+      "bytes": 165,
+      "sha256": "58a7f736624942dd63741228285d72e435aec84699aef99f98ffc7ddfbaed4d7"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/lio.log",
+      "bytes": 900,
+      "sha256": "e02a81a5fb0cca0b91d414f540e289c0c2cb9731060070071321cf2bf0fe93aa"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/ros-log/fastlio_mapping_14242_1795011656508.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/ros-log/fastlio_mapping_14242_1795011656508.log",
+      "bytes": 756,
+      "sha256": "0aacbfb26ca9778fb787e11c5ab70d7e59178c9ca665a75d37bf2e2a4087ed76"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/ros-log/jt16_map_bridge_14243_1795011656421.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-20261118T142055.841688496Z/ros-log/jt16_map_bridge_14243_1795011656421.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-startup-cube.json",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/mapping-startup-cube.json",
+      "bytes": 5283,
+      "sha256": "cee85c9fe450f8aaf354ab6d5aa33698741f477fa20ad5f5210c29be37ec2809"
+    },
+    {
+      "path": "runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/b9909dc0-5245-4740-b31a-a4c880c12fb3/tegrastats.log",
+      "bytes": 141152,
+      "sha256": "781b0446109c87e373d3722f7807e9e8d1a4f132b6311f6fc5948e97f9d579cf"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/adapter.log",
+      "bytes": 366,
+      "sha256": "afc6cf17dc7b4ff4f648e56ff3efaa5833c1ad7d2a9958ecb0c8865dbb5c7847"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/lio.log",
+      "bytes": 949,
+      "sha256": "6e308938465e3da40a851667cbb42f92ae795fb99d1c5f9364aa900668b79759"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/ros-log/fastlio_mapping_2796_1795008692132.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/ros-log/fastlio_mapping_2796_1795008692132.log",
+      "bytes": 756,
+      "sha256": "8d895c9214f9183099390a4149357c06ef0e92dcde2d65509eff3120894bb7c2"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/ros-log/jt16_map_bridge_2797_1795008692032.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133130.879982736Z/ros-log/jt16_map_bridge_2797_1795008692032.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/adapter.log",
+      "bytes": 418,
+      "sha256": "1bc2fe22aa6bac396eca4e68bb7e528e839d273d46616f11bbf9babe18c9fbe0"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/lio.log",
+      "bytes": 949,
+      "sha256": "f44b80e62253666a34cffb6b354b9a2df64f2c7a58adfa7918f6b039ca0ebe23"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/ros-log/fastlio_mapping_17315_1795008989437.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/ros-log/fastlio_mapping_17315_1795008989437.log",
+      "bytes": 756,
+      "sha256": "a0d85d8b747c0f4ab3b1fe401e0998fd38d383331ab39ea8b4d19e7078c9a2fa"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/ros-log/jt16_map_bridge_17316_1795008989375.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T133628.811730321Z/ros-log/jt16_map_bridge_17316_1795008989375.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/adapter.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/adapter.log",
+      "bytes": 165,
+      "sha256": "3e0e3913748e90e98f122243b70532462c98c89b3a55a70e7b6da91e971767f1"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/lio-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/lio-config.yaml",
+      "bytes": 1207,
+      "sha256": "63e0f8b6099dbbf6c2a2009f4380ab764ab19dcff4df3672209400089f93f5f0"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/lio.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/lio.log",
+      "bytes": 900,
+      "sha256": "b1355232a88dc8f26ba653750d09bfe864b15de011167f77a4856d08ae2959bf"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/ownership-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/ownership-mode.txt",
+      "bytes": 9,
+      "sha256": "29fe24ff8c3f98df7759e09c2696cf5d0918c995bce83940adbaa6a2176ddd97"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/power-mode.txt",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/power-mode.txt",
+      "bytes": 21,
+      "sha256": "64ddbc77e3f209ac7218bbadfb8107b9edacf64e07424f7cb6cd8a58fc562fd6"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/ros-log/fastlio_mapping_28426_1795009237397.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/ros-log/fastlio_mapping_28426_1795009237397.log",
+      "bytes": 756,
+      "sha256": "3a797fe4dce7f111b292aaf4aae347828cefa16c540566360e982b032faac074"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/ros-log/jt16_map_bridge_28427_1795009237310.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-20261118T134036.758752156Z/ros-log/jt16_map_bridge_28427_1795009237310.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-startup-cube.json",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/mapping-startup-cube.json",
+      "bytes": 4130,
+      "sha256": "ee40815d32a1c6d2adcdcbe834ddf0a109724d1d24c031e68a1e60a03d98d724"
+    },
+    {
+      "path": "runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/tegrastats.log",
+      "original_source": "/home/atas/BHUslamV3/runs/flight-shadow/eacff06f-b284-456b-ba9b-ce8b58c41fd0/tegrastats.log",
+      "bytes": 228617,
+      "sha256": "47f9498bf002ab4e69368cc702d15d34ac5b37e43e0613b764c54f09e5e2a342"
+    },
+    {
+      "path": "runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "8f39f2112752aaf343e939604295f33604f59d2468c4830a30f4558fab760842"
+    },
+    {
+      "path": "runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 69632,
+      "sha256": "4ee014ea484d1e15e7a0fc6330056b6c7abe8cb3c93626fb58ea0cbe087eddee"
+    },
+    {
+      "path": "runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435364600Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 880640,
+      "sha256": "b0f17c83e8aea7fe1842d9f035425b162a90cbda27ac4a7991205b2d956b37cc"
+    },
+    {
+      "path": "runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "8f39f2112752aaf343e939604295f33604f59d2468c4830a30f4558fab760842"
+    },
+    {
+      "path": "runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 974848,
+      "sha256": "eab5f61e507375641001cbd5a7517fc5aef8480eaab7c0f3f06143e1a0699020"
+    },
+    {
+      "path": "runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.448689424Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 6361088,
+      "sha256": "88407ffeb1b7630926a24fe90c189e66f1df15338a08a868366289bee47bbf87"
+    },
+    {
+      "path": "runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/binary.sha256",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/binary.sha256",
+      "bytes": 125,
+      "sha256": "8f39f2112752aaf343e939604295f33604f59d2468c4830a30f4558fab760842"
+    },
+    {
+      "path": "runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/capture/bridge-001/cube-reports.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/capture/bridge-001/cube-reports.jsonl",
+      "bytes": 466944,
+      "sha256": "0ed85e2e3fb594797cad208eca03c8f022ec091ec7fd558bc27b51c2942558a3"
+    },
+    {
+      "path": "runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/capture/bridge-001/measurements.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/tof-front/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.355371640Z/capture/bridge-001/measurements.jsonl",
+      "bytes": 4296704,
+      "sha256": "a37e7b3ab9c5f905f22ab2edda393bac288517f77b136491ea61d28d1a7e98b1"
+    },
+    {
+      "path": "runs/vins-forwarding/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435044472Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435044472Z/events.jsonl",
+      "bytes": 188416,
+      "sha256": "e076744d0f8fc5e9e42d0b373b13fd47241f0ea2c94b8b19627081f367764105"
+    },
+    {
+      "path": "runs/vins-forwarding/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435044472Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/0163353c-b471-4f05-99c8-8b00668f49f0/20261121T113452.435044472Z/status.json",
+      "bytes": 1578,
+      "sha256": "e45e8c3088957c3b4bc37da7a88504b4a37328ab2f5c9fee7732e73b7db16e19"
+    },
+    {
+      "path": "runs/vins-forwarding/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/20261118T141226.450767376Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/20261118T141226.450767376Z/events.jsonl",
+      "bytes": 2252800,
+      "sha256": "d351f4097ad405891ed73c52f5c209c198390a56ff57085c23b041b2f5757fbc"
+    },
+    {
+      "path": "runs/vins-forwarding/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/20261118T141226.450767376Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/0a389dc9-98e1-4ac9-ae84-a30fe55892cd/20261118T141226.450767376Z/status.json",
+      "bytes": 1173,
+      "sha256": "55765d06a8ba2f30b13ae9a6c1b67bbfea4493a354a97321e54f373e3e3a459a"
+    },
+    {
+      "path": "runs/vins-forwarding/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.414012016Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.414012016Z/events.jsonl",
+      "bytes": 1486848,
+      "sha256": "7b2c3ee0d801babf0305aca0350cf6c71e347a53d658fe511cba952710c2d0bf"
+    },
+    {
+      "path": "runs/vins-forwarding/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.414012016Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/39f51815-f44a-4eb5-9875-9936c1daee1f/20261121T111843.414012016Z/status.json",
+      "bytes": 1582,
+      "sha256": "9a05d6c0dd4703fdf28d26cc0e3f8291212935eb666a17af4157f1cc0be25247"
+    },
+    {
+      "path": "runs/vins-forwarding/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.357415896Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.357415896Z/events.jsonl",
+      "bytes": 1355776,
+      "sha256": "f1e2aa5ab5d0cfcec43732456e977709610b6d8d98a55c38a119f27a34e9ec26"
+    },
+    {
+      "path": "runs/vins-forwarding/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.357415896Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/6162f008-07f1-4e70-840f-62a25fc69ccd/20261121T113452.357415896Z/status.json",
+      "bytes": 1746,
+      "sha256": "b5a270c4e9fa1839d8cee240a47613dec13bd12d1da82ef7d84672e995f79851"
+    },
+    {
+      "path": "runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T120741.405814504Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T120741.405814504Z/events.jsonl",
+      "bytes": 2630594,
+      "sha256": "fa52e9608e858b3f2113700fa1dd5df8a9ec68b508f71ba4cfa413cf6f2d495b"
+    },
+    {
+      "path": "runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T120741.405814504Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T120741.405814504Z/status.json",
+      "bytes": 1094,
+      "sha256": "12057134a558badda79f1a57e861b5d4c4213eb6847eef981b4ba9b720df7f12"
+    },
+    {
+      "path": "runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T130312.408649127Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T130312.408649127Z/events.jsonl",
+      "bytes": 1634809,
+      "sha256": "a990a3a7fad3e33d4c63e1ad59d5f69d558874108438d822d214b2a0eaf29406"
+    },
+    {
+      "path": "runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T130312.408649127Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T130312.408649127Z/status.json",
+      "bytes": 1107,
+      "sha256": "4542cc1fcfaa3f1ce3987c65cf08a5efcce8f27038feeabdea2a9db573b34e34"
+    },
+    {
+      "path": "runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T132521.203413065Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T132521.203413065Z/events.jsonl",
+      "bytes": 688128,
+      "sha256": "6a3b73857cf41fedffd3f7e394f0a95ca71ae3477b655f2531ec0a5a035082fe"
+    },
+    {
+      "path": "runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T132521.203413065Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/61a6e0fc-639e-44a0-ae0e-7728cec377ee/20261118T132521.203413065Z/status.json",
+      "bytes": 1171,
+      "sha256": "5fef5b82624620b7072c38f5bbf23f1b1ba5efed859491fa342a76ac8784107c"
+    },
+    {
+      "path": "runs/vins-forwarding/6794f621-9b99-4f37-9e09-11d6930f03bb/20261118T091149.762813944Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/6794f621-9b99-4f37-9e09-11d6930f03bb/20261118T091149.762813944Z/events.jsonl",
+      "bytes": 289879,
+      "sha256": "9bf70257f98c5da152d2993cd57c409a1c2d524b722137ce604d15bbd8c00f7f"
+    },
+    {
+      "path": "runs/vins-forwarding/6794f621-9b99-4f37-9e09-11d6930f03bb/20261118T091149.762813944Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/6794f621-9b99-4f37-9e09-11d6930f03bb/20261118T091149.762813944Z/status.json",
+      "bytes": 828,
+      "sha256": "d07a7eb3ef4798ac575e82ec09039ace2f78dacaee2e3129ac7b0e24d664226b"
+    },
+    {
+      "path": "runs/vins-forwarding/6fc5d417-8f80-442b-850f-e3df9a4140cd/20261118T141226.484755184Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/6fc5d417-8f80-442b-850f-e3df9a4140cd/20261118T141226.484755184Z/events.jsonl",
+      "bytes": 372736,
+      "sha256": "4a30e568bf54927c6fe57538cfce535b7708ea2d1f80c9ea521fa6212d1dc91d"
+    },
+    {
+      "path": "runs/vins-forwarding/6fc5d417-8f80-442b-850f-e3df9a4140cd/20261118T141226.484755184Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/6fc5d417-8f80-442b-850f-e3df9a4140cd/20261118T141226.484755184Z/status.json",
+      "bytes": 1171,
+      "sha256": "b60e74d15eac1a2316286028327ab849b0ae24c45b737d9270686314e20a6181"
+    },
+    {
+      "path": "runs/vins-forwarding/85f03d02-ec4c-4f9d-b518-57d9820692ec/20261118T141226.440344496Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/85f03d02-ec4c-4f9d-b518-57d9820692ec/20261118T141226.440344496Z/events.jsonl",
+      "bytes": 1335296,
+      "sha256": "ee593edb649551a45a4f6b162831ae11d6dd2c5b74af69d7dbaac114d16a1a07"
+    },
+    {
+      "path": "runs/vins-forwarding/85f03d02-ec4c-4f9d-b518-57d9820692ec/20261118T141226.440344496Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/85f03d02-ec4c-4f9d-b518-57d9820692ec/20261118T141226.440344496Z/status.json",
+      "bytes": 1171,
+      "sha256": "304691a49cab1eb8b5ce9463af61c76e537f0a0d4c4d7f834e42a1c72f2182f7"
+    },
+    {
+      "path": "runs/vins-forwarding/b805ee5b-6a12-4758-b903-ac4f638ff468/20261118T074108.002797296Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/b805ee5b-6a12-4758-b903-ac4f638ff468/20261118T074108.002797296Z/events.jsonl",
+      "bytes": 69994,
+      "sha256": "a380ef72a4c047ec2c7e5eb65d05611edff5eb6569e9ba3c0912e573c7f54428"
+    },
+    {
+      "path": "runs/vins-forwarding/b805ee5b-6a12-4758-b903-ac4f638ff468/20261118T074108.002797296Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/b805ee5b-6a12-4758-b903-ac4f638ff468/20261118T074108.002797296Z/status.json",
+      "bytes": 832,
+      "sha256": "a30c9deb826dfa8c927cb636d35c52c6cfaced93366a7b075e99bf7fc86a2158"
+    },
+    {
+      "path": "runs/vins-forwarding/b9909dc0-5245-4740-b31a-a4c880c12fb3/20261118T141226.377746064Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/b9909dc0-5245-4740-b31a-a4c880c12fb3/20261118T141226.377746064Z/events.jsonl",
+      "bytes": 708608,
+      "sha256": "f49f205a20642add66c4e8046faa443f07cba365fba2683e2441bc53c442c5d1"
+    },
+    {
+      "path": "runs/vins-forwarding/b9909dc0-5245-4740-b31a-a4c880c12fb3/20261118T141226.377746064Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/b9909dc0-5245-4740-b31a-a4c880c12fb3/20261118T141226.377746064Z/status.json",
+      "bytes": 1171,
+      "sha256": "67653a7d99b7464835dcca9f63d1044d4eb441094dec16d08c90eae3774a3d12"
+    },
+    {
+      "path": "runs/vins-forwarding/eacff06f-b284-456b-ba9b-ce8b58c41fd0/20261118T125751.465337416Z/events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/eacff06f-b284-456b-ba9b-ce8b58c41fd0/20261118T125751.465337416Z/events.jsonl",
+      "bytes": 1740800,
+      "sha256": "31d9dcf755dd52c18256a1b2c5beb079183bbe55c8ba7df3b48cef8160e335fd"
+    },
+    {
+      "path": "runs/vins-forwarding/eacff06f-b284-456b-ba9b-ce8b58c41fd0/20261118T125751.465337416Z/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-forwarding/eacff06f-b284-456b-ba9b-ce8b58c41fd0/20261118T125751.465337416Z/status.json",
+      "bytes": 1172,
+      "sha256": "2ef55773527291e791532164f0f1c6b9c18d9383567710c1ca598ab364e6b38b"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T081407.855288320Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T081407.855288320Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T081407.855288320Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T081407.855288320Z/live/navigation.yaml",
+      "bytes": 982,
+      "sha256": "f679c60b4e67ef67f5fe574b1d804fb31c969fe92ff9205e9b30cb6c389b2646"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T081407.855288320Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T081407.855288320Z/live/pose_history.csv",
+      "bytes": 299008,
+      "sha256": "b3bbdb703293c04708dfb86285f12001a465ee68f08c0227595c8c1b0e5b19b8"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T081407.855288320Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T081407.855288320Z/live/status.json",
+      "bytes": 920,
+      "sha256": "89927e90e85df153665646ffd8caeac2de7c6fa52d0499aa07b3a6fb0a194c93"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T081407.855288320Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T081407.855288320Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T081407.855288320Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T081407.855288320Z/live/tracking.csv",
+      "bytes": 192512,
+      "sha256": "f1e94480fddf2ee631fdba44619d05d2707eaeccf05378aba4b6de63d7d744cd"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T081407.855288320Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T081407.855288320Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "4674df8e29938a0a4b73d3478128b099ffb6be726ae0be5c591330592afe6517"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T091238.639064632Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T091238.639064632Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T091238.639064632Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T091238.639064632Z/live/navigation.yaml",
+      "bytes": 982,
+      "sha256": "f679c60b4e67ef67f5fe574b1d804fb31c969fe92ff9205e9b30cb6c389b2646"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T091238.639064632Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T091238.639064632Z/live/pose_history.csv",
+      "bytes": 1642496,
+      "sha256": "18469da55e1167b85a92cd9f14057eadfb3b8bfe5f0fc289ea57b531c222855e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T091238.639064632Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T091238.639064632Z/live/status.json",
+      "bytes": 725,
+      "sha256": "bf6381adaa5fc1b1a83271b14ea807365822d3ad8685a67764f59db7e415d20b"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T091238.639064632Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T091238.639064632Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T091238.639064632Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T091238.639064632Z/live/tracking.csv",
+      "bytes": 1101824,
+      "sha256": "f08cfd52646fcce277bb0d93c26ca82560cf25076862c00208ab2a7120d2f435"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T091238.639064632Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T091238.639064632Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "4674df8e29938a0a4b73d3478128b099ffb6be726ae0be5c591330592afe6517"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T122431.721549104Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T122431.721549104Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T122431.721549104Z/live/estimator_events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T122431.721549104Z/live/estimator_events.jsonl",
+      "bytes": 448,
+      "sha256": "ea2fba41fc19f52b68be15d83e0f55b0c478241f0b2b6d074b77e1be685e91b2"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T122431.721549104Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T122431.721549104Z/live/navigation.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T122431.721549104Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T122431.721549104Z/live/pose_history.csv",
+      "bytes": 2803928,
+      "sha256": "09fc996a496acbdc0aa9928bbdc55439bc53a695a997cb990b568eae1d8e91b5"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T122431.721549104Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T122431.721549104Z/live/status.json",
+      "bytes": 1375,
+      "sha256": "95b49a396d3563ff931e8fb6b43015873325790bdb4779c4ede2026352d92461"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T122431.721549104Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T122431.721549104Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T122431.721549104Z/live/summary.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T122431.721549104Z/live/summary.json",
+      "bytes": 1681,
+      "sha256": "4d9f05a4c2b6bbe3ae5103ced6d8461e4c1685079e0110c08cdff4c73d0817e7"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T122431.721549104Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T122431.721549104Z/live/tracking.csv",
+      "bytes": 2174551,
+      "sha256": "ed396f8fe3c8759635d4174f146f411d53b35513a1fec7d846f15c25e53b23ee"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T122431.721549104Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T122431.721549104Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "9ac9c42bdcece17e169f733d43bae30c28f199f346026395e59c742b260f48f1"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T133131.962421232Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T133131.962421232Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T133131.962421232Z/live/estimator_events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T133131.962421232Z/live/estimator_events.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T133131.962421232Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T133131.962421232Z/live/navigation.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T133131.962421232Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T133131.962421232Z/live/pose_history.csv",
+      "bytes": 1417216,
+      "sha256": "d89ae8b3d9de9463eabb737539d35d7b65988ee9ee4ad88820542a724ff2e04e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T133131.962421232Z/live/recovery_comparison.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T133131.962421232Z/live/recovery_comparison.csv",
+      "bytes": 1712128,
+      "sha256": "08420772ff9335b8ea4d203841bfe7722ad00b41dfcfcc09f98997b526b8c24a"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T133131.962421232Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T133131.962421232Z/live/status.json",
+      "bytes": 1722,
+      "sha256": "010217066e130e56c38b96c8032bba64c492927545557be8fcb710285c7958e4"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T133131.962421232Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T133131.962421232Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T133131.962421232Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T133131.962421232Z/live/tracking.csv",
+      "bytes": 1073152,
+      "sha256": "263feb52dc63df4e8c1618bb75f0fa312a05d5f40056854b3e6856985708ac03"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T133131.962421232Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T133131.962421232Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "9ac9c42bdcece17e169f733d43bae30c28f199f346026395e59c742b260f48f1"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.262362768Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.262362768Z/live/estimator_events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/estimator_events.jsonl",
+      "bytes": 680,
+      "sha256": "85066eb3b41610110f828939ab2ef1fa1d0a4194b9a49939d4cb4097a2a2ab83"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.262362768Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/navigation.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.262362768Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/pose_history.csv",
+      "bytes": 946176,
+      "sha256": "12f0a0aded4f3e6b865ab5e34f73cbf2f316247571b958d8324e9e9f925fe64c"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.262362768Z/live/recovery_comparison.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/recovery_comparison.csv",
+      "bytes": 1146880,
+      "sha256": "aaee1e6f301943f7f3d0e36a49e2fd03443a023bb0fc48a7c444fa6185bb31b8"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.262362768Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/status.json",
+      "bytes": 1730,
+      "sha256": "c09b2c36486224d18409f588bcc061ce3e8b2642353e2d2343869f2d8126c7a4"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.262362768Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.262362768Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/tracking.csv",
+      "bytes": 745472,
+      "sha256": "c315918aa975adae1b289666c5e99b69a6d5c760c4ac6b627f70ee7ccbc5e3cf"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.262362768Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.262362768Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "9ac9c42bdcece17e169f733d43bae30c28f199f346026395e59c742b260f48f1"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.557799248Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.557799248Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.557799248Z/live/estimator_events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.557799248Z/live/estimator_events.jsonl",
+      "bytes": 456,
+      "sha256": "8b2b2c377455584a98b99abb66cd50b9f77e8ed776bdef64e7ac788e218de91e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.557799248Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.557799248Z/live/navigation.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.557799248Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.557799248Z/live/pose_history.csv",
+      "bytes": 1642496,
+      "sha256": "5d91b0f8847fa4de39c7fc3258935dd3c9021e86196a8938125f8b62bf508280"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.557799248Z/live/recovery_comparison.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.557799248Z/live/recovery_comparison.csv",
+      "bytes": 1974272,
+      "sha256": "8b530135c51e42801a85b7f119f5b85cb5d9ebb844f85c43effa31518069f669"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.557799248Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.557799248Z/live/status.json",
+      "bytes": 1741,
+      "sha256": "090a11fc80ffc3a972eed746d3f18605176456689892e88fd3199c909610cc05"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.557799248Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.557799248Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.557799248Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.557799248Z/live/tracking.csv",
+      "bytes": 1269760,
+      "sha256": "01a58b775c586aba200d3a3d7d4ccca8458c5395067ccfbc3b7575101d8c7ea0"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.557799248Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.557799248Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "9ac9c42bdcece17e169f733d43bae30c28f199f346026395e59c742b260f48f1"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.611685968Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.611685968Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.611685968Z/live/estimator_events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.611685968Z/live/estimator_events.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.611685968Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.611685968Z/live/navigation.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.611685968Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.611685968Z/live/pose_history.csv",
+      "bytes": 356352,
+      "sha256": "2aaaa4301d927c132fae47f1e53329b062ab9482c850349f3a30b4e6560bf186"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.611685968Z/live/recovery_comparison.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.611685968Z/live/recovery_comparison.csv",
+      "bytes": 430080,
+      "sha256": "5b03db825a7b36e5536d3cfdf76c033d458710b66c203bc8dfc921e09e24ef2f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.611685968Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.611685968Z/live/status.json",
+      "bytes": 1719,
+      "sha256": "a7a2d83e2fe1532020765460a7fa00fbdda8918285b79f4f7f6a207d9b270ee4"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.611685968Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.611685968Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.611685968Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.611685968Z/live/tracking.csv",
+      "bytes": 278528,
+      "sha256": "aa116fc475427e720918f49d963808ffac2b976bfb764e1967023f45968cd37b"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141315.611685968Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.611685968Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "9ac9c42bdcece17e169f733d43bae30c28f199f346026395e59c742b260f48f1"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141316.161559760Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141316.161559760Z/live/estimator_events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/estimator_events.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141316.161559760Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/navigation.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141316.161559760Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/pose_history.csv",
+      "bytes": 1323008,
+      "sha256": "757ada82cea8d5467c209c4a9b3368d2dadd389c1b45b09fc040e7071cc415b8"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141316.161559760Z/live/recovery_comparison.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/recovery_comparison.csv",
+      "bytes": 1601536,
+      "sha256": "e3b216d8be2ac9d120b59b53367d53115d6364aff70f73f1d2e676b481902e93"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141316.161559760Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/status.json",
+      "bytes": 1729,
+      "sha256": "1153a7808a545d9539e4de75276dddd76c8bc2e211d6997ffa17820aec063360"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141316.161559760Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141316.161559760Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/tracking.csv",
+      "bytes": 1036288,
+      "sha256": "f906779e8b4667964a1d800d92dd34e49b98cda2fa39b1a13436830324bc6ea6"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261118T141316.161559760Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141316.161559760Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "9ac9c42bdcece17e169f733d43bae30c28f199f346026395e59c742b260f48f1"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T112159.087745155Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T112159.087745155Z/live/estimator_events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/estimator_events.jsonl",
+      "bytes": 232,
+      "sha256": "6244bfb32e23cf4b6a66bf5f9f80ef332a09426f4dc52f0b79e088f82e67ce2b"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T112159.087745155Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/navigation.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T112159.087745155Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/pose_history.csv",
+      "bytes": 1437696,
+      "sha256": "bf46b267b161e470cbf9aa11713756973472dcb7aba8f5f8e20befd6e06f7f21"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T112159.087745155Z/live/recovery_comparison.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/recovery_comparison.csv",
+      "bytes": 1748992,
+      "sha256": "fd25fc42160c34db5cb92ffce5187f69e4b6517a7fe3d2e894c14224857f2ba2"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T112159.087745155Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/status.json",
+      "bytes": 1709,
+      "sha256": "09586efd202564b4a3c563c38ccaae0a744cf902fdaab78dbbb15d3965b9c11f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T112159.087745155Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T112159.087745155Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/tracking.csv",
+      "bytes": 1077248,
+      "sha256": "15938de80569b4211507c3e61fdbd75175c31123896ba2287874f11d9216d7e8"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T112159.087745155Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T112159.087745155Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "9ac9c42bdcece17e169f733d43bae30c28f199f346026395e59c742b260f48f1"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113540.731971704Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113540.731971704Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113540.731971704Z/live/estimator_events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113540.731971704Z/live/estimator_events.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113540.731971704Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113540.731971704Z/live/navigation.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113540.731971704Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113540.731971704Z/live/pose_history.csv",
+      "bytes": 90112,
+      "sha256": "3ebabf7e571ac45fd5b22f692c1864ddeba9d0c084962b32a0ce293faa957b22"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113540.731971704Z/live/recovery_comparison.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113540.731971704Z/live/recovery_comparison.csv",
+      "bytes": 106496,
+      "sha256": "eb25ebb878709e35268336217575ba5feafc2fa9d566ba23bf2d8e915e5de49f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113540.731971704Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113540.731971704Z/live/status.json",
+      "bytes": 1714,
+      "sha256": "a2f59a16962e4c42422c0d5f437fa80fbdccfa56a56cc5661d816c24b7c13396"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113540.731971704Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113540.731971704Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113540.731971704Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113540.731971704Z/live/tracking.csv",
+      "bytes": 65536,
+      "sha256": "c675444c0d657cd17a9e55d9577fa29a2967bc252acd133a6bc85c50bf5f1d4f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113540.731971704Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113540.731971704Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "9ac9c42bdcece17e169f733d43bae30c28f199f346026395e59c742b260f48f1"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113541.628563736Z/live/camera.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113541.628563736Z/live/camera.yaml",
+      "bytes": 1453,
+      "sha256": "44496df40f9d8dc40b8237b0755f3ec576341c3248f0263af17b69b25edab935"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113541.628563736Z/live/estimator_events.jsonl",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113541.628563736Z/live/estimator_events.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113541.628563736Z/live/navigation.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113541.628563736Z/live/navigation.yaml",
+      "bytes": 1523,
+      "sha256": "9680fda9ce8e40736cd0842ef2d32500fcdd2aee9b4be66dfccf1eee14e8d64f"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113541.628563736Z/live/pose_history.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113541.628563736Z/live/pose_history.csv",
+      "bytes": 876544,
+      "sha256": "3612e445aff5e2b99bb00a93e57cdd4c81cb385a4351152391a014d5f7db00c2"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113541.628563736Z/live/recovery_comparison.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113541.628563736Z/live/recovery_comparison.csv",
+      "bytes": 1064960,
+      "sha256": "0c510cfeb77b035f5952f7fd2dedd9e6a6e18cb7da1352ee8df1f9560b065a70"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113541.628563736Z/live/status.json",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113541.628563736Z/live/status.json",
+      "bytes": 1723,
+      "sha256": "df4e74e37e0348cf3cf0b1c9ff9b0891d87550819266c00f7322bd1361634187"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113541.628563736Z/live/stereo-extrinsics.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113541.628563736Z/live/stereo-extrinsics.yaml",
+      "bytes": 502,
+      "sha256": "195078af4047dc1e3b4ac94fa054c65abeb56c19603093d911aa6c4133272d2e"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113541.628563736Z/live/tracking.csv",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113541.628563736Z/live/tracking.csv",
+      "bytes": 675840,
+      "sha256": "ad112b1d62ba05ffefe8aa8114a0068f33ed2e0b82520af120ccdf0ab4bf8e0d"
+    },
+    {
+      "path": "runs/vins-fusion-boot/20261121T113541.628563736Z/live/vins-config.yaml",
+      "original_source": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261121T113541.628563736Z/live/vins-config.yaml",
+      "bytes": 848,
+      "sha256": "9ac9c42bdcece17e169f733d43bae30c28f199f346026395e59c742b260f48f1"
+    },
+    {
+      "path": "external-vio-observation/20261118T072947.338677Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T072947.338677Z.jsonl",
+      "bytes": 319743,
+      "sha256": "77fc1330f44c90c24de1613ba31dad7d32169b1881f631cb7b7dc41a2d56e7fb"
+    },
+    {
+      "path": "external-vio-observation/20261118T073417.820669Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T073417.820669Z.jsonl",
+      "bytes": 980602,
+      "sha256": "944116d4f16056ccd79e8f2e88d6bea09b860a15bf7365ba9a93122121a5743f"
+    },
+    {
+      "path": "external-vio-observation/20261118T074430.864346Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T074430.864346Z.jsonl",
+      "bytes": 691786,
+      "sha256": "6c36d6a74e4639352f3ca307de9d06090d9779af3993073bbfdc255b409b63da"
+    },
+    {
+      "path": "external-vio-observation/20261118T081405.356224Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T081405.356224Z.jsonl",
+      "bytes": 85571,
+      "sha256": "25a4cec70b4640fd8d98843b1f7a7a033d53c876b20c5fda7afecf65c62b2dc3"
+    },
+    {
+      "path": "external-vio-observation/20261118T081820.954355Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T081820.954355Z.jsonl",
+      "bytes": 523,
+      "sha256": "cbfc6b7ed1e5771607cb303e18d4e63dfa9ddf6430c4e3c304bc1688fd18b65c"
+    },
+    {
+      "path": "external-vio-observation/20261118T082233.425697Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T082233.425697Z.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "external-vio-observation/20261118T082536.649229Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T082536.649229Z.jsonl",
+      "bytes": 90112,
+      "sha256": "7bad06c798872ec8871d9925011e7a2e631a74ee197c3735a35db08457453083"
+    },
+    {
+      "path": "external-vio-observation/20261118T082838.088464Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T082838.088464Z.jsonl",
+      "bytes": 1006890,
+      "sha256": "43d0da92a5790c04ef063f6c258a9035618db823f49c6d3f939cbaf0e102fdd8"
+    },
+    {
+      "path": "external-vio-observation/20261118T090216.861313Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T090216.861313Z.jsonl",
+      "bytes": 43089,
+      "sha256": "8d0e7070e0ce6bb7fa771bb7ef8d0d1af3a52797980458417d61b6d6f92509a3"
+    },
+    {
+      "path": "external-vio-observation/20261118T090512.738393Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T090512.738393Z.jsonl",
+      "bytes": 31838,
+      "sha256": "d710081262271250c01f0acdbf75619f7bf99b3ea620964c2557dd2bbe9fb772"
+    },
+    {
+      "path": "external-vio-observation/20261118T090719.819322Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T090719.819322Z.jsonl",
+      "bytes": 35353,
+      "sha256": "cd33fb8270ebfbebf8fa31c53d0cfeb648e8d225c1b41d599e57a9a7e0f711be"
+    },
+    {
+      "path": "external-vio-observation/20261118T090949.077701Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T090949.077701Z.jsonl",
+      "bytes": 22778,
+      "sha256": "82391149fc142b99096574b0142bc12032828aa721f62c5af6b8c0b576a77ee9"
+    },
+    {
+      "path": "external-vio-observation/20261118T091105.208692Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T091105.208692Z.jsonl",
+      "bytes": 1622016,
+      "sha256": "a4e127237956ba104ab7ae281c4170dfd58ace41b1ad4ab1fc14409289e139c3"
+    },
+    {
+      "path": "external-vio-observation/20261118T091235.345674Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T091235.345674Z.jsonl",
+      "bytes": 91706,
+      "sha256": "a18c81187f8a0a7368036e39b9fff699e200b7a1e9b2ac8b51e7444c32f86a42"
+    },
+    {
+      "path": "external-vio-observation/20261118T091236.154193Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T091236.154193Z.jsonl",
+      "bytes": 280981,
+      "sha256": "df0569b58cd1282f523d584b2876b364937111ed4bcd4e1027a06074afe3fc39"
+    },
+    {
+      "path": "external-vio-observation/20261118T100023.884417Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T100023.884417Z.jsonl",
+      "bytes": 1138468,
+      "sha256": "d61bdddb5f1dfa6b2b856cf8f8f2b0caf05eac78794e874eaddb8d7a69f042e8"
+    },
+    {
+      "path": "external-vio-observation/20261118T111038.660068Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T111038.660068Z.jsonl",
+      "bytes": 127304,
+      "sha256": "1f046485961c0e606ff6c4b15f19a0d22a44a57361072a2a9432c44c9d5b225d"
+    },
+    {
+      "path": "external-vio-observation/20261118T111801.061006Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T111801.061006Z.jsonl",
+      "bytes": 23839,
+      "sha256": "f3b188c95140a06692acf7c2956eb1844ce17cc1c56e16a18316933b7138e03f"
+    },
+    {
+      "path": "external-vio-observation/20261118T111928.990987Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T111928.990987Z.jsonl",
+      "bytes": 106496,
+      "sha256": "8d2b9506e5d25f58e3f4c5d718e746b4871feba0d1dc628b9949dfaf61432643"
+    },
+    {
+      "path": "external-vio-observation/20261118T112756.667211Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T112756.667211Z.jsonl",
+      "bytes": 102995,
+      "sha256": "d7fad6636ecfec899748eee7cbf54ac8a2b24aa8328716f2638ece51bf0e489c"
+    },
+    {
+      "path": "external-vio-observation/20261118T113351.652659Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T113351.652659Z.jsonl",
+      "bytes": 35483,
+      "sha256": "6e6aa2095a9353a937ad856af934036996aa80b17587207dd5d7bb91e73ec1ce"
+    },
+    {
+      "path": "external-vio-observation/20261118T113602.465391Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T113602.465391Z.jsonl",
+      "bytes": 173596,
+      "sha256": "b16fe9cf4e8bc501fb23d81477ad945fdf08cdbe573fb194edee9b606ffd5e62"
+    },
+    {
+      "path": "external-vio-observation/20261118T114602.556353Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T114602.556353Z.jsonl",
+      "bytes": 259121,
+      "sha256": "c2ba8b18813fd449c97c840ddb731f2ef1bd6c7c91d16a496ef86c229c10aac6"
+    },
+    {
+      "path": "external-vio-observation/20261118T120027.648341Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T120027.648341Z.jsonl",
+      "bytes": 61134,
+      "sha256": "eb6eea886c54af6b59be61f2196bc42e870fa0be2691a3395efc684d7b23d7ff"
+    },
+    {
+      "path": "external-vio-observation/20261118T120343.831642Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T120343.831642Z.jsonl",
+      "bytes": 12959,
+      "sha256": "f83e469dd6ac2cd12cf53eadee33177c95b8a507f4a2ee43cca5d1083eac8b94"
+    },
+    {
+      "path": "external-vio-observation/20261118T120415.854065Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T120415.854065Z.jsonl",
+      "bytes": 145870,
+      "sha256": "3205212426841c8862f2c1aa98f301413c0e6b1ae68ad603f7c826025a582c95"
+    },
+    {
+      "path": "external-vio-observation/20261118T121113.662780Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T121113.662780Z.jsonl",
+      "bytes": 13114,
+      "sha256": "1ca7e95a524cbaafc5e1a3a31d365b516d384df4c04aba30ba2b4ef31f50b8b8"
+    },
+    {
+      "path": "external-vio-observation/20261118T121144.128946Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T121144.128946Z.jsonl",
+      "bytes": 132212,
+      "sha256": "e873076b156df0ae7c3213fb4e4f328343bcd11778a489a0543aed0651fa1f53"
+    },
+    {
+      "path": "external-vio-observation/20261118T121922.022628Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T121922.022628Z.jsonl",
+      "bytes": 69632,
+      "sha256": "7c5c30fae8324ddce7e3db741aed553ecb2e69860481a06cf215f2e4433454a3"
+    },
+    {
+      "path": "external-vio-observation/20261118T122429.143561Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T122429.143561Z.jsonl",
+      "bytes": 250565,
+      "sha256": "717c780a56ca2f5e572ac944aa804068f6f43b9c72e6ca41c73842f3b1975091"
+    },
+    {
+      "path": "external-vio-observation/20261118T122831.631375Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T122831.631375Z.jsonl",
+      "bytes": 511765,
+      "sha256": "55d44dc93a4374f2c81e279406151d1e15b21999b39e2303bf522ff143161168"
+    },
+    {
+      "path": "external-vio-observation/20261118T123413.592953Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T123413.592953Z.jsonl",
+      "bytes": 2111671,
+      "sha256": "e2a935896c1e02aa1ae86e62acb41a008edc2e2b0e37ce99dfa9c3b0edc944a4"
+    },
+    {
+      "path": "external-vio-observation/20261118T125912.169143Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T125912.169143Z.jsonl",
+      "bytes": 73075,
+      "sha256": "83c73102befd2abc8653c3095eab856dd9928eac596647a7c8d015b3a88954ca"
+    },
+    {
+      "path": "external-vio-observation/20261118T130312.877413Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T130312.877413Z.jsonl",
+      "bytes": 73041,
+      "sha256": "1c1d92d3379177a99561de329bdd76a8477faeee0ed0a7982feae6d1b022be1c"
+    },
+    {
+      "path": "external-vio-observation/20261118T130423.772267Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T130423.772267Z.jsonl",
+      "bytes": 1684602,
+      "sha256": "e90d37744aa48ab5db16d96e6f51ed0ae98601389cc2e2714577c136b02546a8"
+    },
+    {
+      "path": "external-vio-observation/20261118T132521.715918Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T132521.715918Z.jsonl",
+      "bytes": 880640,
+      "sha256": "88030a17582a27017218f3442aeae09c2c080f256a94fd50b7591895b7cd4650"
+    },
+    {
+      "path": "external-vio-observation/20261118T133129.915330Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T133129.915330Z.jsonl",
+      "bytes": 2408448,
+      "sha256": "68f280a4bf43d7b8acacb934dcfd26a601baa28f49eae623f88a22edbe5d1fd8"
+    },
+    {
+      "path": "external-vio-observation/20261118T134850.205988Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T134850.205988Z.jsonl",
+      "bytes": 410898,
+      "sha256": "28071f45b748c4ac3b03facddb2239b212b9ae4ee290f31d23dd97383b9a639d"
+    },
+    {
+      "path": "external-vio-observation/20261118T135053.729313Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T135053.729313Z.jsonl",
+      "bytes": 313817,
+      "sha256": "b5d1db713dfa25643d1d527b5c7eeae39e3c42be68cc1c512d9c97d9ccc35683"
+    },
+    {
+      "path": "external-vio-observation/20261118T135234.036520Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T135234.036520Z.jsonl",
+      "bytes": 1566,
+      "sha256": "0d6ec3eb0d6ae296f799526ca25c862b08c337cc29d3792611f7a0bca6d3c6c5"
+    },
+    {
+      "path": "external-vio-observation/20261118T135237.868654Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T135237.868654Z.jsonl",
+      "bytes": 1566,
+      "sha256": "3e305b0116cced8001630ac66bd2a1424e44cea01a92c346d0b81b6ed6ca51d1"
+    },
+    {
+      "path": "external-vio-observation/20261118T135241.629152Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T135241.629152Z.jsonl",
+      "bytes": 1566,
+      "sha256": "9ff81eeb98b57870841eb31a93c50f06ed3f9538da5c37966501706a37999a55"
+    },
+    {
+      "path": "external-vio-observation/20261118T135245.495388Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T135245.495388Z.jsonl",
+      "bytes": 1566,
+      "sha256": "8778c31671f2037ab537db70b33eed63817b48bfab4449895b7c180cdbb75e45"
+    },
+    {
+      "path": "external-vio-observation/20261118T135249.081527Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T135249.081527Z.jsonl",
+      "bytes": 385673,
+      "sha256": "6bb11690c51b33e18cba669570df69b0bcb3ad9b5d89b676672ecb83b871721c"
+    },
+    {
+      "path": "external-vio-observation/20261118T135609.557230Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T135609.557230Z.jsonl",
+      "bytes": 1380468,
+      "sha256": "aeb85908ca65ee0a373b770345d7d8d7bab5b4f08cd2faff9435ef91e956375e"
+    },
+    {
+      "path": "external-vio-observation/20261118T140337.356258Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T140337.356258Z.jsonl",
+      "bytes": 2882,
+      "sha256": "45918add679f9f8a1751fcb94911ea4109b1f25793633efd43741e685863af89"
+    },
+    {
+      "path": "external-vio-observation/20261118T140344.810226Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T140344.810226Z.jsonl",
+      "bytes": 1961984,
+      "sha256": "e77050b6eaf4087bef3fd5e09c7187a9e3f2052753f445820ad1649b7abdc481"
+    },
+    {
+      "path": "external-vio-observation/20261118T141312.032039Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T141312.032039Z.jsonl",
+      "bytes": 995328,
+      "sha256": "bcd3166ceb3dc95ab915662eb54b51dd54cdde4c103a5f2d4e2eb661c7896edb"
+    },
+    {
+      "path": "external-vio-observation/20261118T141312.092175Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T141312.092175Z.jsonl",
+      "bytes": 8192,
+      "sha256": "c8690e305c3a7e1492061c0a85937059e882f45cf191c78d44da5e37be2717c7"
+    },
+    {
+      "path": "external-vio-observation/20261118T141312.116959Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T141312.116959Z.jsonl",
+      "bytes": 603565,
+      "sha256": "a387a766bac800a8356bd26ce6288e0bb013c957370d1b13c655eefe8bec78d4"
+    },
+    {
+      "path": "external-vio-observation/20261118T141313.081379Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261118T141313.081379Z.jsonl",
+      "bytes": 227790,
+      "sha256": "d3f7e3ceed30ce286d1e055509e5e4312de905cd52daf204a43deacf68a49b3d"
+    },
+    {
+      "path": "external-vio-observation/20261120T100357.922598Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T100357.922598Z.jsonl",
+      "bytes": 2782,
+      "sha256": "2b8b0cbc273590802144b270334e9660ecd5112c929dd38cf770e35c5e3c602d"
+    },
+    {
+      "path": "external-vio-observation/20261120T100432.685756Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T100432.685756Z.jsonl",
+      "bytes": 919918,
+      "sha256": "3ce6e2a13104bbef70ce455b2d14a4cfcbabc9d959498e3419a4e6c3b48050b1"
+    },
+    {
+      "path": "external-vio-observation/20261120T105653.833524Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T105653.833524Z.jsonl",
+      "bytes": 127405,
+      "sha256": "b9fd9ed1b3cf0c3d7e62b2b1edecc671d66b2cca713ce266a4f8673a7359545f"
+    },
+    {
+      "path": "external-vio-observation/20261120T110407.518493Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T110407.518493Z.jsonl",
+      "bytes": 64470,
+      "sha256": "891ab9b478e824dd1559d4e1ef99feabfb53a57323cc675d3c62bcca8ff69547"
+    },
+    {
+      "path": "external-vio-observation/20261120T110746.499550Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T110746.499550Z.jsonl",
+      "bytes": 3814454,
+      "sha256": "ed64d8fa769833d7ebd23dc3c221d5f9ca8c3ff445504efa47034be6cf93a9f5"
+    },
+    {
+      "path": "external-vio-observation/20261120T112838.484968Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T112838.484968Z.jsonl",
+      "bytes": 1860726,
+      "sha256": "177e89963fd1d6fa6379460c5212d8fb92362b01fdc9cabeca8845e6086d1f9d"
+    },
+    {
+      "path": "external-vio-observation/20261120T114051.713997Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T114051.713997Z.jsonl",
+      "bytes": 2473641,
+      "sha256": "e8b97cd28e3623df91f01550dad6cc6ca29b3e1e6c03b0b0737e1986ef9d6354"
+    },
+    {
+      "path": "external-vio-observation/20261120T115843.136503Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T115843.136503Z.jsonl",
+      "bytes": 195147,
+      "sha256": "8b1cc9f322c11bd9128725ea2eead3d911ea807e7d13f450141556e25516dc93"
+    },
+    {
+      "path": "external-vio-observation/20261120T115954.922140Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T115954.922140Z.jsonl",
+      "bytes": 195393,
+      "sha256": "36fac04fbecf4adfba0e5aec2598c7e11f174cf36b6aecb42db3393baeb8706e"
+    },
+    {
+      "path": "external-vio-observation/20261120T120117.350960Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T120117.350960Z.jsonl",
+      "bytes": 157700,
+      "sha256": "7fc1e2aa2623825e6516d365dbb9ced05eca95a9bf7ce44a9d47e68bc4947793"
+    },
+    {
+      "path": "external-vio-observation/20261120T120321.843081Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T120321.843081Z.jsonl",
+      "bytes": 1242407,
+      "sha256": "946a70b2db7602bc3199e605559d7bd8bda939bd8843390ae1796105b07ace32"
+    },
+    {
+      "path": "external-vio-observation/20261120T121149.615527Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T121149.615527Z.jsonl",
+      "bytes": 3516136,
+      "sha256": "c2e8e822325da7ea3af0b3538845fd74350d3f5d7beffedc5c3ee46c8c5b18d1"
+    },
+    {
+      "path": "external-vio-observation/20261120T123307.138595Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T123307.138595Z.jsonl",
+      "bytes": 417992,
+      "sha256": "2de183574161b2fc9b8f859e04a8b5b28b97358d528615008e89e49b20d68627"
+    },
+    {
+      "path": "external-vio-observation/20261120T123556.316869Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T123556.316869Z.jsonl",
+      "bytes": 45210,
+      "sha256": "b91217f149e960bafe46053e1e1145e8481c6d98e42b303374af3aec7cf2e5aa"
+    },
+    {
+      "path": "external-vio-observation/20261120T124124.176937Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261120T124124.176937Z.jsonl",
+      "bytes": 3586479,
+      "sha256": "f780e9c58b4888feca88b9fc6ddbf317a9a011418e28ac20bad5b585673f9203"
+    },
+    {
+      "path": "external-vio-observation/20261121T085043.685058Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T085043.685058Z.jsonl",
+      "bytes": 5242463,
+      "sha256": "23c57a70630ad022dd8b2ac8552ace34223eba3c47b6c82b9fd4ebe92d7bd0ac"
+    },
+    {
+      "path": "external-vio-observation/20261121T091327.833157Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T091327.833157Z.jsonl",
+      "bytes": 823241,
+      "sha256": "dd81e62c8b31dce4ee394e1010d24528c357f4562afe9bbab43d1e4112cc9b01"
+    },
+    {
+      "path": "external-vio-observation/20261121T091712.076651Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T091712.076651Z.jsonl",
+      "bytes": 80247,
+      "sha256": "a6843a5c8f98f429ed83c6daff91aa3f62fa5801b3a013faa55cce3d7abefa6e"
+    },
+    {
+      "path": "external-vio-observation/20261121T091751.032217Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T091751.032217Z.jsonl",
+      "bytes": 926202,
+      "sha256": "b5aafc89c0516395afd2101bae9ddee6808400dfc87dfac7ae33250e8cf582b0"
+    },
+    {
+      "path": "external-vio-observation/20261121T092212.761980Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T092212.761980Z.jsonl",
+      "bytes": 2737914,
+      "sha256": "e0995b3f5cf7c1bc8b327a22146b91a7ba0ef759d542734271c585b01002ee47"
+    },
+    {
+      "path": "external-vio-observation/20261121T093545.047363Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T093545.047363Z.jsonl",
+      "bytes": 1154998,
+      "sha256": "3b8136d322f359a631603acc561433cb30db2af15d5c82bea65d1258ff64fb66"
+    },
+    {
+      "path": "external-vio-observation/20261121T094032.289674Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T094032.289674Z.jsonl",
+      "bytes": 771787,
+      "sha256": "b84145198af4ef585870e9b7e1b7bda2b92fbe5503e175b41c8fd4410edac4e7"
+    },
+    {
+      "path": "external-vio-observation/20261121T094259.723076Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T094259.723076Z.jsonl",
+      "bytes": 646320,
+      "sha256": "1cb19e25d43101fabae09b31780145279399f948e942ffeaa1d21ed9de3f5241"
+    },
+    {
+      "path": "external-vio-observation/20261121T094513.526968Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T094513.526968Z.jsonl",
+      "bytes": 1917662,
+      "sha256": "42442c356363d774e75bdd475ffc7b1f403778d0b5a2ce19defba5a1850154ae"
+    },
+    {
+      "path": "external-vio-observation/20261121T095200.709769Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T095200.709769Z.jsonl",
+      "bytes": 1931,
+      "sha256": "dfa81c581a7182fa8d8fc9dfdcc0ee6b147876e26ca0d06df92dcc3ebff32729"
+    },
+    {
+      "path": "external-vio-observation/20261121T095204.549602Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T095204.549602Z.jsonl",
+      "bytes": 10047488,
+      "sha256": "eb8433965d1f1a34e6dc49c742fd87e4c10ef311726f3d9b3cfe075e2c12302d"
+    },
+    {
+      "path": "external-vio-observation/20261121T105804.200157Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T105804.200157Z.jsonl",
+      "bytes": 2128854,
+      "sha256": "07b02cd88f511869ebff0bb198b570ca1596ab05ee826356b1c9d0b0e0218276"
+    },
+    {
+      "path": "external-vio-observation/20261121T110748.399436Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T110748.399436Z.jsonl",
+      "bytes": 204800,
+      "sha256": "091ef904b81d0a5838ca6e8aa1c6a56ea04a8c96d2ca160fd4c7e307fb3bb8a2"
+    },
+    {
+      "path": "external-vio-observation/20261121T111723.279432Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T111723.279432Z.jsonl",
+      "bytes": 156119,
+      "sha256": "1cd6fc6d65e67ff5d355f810d389c2ce3989331d10066a859322b468fa6de7ac"
+    },
+    {
+      "path": "external-vio-observation/20261121T111817.454322Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T111817.454322Z.jsonl",
+      "bytes": 364544,
+      "sha256": "890fe1f97a008a11a1953bb81bc14bc6c422b10420cb185ba75020a39b9b7d7f"
+    },
+    {
+      "path": "external-vio-observation/20261121T112156.559110Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T112156.559110Z.jsonl",
+      "bytes": 323045,
+      "sha256": "63fa4be418e793586882e65d6c7d6fa44b17f741b0339ea338b262bc7a31b79a"
+    },
+    {
+      "path": "external-vio-observation/20261121T112406.305538Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T112406.305538Z.jsonl",
+      "bytes": 1626112,
+      "sha256": "50f37ee520cd170e2d203690a6149f824699f0757a3d9d3ea8840d2f108a0f85"
+    },
+    {
+      "path": "external-vio-observation/20261121T113538.245715Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T113538.245715Z.jsonl",
+      "bytes": 184320,
+      "sha256": "c717aadf6fbca88c2264e78e7a477de816bfebbe6e3f4ec375826c77474c9d7f"
+    },
+    {
+      "path": "external-vio-observation/20261121T113539.059414Z.jsonl",
+      "original_source": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T113539.059414Z.jsonl",
+      "bytes": 1855488,
+      "sha256": "61b5332b23e891f64be9934d11303618d1c413d1936d8494f92acb9024dc5b7d"
+    }
+  ]
+}

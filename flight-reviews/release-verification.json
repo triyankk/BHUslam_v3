@@ -1,0 +1,262 @@
+{
+  "verified_utc": "2026-11-22T09:19:14.611778+00:00",
+  "repository": "triyankk/BHUslam_v3",
+  "release_tag": "flight-data-20261122",
+  "release_id": 454314291,
+  "draft": false,
+  "release_url": "https://github.com/triyankk/BHUslam_v3/releases/tag/flight-data-20261122",
+  "verification": "Exact remote asset names, uploaded states, byte counts and GitHub SHA-256 digests match the local catalog and metadata.",
+  "assets": [
+    {
+      "name": "20261118T081407.855288320Z_flight-100201914.tar.zst",
+      "bytes": 291012652,
+      "sha256": "5c207fa27328b72802ec0e9d0823ba9557e177c54d5e4a6e3e1ee8f4b3e8a177",
+      "github_digest": "sha256:5c207fa27328b72802ec0e9d0823ba9557e177c54d5e4a6e3e1ee8f4b3e8a177",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T081407.855288320Z_flight-100201914.tar.zst"
+    },
+    {
+      "name": "20261118T091238.639064632Z_flight-331497527.tar.zst.part000",
+      "bytes": 1073741824,
+      "sha256": "4f8bf385b0a8d52dd118f9dbc1eeae2c5dd805109b7155cbc95ec8962bba771a",
+      "github_digest": "sha256:4f8bf385b0a8d52dd118f9dbc1eeae2c5dd805109b7155cbc95ec8962bba771a",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T091238.639064632Z_flight-331497527.tar.zst.part000"
+    },
+    {
+      "name": "20261118T091238.639064632Z_flight-331497527.tar.zst.part001",
+      "bytes": 1073741824,
+      "sha256": "4f6cc7b6ef9b562fa4959e0253aa5dde5194b23bf21a0ffed1e62ed8d16a598c",
+      "github_digest": "sha256:4f6cc7b6ef9b562fa4959e0253aa5dde5194b23bf21a0ffed1e62ed8d16a598c",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T091238.639064632Z_flight-331497527.tar.zst.part001"
+    },
+    {
+      "name": "20261118T091238.639064632Z_flight-331497527.tar.zst.part002",
+      "bytes": 126964050,
+      "sha256": "0843ae7726379971f4c9552056007bbe531d0b57d620af9a10ec028b447f9414",
+      "github_digest": "sha256:0843ae7726379971f4c9552056007bbe531d0b57d620af9a10ec028b447f9414",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T091238.639064632Z_flight-331497527.tar.zst.part002"
+    },
+    {
+      "name": "20261118T122431.721549104Z_flight-894534460.tar.zst",
+      "bytes": 158974095,
+      "sha256": "9dabfad3d87379569b9e20924f7a334a521b6c62f1d53d47ffe0ee284798bd1b",
+      "github_digest": "sha256:9dabfad3d87379569b9e20924f7a334a521b6c62f1d53d47ffe0ee284798bd1b",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T122431.721549104Z_flight-894534460.tar.zst"
+    },
+    {
+      "name": "20261118T133131.962421232Z_flight-312765354.tar.zst",
+      "bytes": 157396553,
+      "sha256": "f56e095040aa02fe071b3f309e70760b4f0fd265fef13f783159e3a11af3bfb5",
+      "github_digest": "sha256:f56e095040aa02fe071b3f309e70760b4f0fd265fef13f783159e3a11af3bfb5",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T133131.962421232Z_flight-312765354.tar.zst"
+    },
+    {
+      "name": "20261118T133131.962421232Z_flight-559312797.tar.zst",
+      "bytes": 146022140,
+      "sha256": "4d51200cf118f87e1e2d25c74425edd4d3eb0257acf384f66d5460b20512395b",
+      "github_digest": "sha256:4d51200cf118f87e1e2d25c74425edd4d3eb0257acf384f66d5460b20512395b",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T133131.962421232Z_flight-559312797.tar.zst"
+    },
+    {
+      "name": "20261118T141315.262362768Z_flight-163287986.tar.zst",
+      "bytes": 365929907,
+      "sha256": "266bc9185cafae9199873e887edf38a46b3e6b7120c61ad540d03c647154bf70",
+      "github_digest": "sha256:266bc9185cafae9199873e887edf38a46b3e6b7120c61ad540d03c647154bf70",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T141315.262362768Z_flight-163287986.tar.zst"
+    },
+    {
+      "name": "20261118T141315.262362768Z_flight-324882084.tar.zst",
+      "bytes": 563494098,
+      "sha256": "d89022d90777d9ac69978e1aa0373109555f65317f45f8d17741c39d4689d5f0",
+      "github_digest": "sha256:d89022d90777d9ac69978e1aa0373109555f65317f45f8d17741c39d4689d5f0",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T141315.262362768Z_flight-324882084.tar.zst"
+    },
+    {
+      "name": "20261118T141315.262362768Z_flight-506073151.tar.zst",
+      "bytes": 109206113,
+      "sha256": "e81e67d6a97fd173d9df9ae0a6e892ccd70420bce7bed3f0b40b969e8e739a9e",
+      "github_digest": "sha256:e81e67d6a97fd173d9df9ae0a6e892ccd70420bce7bed3f0b40b969e8e739a9e",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T141315.262362768Z_flight-506073151.tar.zst"
+    },
+    {
+      "name": "20261118T141315.557799248Z_flight-803834094.tar.zst",
+      "bytes": 320512694,
+      "sha256": "124d774c30f76caec04cf193647386908aa71f381d7a706a486136e74c56d34d",
+      "github_digest": "sha256:124d774c30f76caec04cf193647386908aa71f381d7a706a486136e74c56d34d",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T141315.557799248Z_flight-803834094.tar.zst"
+    },
+    {
+      "name": "20261118T141315.611685968Z_flight-159185104.tar.zst",
+      "bytes": 525231719,
+      "sha256": "be2e27b88aa8fa3bc71124850b5f8006c2b32dc197fe3e3402530fa493e39eb7",
+      "github_digest": "sha256:be2e27b88aa8fa3bc71124850b5f8006c2b32dc197fe3e3402530fa493e39eb7",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T141315.611685968Z_flight-159185104.tar.zst"
+    },
+    {
+      "name": "20261118T141316.161559760Z_flight-518567821.tar.zst.part000",
+      "bytes": 1073741824,
+      "sha256": "0992ce9d366d4020ab58669ff4cf017af3af58339b25b83defea02b70736ed22",
+      "github_digest": "sha256:0992ce9d366d4020ab58669ff4cf017af3af58339b25b83defea02b70736ed22",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T141316.161559760Z_flight-518567821.tar.zst.part000"
+    },
+    {
+      "name": "20261118T141316.161559760Z_flight-518567821.tar.zst.part001",
+      "bytes": 103981549,
+      "sha256": "6df93be88cc6d1bbb04ddcd9b07699e66afa56961fa159ef00c2d740274d1080",
+      "github_digest": "sha256:6df93be88cc6d1bbb04ddcd9b07699e66afa56961fa159ef00c2d740274d1080",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261118T141316.161559760Z_flight-518567821.tar.zst.part001"
+    },
+    {
+      "name": "20261121T112159.087745155Z_flight-386227867.tar.zst",
+      "bytes": 18068515,
+      "sha256": "3409a5cfee17ccd6034fd6fba4965589bde8b975c217f5a1c4ce44984390e58f",
+      "github_digest": "sha256:3409a5cfee17ccd6034fd6fba4965589bde8b975c217f5a1c4ce44984390e58f",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261121T112159.087745155Z_flight-386227867.tar.zst"
+    },
+    {
+      "name": "20261121T112159.087745155Z_flight-394427917.tar.zst",
+      "bytes": 51215608,
+      "sha256": "43f8f7614735394c739ffd1a5c9e25ec4d4e8872705b0ce208e77a4253ee75af",
+      "github_digest": "sha256:43f8f7614735394c739ffd1a5c9e25ec4d4e8872705b0ce208e77a4253ee75af",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261121T112159.087745155Z_flight-394427917.tar.zst"
+    },
+    {
+      "name": "20261121T112159.087745155Z_flight-417675015.tar.zst",
+      "bytes": 14648010,
+      "sha256": "519908057f7cb3b2caa168e0af267a7ad30f452ba3696c6cf783d33795789204",
+      "github_digest": "sha256:519908057f7cb3b2caa168e0af267a7ad30f452ba3696c6cf783d33795789204",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261121T112159.087745155Z_flight-417675015.tar.zst"
+    },
+    {
+      "name": "20261121T113540.731971704Z_flight-109359032.tar.zst",
+      "bytes": 44690333,
+      "sha256": "9dd3ed38170af810f3331d875930cf5f70bf9e64ac5b745ae3a579ba22145550",
+      "github_digest": "sha256:9dd3ed38170af810f3331d875930cf5f70bf9e64ac5b745ae3a579ba22145550",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261121T113540.731971704Z_flight-109359032.tar.zst"
+    },
+    {
+      "name": "20261121T113541.628563736Z_flight-189338136.tar.zst",
+      "bytes": 136516509,
+      "sha256": "d59b3c5f0a003a5515de80c8ce3894ecdd5a0f4437fd4146a0911086a07a968f",
+      "github_digest": "sha256:d59b3c5f0a003a5515de80c8ce3894ecdd5a0f4437fd4146a0911086a07a968f",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261121T113541.628563736Z_flight-189338136.tar.zst"
+    },
+    {
+      "name": "20261121T113541.628563736Z_flight-271195708.tar.zst",
+      "bytes": 188871484,
+      "sha256": "0476c06681df39bc2d8ce14166e03f8f748e24b2ac6579211bab2f556c9e0bd4",
+      "github_digest": "sha256:0476c06681df39bc2d8ce14166e03f8f748e24b2ac6579211bab2f556c9e0bd4",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261121T113541.628563736Z_flight-271195708.tar.zst"
+    },
+    {
+      "name": "20261121T113541.628563736Z_flight-404311163.tar.zst",
+      "bytes": 188620185,
+      "sha256": "80a60c991a5ca4699848137a04f767cd2c63c97a957d2c3b428fcbebd007dfb1",
+      "github_digest": "sha256:80a60c991a5ca4699848137a04f767cd2c63c97a957d2c3b428fcbebd007dfb1",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261121T113541.628563736Z_flight-404311163.tar.zst"
+    },
+    {
+      "name": "20261121T113541.628563736Z_flight-493283097.tar.zst",
+      "bytes": 358551875,
+      "sha256": "6aba201785f1d50087672493ec47e827536d1f3106d7709c1b96ad15d94ca326",
+      "github_digest": "sha256:6aba201785f1d50087672493ec47e827536d1f3106d7709c1b96ad15d94ca326",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/20261121T113541.628563736Z_flight-493283097.tar.zst"
+    },
+    {
+      "name": "catalog.json",
+      "bytes": 73786,
+      "sha256": "21eeb327117f10d2653fefa2ea4169e7898ecf3c6eec580af1b4005a871f9d12",
+      "github_digest": "sha256:21eeb327117f10d2653fefa2ea4169e7898ecf3c6eec580af1b4005a871f9d12",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/catalog.json"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 2636,
+      "sha256": "b445ca21d426abd25149576bab3c436abb6d59c36ed2f03de584e058eb3e9cf5",
+      "github_digest": "sha256:b445ca21d426abd25149576bab3c436abb6d59c36ed2f03de584e058eb3e9cf5",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/SHA256SUMS"
+    },
+    {
+      "name": "input-inventory.json",
+      "bytes": 115239,
+      "sha256": "8ce561b33eb2a2b4115436f222dd82ed6b3764155f5c63a999b676319449f1ce",
+      "github_digest": "sha256:8ce561b33eb2a2b4115436f222dd82ed6b3764155f5c63a999b676319449f1ce",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/input-inventory.json"
+    },
+    {
+      "name": "METADATA-SHA256SUMS",
+      "bytes": 166,
+      "sha256": "683becdcac5174182b32a4ed3d626cb226df1e2cf2a7173b2257e509ab1c2f81",
+      "github_digest": "sha256:683becdcac5174182b32a4ed3d626cb226df1e2cf2a7173b2257e509ab1c2f81",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/METADATA-SHA256SUMS"
+    },
+    {
+      "name": "optical-flow-and-cube-telemetry-20261122.tar.zst",
+      "bytes": 15560594,
+      "sha256": "ab4bd3f0db782ae74d95f225e44879a779e5aa4c5c463b42a8fa34e1cc1bc0a7",
+      "github_digest": "sha256:ab4bd3f0db782ae74d95f225e44879a779e5aa4c5c463b42a8fa34e1cc1bc0a7",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/optical-flow-and-cube-telemetry-20261122.tar.zst"
+    },
+    {
+      "name": "flight-runtime-diagnostics-20261122.tar.zst",
+      "bytes": 21488013,
+      "sha256": "5395e662970f1fdb2d3a754d78e1ff5a6cbe8f4cc7debdc79726d4f97f257c03",
+      "github_digest": "sha256:5395e662970f1fdb2d3a754d78e1ff5a6cbe8f4cc7debdc79726d4f97f257c03",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/flight-runtime-diagnostics-20261122.tar.zst"
+    },
+    {
+      "name": "post-review-report-evidence-20261122.tar.zst",
+      "bytes": 55223098,
+      "sha256": "0026caad21e1865c524e6683110cb72ca28d6af360aeaa670d808ed8e8f9ae1b",
+      "github_digest": "sha256:0026caad21e1865c524e6683110cb72ca28d6af360aeaa670d808ed8e8f9ae1b",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/post-review-report-evidence-20261122.tar.zst"
+    },
+    {
+      "name": "effective-settings-and-unmatched-evidence-20261122.tar.zst",
+      "bytes": 230058538,
+      "sha256": "31f4dd0760c45b468514e14a627e26b2a9f7b4cfd6ad300cc4d9ea4c9af51ced",
+      "github_digest": "sha256:31f4dd0760c45b468514e14a627e26b2a9f7b4cfd6ad300cc4d9ea4c9af51ced",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/effective-settings-and-unmatched-evidence-20261122.tar.zst"
+    },
+    {
+      "name": "tof-transport-bytes-20261122.tar.zst",
+      "bytes": 3335131,
+      "sha256": "aa5ac7c47e192332a752e050b88a22641a47ff26f45353618a090ff1b767bfa1",
+      "github_digest": "sha256:aa5ac7c47e192332a752e050b88a22641a47ff26f45353618a090ff1b767bfa1",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/tof-transport-bytes-20261122.tar.zst"
+    },
+    {
+      "name": "supplement-catalog.json",
+      "bytes": 36636,
+      "sha256": "06d2b0947012c71a548c5661655832216164d3b7f387767345da264132c13a02",
+      "github_digest": "sha256:06d2b0947012c71a548c5661655832216164d3b7f387767345da264132c13a02",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/supplement-catalog.json"
+    },
+    {
+      "name": "SUPPLEMENT-SHA256SUMS",
+      "bytes": 654,
+      "sha256": "715c4e6824112ef38b6d846b206132616911b5e007b7b94201b97f7a9365df0b",
+      "github_digest": "sha256:715c4e6824112ef38b6d846b206132616911b5e007b7b94201b97f7a9365df0b",
+      "url": "https://github.com/triyankk/BHUslam_v3/releases/download/flight-data-20261122/SUPPLEMENT-SHA256SUMS"
+    }
+  ],
+  "local_validation": {
+    "offline_test_command": "python3 tests/flight_review_package_test.py",
+    "offline_tests_passed": 3,
+    "all_19_compressed_streams_tested": true,
+    "largest_split_stream_reassembled_and_tested": true,
+    "roundtrip_archives": [
+      "20261118T081407.855288320Z_flight-100201914.tar.zst",
+      "20261118T141315.262362768Z_flight-506073151.tar.zst",
+      "20261121T113541.628563736Z_flight-189338136.tar.zst"
+    ],
+    "roundtrip_members_matching_source_sha256": 4018,
+    "limit": "File preservation, archive integrity and storage association only; no new hardware, estimator replay, localization accuracy, EKF fusion or flight validation."
+  },
+  "supplement_validation": {
+    "offline_test_command": "python3 tests/review_supplement_test.py",
+    "offline_tests_passed": 2,
+    "telemetry_sessions": 22,
+    "optical_flow_rows_checked": 7980,
+    "all_5_supplement_streams_tested": true
+  }
+}

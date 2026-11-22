@@ -1,0 +1,418 @@
+{
+  "audited_utc": "2026-11-22T09:18:39.328363+00:00",
+  "scope": "Current saved VINS/JT16 sessions, November optical-flow telemetry, saved diagnostics and report evidence; not a claim that every historical experiment is uploaded.",
+  "source_files_preserved": 41513,
+  "remaining_local_groups": [
+    {
+      "folder": "/home/atas/BHUslamV3/recordings",
+      "reason_retained_locally": "Older baseline/diagnostic camera datasets; outside the selected saved-flight review snapshot",
+      "remaining_files": 84907,
+      "remaining_bytes": 20703343551,
+      "largest_examples": [
+        {
+          "path": "/home/atas/BHUslamV3/recordings/diagnostic/20261025T100658.190042160Z/gyro_native.csv",
+          "bytes": 2521263
+        },
+        {
+          "path": "/home/atas/BHUslamV3/recordings/diagnostic/20261025T104811.422872864Z/gyro_native.csv",
+          "bytes": 2442804
+        },
+        {
+          "path": "/home/atas/BHUslamV3/recordings/diagnostic/20261026T090303.978496952Z/gyro_native.csv",
+          "bytes": 2438334
+        },
+        {
+          "path": "/home/atas/BHUslamV3/recordings/diagnostic/20261025T100658.190042160Z/accel_native.csv",
+          "bytes": 2427135
+        },
+        {
+          "path": "/home/atas/BHUslamV3/recordings/diagnostic/20261025T095519.847430960Z/gyro_native.csv",
+          "bytes": 2389988
+        },
+        {
+          "path": "/home/atas/BHUslamV3/recordings/diagnostic/20261025T095519.847430960Z/accel_native.csv",
+          "bytes": 2318280
+        },
+        {
+          "path": "/home/atas/BHUslamV3/recordings/diagnostic/20261025T104811.422872864Z/accel_native.csv",
+          "bytes": 2315057
+        },
+        {
+          "path": "/home/atas/BHUslamV3/recordings/diagnostic/20261026T090303.978496952Z/accel_native.csv",
+          "bytes": 2309028
+        }
+      ]
+    },
+    {
+      "folder": "/home/atas/BHUslamV3/runs",
+      "reason_retained_locally": "Other boots, recent live files, duplicate checkpoints and derived exports; review selected paths before expanding the snapshot",
+      "remaining_files": 1227,
+      "remaining_bytes": 325724879,
+      "largest_examples": [
+        {
+          "path": "/home/atas/BHUslamV3/runs/tof-front/cb3fe111-de97-404f-989d-66cc93b7d5cd/20261121T113452.423345944Z/capture/bridge-001/measurements.jsonl",
+          "bytes": 25081264
+        },
+        {
+          "path": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261120T124540.871450304Z/live/recovery_comparison.csv",
+          "bytes": 21225472
+        },
+        {
+          "path": "/home/atas/BHUslamV3/runs/vins-forwarding/fc4650a5-35a8-404b-bd4b-355c4d0a4b52/20261120T124038.572446080Z/events.jsonl",
+          "bytes": 20686393
+        },
+        {
+          "path": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261120T124540.871450304Z/live/pose_history.csv",
+          "bytes": 17281024
+        },
+        {
+          "path": "/home/atas/BHUslamV3/runs/flight-shadow/6162f008-07f1-4e70-840f-62a25fc69ccd/mapping-20261121T113540.609538936Z/data/flights/flight-189245357/map-data.json",
+          "bytes": 14748474
+        },
+        {
+          "path": "/home/atas/BHUslamV3/runs/flight-shadow/0163353c-b471-4f05-99c8-8b00668f49f0/mapping-20261121T113539.863015672Z/data/flights/flight-109286023/map-data.json",
+          "bytes": 14709036
+        },
+        {
+          "path": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261118T141315.665481584Z/live/recovery_comparison.csv",
+          "bytes": 13904592
+        },
+        {
+          "path": "/home/atas/BHUslamV3/runs/vins-fusion-boot/20261120T124540.871450304Z/live/tracking.csv",
+          "bytes": 13783040
+        }
+      ]
+    },
+    {
+      "folder": "/home/atas/BHUslamV3/reports",
+      "reason_retained_locally": "Generated viewers/images/maps and historical source/binary backups; selected machine-readable evidence is archived",
+      "remaining_files": 9908,
+      "remaining_bytes": 1277456548,
+      "largest_examples": [
+        {
+          "path": "/home/atas/BHUslamV3/reports/jt16-mapping-20261117/loop-02/jt16-packets.raw",
+          "bytes": 14271440
+        },
+        {
+          "path": "/home/atas/BHUslamV3/reports/jt16-mapping-20261117/loop-01/jt16-packets.raw",
+          "bytes": 10628080
+        },
+        {
+          "path": "/home/atas/BHUslamV3/reports/vins-fusion-benchmark-20261026/comparison/comparison.json",
+          "bytes": 10115878
+        },
+        {
+          "path": "/home/atas/BHUslamV3/reports/vins-fusion-viewer/two-minute/viewer.html",
+          "bytes": 9714520
+        },
+        {
+          "path": "/home/atas/BHUslamV3/reports/vins-fusion-viewer/two-minute/viewer-data.json",
+          "bytes": 9693430
+        },
+        {
+          "path": "/home/atas/BHUslamV3/reports/recorded-sparse-slam/stereo/sparse-map.html",
+          "bytes": 8945920
+        },
+        {
+          "path": "/home/atas/BHUslamV3/reports/recorded-sparse-slam/stereo/sparse-map.json",
+          "bytes": 8933178
+        },
+        {
+          "path": "/home/atas/BHUslamV3/reports/livo-replay-readiness-20261120/point-cloud-views/failed-full-map.html",
+          "bytes": 8810895
+        }
+      ]
+    },
+    {
+      "folder": "/home/atas/BHUslamV3/build",
+      "reason_retained_locally": "Rebuildable compiled outputs",
+      "remaining_files": 1960,
+      "remaining_bytes": 115175130,
+      "largest_examples": [
+        {
+          "path": "/home/atas/BHUslamV3/build/main/lib/libORB_SLAM3.so",
+          "bytes": 4862976
+        },
+        {
+          "path": "/home/atas/BHUslamV3/build/main/CMakeFiles/ORB_SLAM3.dir/third_party/ORB_SLAM3/src/System.cc.o",
+          "bytes": 3457984
+        },
+        {
+          "path": "/home/atas/BHUslamV3/build/vins-fusion/libfusion_camera.a",
+          "bytes": 2952098
+        },
+        {
+          "path": "/home/atas/BHUslamV3/build/vins-mono/libvins_camera.a",
+          "bytes": 2512618
+        },
+        {
+          "path": "/home/atas/BHUslamV3/build/jt16/CMakeFiles/jt16_map_bridge.dir/map_bridge.cpp.o",
+          "bytes": 2430856
+        },
+        {
+          "path": "/home/atas/BHUslamV3/build/vins-fusion/libfusion_core.a",
+          "bytes": 1995908
+        },
+        {
+          "path": "/home/atas/BHUslamV3/build/ceres-vins/lib/libceres.so.1",
+          "bytes": 1866640
+        },
+        {
+          "path": "/home/atas/BHUslamV3/build/ceres-vins/lib/libceres.so.1.14.0",
+          "bytes": 1866640
+        }
+      ]
+    },
+    {
+      "folder": "/home/atas/BHUslamV3/downloads",
+      "reason_retained_locally": "Downloaded SDK/package archives",
+      "remaining_files": 35,
+      "remaining_bytes": 23228107,
+      "largest_examples": [
+        {
+          "path": "/home/atas/BHUslamV3/downloads/orbbec-sdk-v2.10.6-arm64.tar.gz",
+          "bytes": 11016548
+        },
+        {
+          "path": "/home/atas/BHUslamV3/downloads/debs/cmake_3.22.1-1ubuntu1.22.04.2_arm64.deb",
+          "bytes": 4645686
+        },
+        {
+          "path": "/home/atas/BHUslamV3/downloads/debs/cmake-data_3.22.1-1ubuntu1.22.04.2_all.deb",
+          "bytes": 1912796
+        },
+        {
+          "path": "/home/atas/BHUslamV3/downloads/debs/libeigen3-dev_3.4.0-2ubuntu2_all.deb",
+          "bytes": 1055832
+        },
+        {
+          "path": "/home/atas/BHUslamV3/downloads/debs/libopencv-calib3d-dev_4.5.4+dfsg-9ubuntu4_arm64.deb",
+          "bytes": 992582
+        },
+        {
+          "path": "/home/atas/BHUslamV3/downloads/debs/libboost-serialization1.74-dev_1.74.0-14ubuntu3_arm64.deb",
+          "bytes": 374296
+        },
+        {
+          "path": "/home/atas/BHUslamV3/downloads/debs/libboost-serialization1.74.0_1.74.0-14ubuntu3_arm64.deb",
+          "bytes": 318666
+        },
+        {
+          "path": "/home/atas/BHUslamV3/downloads/debs/libopencv-features2d-dev_4.5.4+dfsg-9ubuntu4_arm64.deb",
+          "bytes": 316284
+        }
+      ]
+    },
+    {
+      "folder": "/home/atas/BHUslamV3/third_party",
+      "reason_retained_locally": "External dependencies; source revisions and patches tracked separately",
+      "remaining_files": 6743,
+      "remaining_bytes": 2061822011,
+      "largest_examples": [
+        {
+          "path": "/home/atas/BHUslamV3/third_party/ORB_SLAM3/Vocabulary/ORBvoc.txt",
+          "bytes": 145250924
+        },
+        {
+          "path": "/home/atas/BHUslamV3/third_party/VINS-Fusion/support_files/brief_k10L6.bin",
+          "bytes": 60030120
+        },
+        {
+          "path": "/home/atas/BHUslamV3/third_party/VINS-Mono/support_files/brief_k10L6.bin",
+          "bytes": 60030120
+        },
+        {
+          "path": "/home/atas/BHUslamV3/third_party/ORB_SLAM3/Vocabulary/ORBvoc.txt.tar.gz",
+          "bytes": 42527984
+        },
+        {
+          "path": "/home/atas/BHUslamV3/third_party/ORB_SLAM3/Examples_old/Monocular-Inertial/TUM_IMU/dataset-outdoors6_512.txt",
+          "bytes": 29749189
+        },
+        {
+          "path": "/home/atas/BHUslamV3/third_party/ORB_SLAM3/Examples_old/Stereo-Inertial/TUM_IMU/dataset-outdoors6_512.txt",
+          "bytes": 29749189
+        },
+        {
+          "path": "/home/atas/BHUslamV3/third_party/ORB_SLAM3/Examples/Monocular-Inertial/TUM_IMU/dataset-outdoors6_512.txt",
+          "bytes": 29749189
+        },
+        {
+          "path": "/home/atas/BHUslamV3/third_party/ORB_SLAM3/Examples/Stereo-Inertial/TUM_IMU/dataset-outdoors6_512.txt",
+          "bytes": 29749189
+        }
+      ]
+    },
+    {
+      "folder": "/home/atas/Desktop/Drone_Sensor_Recordings",
+      "reason_retained_locally": "Older August/September recorder sessions and non-CSV/video outputs; November CSVs are archived",
+      "remaining_files": 476,
+      "remaining_bytes": 11637316199
+    },
+    {
+      "folder": "/home/atas/vscode/optFlow_slam/data/recordings/flights",
+      "reason_retained_locally": "Historical July native/Realsense flight datasets; separate hardware/experiment",
+      "remaining_files": 1626,
+      "remaining_bytes": 29651913814
+    },
+    {
+      "folder": "/home/atas/vscode/optFlow_slam/data/recordings/slam_flights",
+      "reason_retained_locally": "Historical joint-estimator experiments; not the current VINS flight snapshot",
+      "remaining_files": 112,
+      "remaining_bytes": 550422221
+    },
+    {
+      "folder": "/home/atas/vscode/optFlow_slam/data/recordings/lio",
+      "reason_retained_locally": "Historical standalone LIO experiments",
+      "remaining_files": 1036,
+      "remaining_bytes": 3862702777
+    },
+    {
+      "folder": "/home/atas/vscode/optFlow_slam/data/recordings/slam_navigation",
+      "reason_retained_locally": "Historical navigation experiments",
+      "remaining_files": 1451,
+      "remaining_bytes": 3989228056
+    }
+  ],
+  "recent_or_unstable_files": [
+    {
+      "path": "/home/atas/vscode/optFlow_slam/data/recordings/vio-observation/20261121T113538.114090Z.jsonl",
+      "reason": "recently changing file or symlink"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/reports/contrast-corpus-20261028/two-minute-15hz-input/accel.csv",
+      "reason": "recently changing file or symlink"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/reports/contrast-corpus-20261028/two-minute-15hz-input/gyro.csv",
+      "reason": "recently changing file or symlink"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/reports/fusion-image-gate-20261028/steady-15hz-input/accel.csv",
+      "reason": "recently changing file or symlink"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/reports/fusion-image-gate-20261028/steady-15hz-input/gyro.csv",
+      "reason": "recently changing file or symlink"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/reports/fusion-moving-image-gate-20261028/15hz-input/accel.csv",
+      "reason": "recently changing file or symlink"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/reports/fusion-moving-image-gate-20261028/15hz-input/gyro.csv",
+      "reason": "recently changing file or symlink"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/runs/flight-shadow/cb3fe111-de97-404f-989d-66cc93b7d5cd/tegrastats.log",
+      "reason": "recent live evidence; left local"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/runs/tof-front/cb3fe111-de97-404f-989d-66cc93b7d5cd/20261121T113452.423345944Z/capture/bridge-001/cube-reports.jsonl",
+      "reason": "recent live evidence; left local"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/runs/tof-front/cb3fe111-de97-404f-989d-66cc93b7d5cd/20261121T113452.423345944Z/capture/bridge-001/measurements.jsonl",
+      "reason": "recent live evidence; left local"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/runs/tof-front/cb3fe111-de97-404f-989d-66cc93b7d5cd/20261121T113452.423345944Z/capture/bridge-001/mavlink.bin",
+      "reason": "recent live transport capture; left local"
+    },
+    {
+      "path": "/home/atas/BHUslamV3/runs/tof-front/cb3fe111-de97-404f-989d-66cc93b7d5cd/20261121T113452.423345944Z/capture/bridge-001/uart-rx.bin",
+      "reason": "recent live transport capture; left local"
+    }
+  ],
+  "not_uploaded": "Credentials, agent/editor state, active/recently changing files, rebuildable dependencies/builds, raw older datasets, duplicate generated outputs and historical code backups.",
+  "source_code_untracked_before_final_commit": [
+    "flight-reviews/release-verification.json",
+    "flight-reviews/supplement/SHA256SUMS",
+    "flight-reviews/supplement/catalog.json",
+    "flight-reviews/supplement/effective-settings-and-unmatched-evidence-20261122-files.json",
+    "flight-reviews/supplement/effective-settings/optFlow_slam/system.yaml",
+    "flight-reviews/supplement/effective-settings/systemd/bhu-cube-vio-test.service",
+    "flight-reviews/supplement/effective-settings/systemd/bhu-jt16-map.service",
+    "flight-reviews/supplement/effective-settings/systemd/bhu-shadow-performance.service",
+    "flight-reviews/supplement/effective-settings/systemd/bhu-tof-front.service",
+    "flight-reviews/supplement/effective-settings/systemd/bhu-vins-fusion.service",
+    "flight-reviews/supplement/effective-settings/systemd/bhu-vio-observe.service",
+    "flight-reviews/supplement/effective-settings/systemd/bhu-vio-record.service",
+    "flight-reviews/supplement/effective-settings/systemd/optflow-flight-logger.service.d/50-bhu-jt16-shadow.conf",
+    "flight-reviews/supplement/effective-settings/systemd/optflow-flight-logger.service.d/60-bhu-vio-observation.conf",
+    "flight-reviews/supplement/effective-settings/systemd/optflow-flight-logger.service.d/70-bhu-cube-usb-test.conf",
+    "flight-reviews/supplement/effective-settings/systemd/optflow-flight-logger.service.d/80-bhu-tof-usb.conf",
+    "flight-reviews/supplement/flight-runtime-diagnostics-20261122-files.json",
+    "flight-reviews/supplement/optical-flow-and-cube-telemetry-20261122-files.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_13-44-45_068/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_13-44-45_068/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_13-44-45_068/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_13-45-36_069/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_13-45-36_069/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_13-45-36_069/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_13-48-21_070/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_13-48-21_070/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_13-48-21_070/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_14-47-05_071/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_14-47-05_071/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_14-47-05_071/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_18-08-21_072/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_18-08-21_072/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_18-08-21_072/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-05-41_073/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-05-41_073/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-05-41_073/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-09-48_074/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-09-48_074/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-09-48_074/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-44-51_080/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-44-51_080/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-44-51_080/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-44-54_075/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-44-54_075/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-44-54_075/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-46-49_076/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-46-49_076/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-46-49_076/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-49-50_077/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-49-50_077/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-49-50_077/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-50-51_079/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-50-51_079/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-50-51_079/summary.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-55-35_078/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-55-35_078/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/18-11-2026_19-55-35_078/summary.json",
+    "flight-reviews/supplement/optical-flow/20-11-2026_16-26-55_081/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/20-11-2026_16-26-55_081/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/20-11-2026_16-26-55_081/summary.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_16-57-21_082/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/21-11-2026_16-57-21_082/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_16-57-21_082/summary.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_16-57-29_083/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/21-11-2026_16-57-29_083/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_16-57-29_083/summary.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_16-57-52_084/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/21-11-2026_16-57-52_084/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_16-57-52_084/summary.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-06-25_089/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-06-25_089/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-06-25_089/summary.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-07-46_085/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-07-46_085/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-07-46_085/summary.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-09-08_086/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-09-08_086/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-09-08_086/summary.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-11-21_087/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-11-21_087/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-11-21_087/summary.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-12-50_088/optical-flow.csv",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-12-50_088/original-manifest.json",
+    "flight-reviews/supplement/optical-flow/21-11-2026_17-12-50_088/summary.json",
+    "flight-reviews/supplement/post-review-report-evidence-20261122-files.json",
+    "flight-reviews/supplement/tof-transport-bytes-20261122-files.json",
+    "tests/review_supplement_test.py",
+    "tools/package_review_supplement.py"
+  ]
+}

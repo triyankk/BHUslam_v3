@@ -1,0 +1,16 @@
+{
+  "session": "18-11-2026_13-45-36_069",
+  "original_folder": "/home/atas/Desktop/Drone_Sensor_Recordings/18-11-2026_13-45-36_069",
+  "started_utc_recorded": "2026-11-18T08:15:36.167760+00:00",
+  "state_recorded": "recording",
+  "readable_cube_rows": 1,
+  "manifest_cube_rows": 0,
+  "optical_flow_rows": 0,
+  "message_counts": {
+    "SCALED_IMU": 1
+  },
+  "nul_corruption": false,
+  "vio_association": "Not automatically assigned; verify boot/monotonic alignment independently.",
+  "limit": "Decoded recorded MAVLink values, not raw optical images or a new flow accuracy/fusion result. Invalid index tails are not reconstructed.",
+  "manifest_count_mismatch": true
+}
