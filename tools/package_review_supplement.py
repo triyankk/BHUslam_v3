@@ -240,7 +240,7 @@ def main():
         review = output / 'optical-flow' / session.name
         review.mkdir(parents=True)
         with (review / 'optical-flow.csv').open('w', newline='') as stream:
-            writer = csv.DictWriter(stream, fieldnames=columns)
+            writer = csv.DictWriter(stream, fieldnames=columns, lineterminator='\n')
             writer.writeheader()
             writer.writerows(extracted)
         record = {'session': session.name, 'original_folder': str(session),
