@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ToF · Cube live viewer</title>
+<style>
+:root{color-scheme:dark;--bg:#0a101b;--panel:#111c2c;--line:#253349;--text:#edf4ff;--muted:#90a3bb;--blue:#65a5ff;--orange:#ffb36b;--green:#66dfb7}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px system-ui,sans-serif}main{max-width:1440px;margin:auto;padding:30px}header{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:26px}h1{font-size:28px;letter-spacing:-.8px;margin:5px 0}h2{font-size:16px;margin:0 0 8px}.eyebrow{color:var(--green);font-size:11px;letter-spacing:2px;font-weight:700}.sub,.muted{color:var(--muted)}.status{display:flex;align-items:center;gap:9px;background:var(--panel);border:1px solid var(--line);border-radius:30px;padding:10px 15px;font-size:13px}.dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}.card,.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px}.card{padding:18px 20px}.label{font-size:12px;color:var(--muted)}.number{font-size:34px;letter-spacing:-1px;font-variant-numeric:tabular-nums;margin:8px 0 5px}.unit{font-size:15px;color:var(--muted);margin-left:5px}.detail{font-size:12px;color:var(--muted)}.blue{color:var(--blue)}.orange{color:var(--orange)}.layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:18px}.panel{padding:20px}.bar{display:flex;align-items:center;justify-content:space-between;gap:12px}.legend{display:flex;gap:18px;font-size:12px;margin:15px 0}.legend span:before{content:'';display:inline-block;width:9px;height:9px;margin-right:7px;border-radius:50%;background:currentColor}button,select{background:#19283d;border:1px solid #354762;color:var(--text);border-radius:8px;padding:7px 10px;font:inherit;font-size:12px;cursor:pointer}canvas{width:100%;height:340px;display:block}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:20px 0 12px}.zone{border-radius:12px;min-height:80px;padding:12px 5px;text-align:center;border:1px solid #34435a;font-variant-numeric:tabular-nums}.zvalue{font-size:22px;font-weight:650}.zconfidence{font-size:10px;color:#c2d0e3;margin-top:6px}.note{font-size:11px;line-height:1.6;color:var(--muted)}.health{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}.row{display:flex;justify-content:space-between;font-size:12px;margin-bottom:12px;gap:10px}.row span:first-child{color:var(--muted)}.banner{display:none;padding:13px 16px;border:1px solid #9b594d;background:#332226;border-radius:10px;margin-bottom:16px;color:#ffd2bc;font-size:13px}footer{font-size:11px;color:var(--muted);margin-top:18px;line-height:1.7;overflow-wrap:anywhere}@media(max-width:900px){.layout{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}main{padding:18px}header{align-items:flex-start}canvas{height:290px}}@media(max-width:480px){.cards{gap:8px}.card{padding:12px}.number{font-size:28px}.bar{flex-wrap:wrap}h1{font-size:23px}}
+</style>
+<main>
+ <header><div><div class="eyebrow">SENSOR WORKBENCH</div><h1>ToF → Cube</h1><div class="sub" id="connection">Connecting to live capture…</div></div><div class="status"><i class="dot" id="dot"></i><span id="status">Connecting</span></div></header>
+ <div id="banner" class="banner" role="status"></div>
+ <section class="cards">
+  <div class="card"><div class="label" id="selectedLabel">Selected distance</div><div class="number blue"><span id="sensor">—</span><span class="unit">m</span></div><div class="detail" id="sensorDetail">Waiting for calibrated reading</div></div>
+  <div class="card"><div class="label" id="cubeLabel">Cube rear rangefinder</div><div class="number orange"><span id="cube">—</span><span class="unit">m</span></div><div class="detail" id="cubeDetail">Waiting for Cube report</div></div>
+  <div class="card"><div class="label">Sensor update rate</div><div class="number"><span id="rate">—</span><span class="unit">Hz</span></div><div class="detail" id="counts">0 samples</div></div>
+  <div class="card"><div class="label">Calibration</div><div class="number" style="font-size:26px" id="calibration">Waiting</div><div class="detail" id="temperature">Temperature —</div></div>
+ </section>
+ <div class="layout">
+  <section class="panel"><div class="bar"><div><h2>Distance over time</h2><div class="detail">Live measurements in metres</div></div><div><select id="window" aria-label="Graph time window"><option value="15">15 seconds</option><option value="30" selected>30 seconds</option><option value="60">60 seconds</option></select> <button id="pause">Pause chart</button> <button id="download">Save CSV</button></div></div>
+   <div class="legend"><span class="blue" id="jetsonLegend">Jetson · selected distance</span><span class="orange">Cube · processed distance</span></div>
+   <canvas id="chart" aria-label="Live sensor and Cube distance chart"></canvas>
+   <div class="note">Cube values come from its own distance reports over the active Cube connection. The chart uses sensor acquisition time and Cube receipt time on the Jetson; it is not a latency measurement. Gaps mean no valid or fresh measurement.</div>
+  </section>
+  <section class="panel"><h2>Sensor zones · 3 × 3</h2><div class="detail">Primary distance · confidence out of 255</div><div id="zones" class="grid"></div><div class="note" id="zonesNote">Grid order follows the sensor driver.</div><div class="health"><div class="row"><span>Cube heartbeat</span><span id="heartbeat">Waiting</span></div><div class="row"><span>Cube reports</span><span id="reports">0</span></div><div class="row"><span>Uptime</span><span id="uptime">—</span></div><div class="row"><span>Sensor serial</span><span>23937420</span></div></div></section>
+ </div>
+ <section class="panel" style="margin-top:18px"><h2>Cube telemetry messages</h2><div id="telemetry" class="note" style="white-space:pre-line">Waiting for status messages…</div></section>
+ <footer id="recording">Preparing recording…</footer>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id), canvas=$('chart'), ctx=canvas.getContext('2d');
+let current=null, frozen=null, paused=false, lastPoll=0;
+for(let i=0;i<9;i++){const z=document.createElement('div');z.className='zone';z.innerHTML='<div class="zvalue">—</div><div class="zconfidence">—</div>';$('zones').append(z)}
+const fresh=(age,limit)=>age!==null && age<limit;
+function update(s){
+ current=s;lastPoll=performance.now();
+ const sensorFresh=fresh(s.sensor_age_s,1),cubeFresh=fresh(s.cube_age_s,1),heartFresh=fresh(s.heartbeat_age_s,3);
+ const row=s.latest; const sent=sensorFresh && row && row.calibration_status===0 && (row.valid ?? row.transmitted);
+ const averaging=s.aggregation==='zone-mean', minimum=s.minimum_active_zones||1;
+ const active=row?.active_zone_count||0, threshold=s.confidence_threshold||20;
+ const gated=averaging && sensorFresh && active<minimum;
+ $('selectedLabel').textContent=averaging?'Average of active zones':'Selected distance';
+ $('jetsonLegend').textContent=averaging?'Jetson · zone average':'Jetson · selected distance';
+ $('zonesNote').textContent=`Active zones have a primary return from 10 to 5000 mm and confidence ≥ ${threshold}. ${averaging?`Average all active zones only when at least ${minimum} are active; secondary returns are excluded.`:'The minimum may use a valid secondary return.'} Grid order follows the sensor driver.`;
+ const cubeDisabled=s.cube_parameters?.PRX1_TYPE!==2 && s.cube_parameters?.[`RNGFND${s.rangefinder_slot||2}_TYPE`]===0;
+ const cubeKind=s.cube_report_kind || (s.cube_parameters?.PRX1_TYPE===4?'proximity':'rangefinder');
+ const linkName=s.transport==='shared-usb'?'Cube USB · shared owner':s.uart && (s.uart.includes('ttyACM') || s.uart.includes('usb-'))?'Cube USB':'Cube UART';
+ $('connection').textContent=s.sensor_only?`${s.orientation.toUpperCase()} · Sensor only · ${s.mux_address?'Mux CH'+s.mux_channel:'Direct I²C'}`:`${s.orientation.toUpperCase()}${s.mux_address?' · Mux CH'+s.mux_channel:''} · ${linkName}${s.transport==='shared-usb'?'':' · '+(s.baud?s.baud.toLocaleString()+' baud':'detecting baud…')}`;
+ $('cubeLabel').textContent=`Cube ${s.orientation} ${cubeKind}`;
+ const healthy=s.bridge_status==='Running' && sent && (s.sensor_only || (cubeFresh && heartFresh));
+ $('status').textContent=healthy?'Live · receiving':s.bridge_status!=='Running'?s.bridge_status:!sensorFresh?'Sensor stale':gated?`Waiting for ${minimum} active zones (${active}/9)` :!sent?'No valid sensor return':cubeDisabled?'Live · Cube rangefinder disabled':!cubeFresh?'Waiting for Cube':'Checking link';
+ $('dot').style.background=healthy?'var(--green)':s.bridge_status==='Error'?'#ff8d7c':'#e6be6a';
+ $('sensor').textContent=sent?(Math.floor((row.selected_mm ?? row.nearest_mm)/10)/100).toFixed(2):'—';
+ $('sensorDetail').textContent=averaging && sensorFresh?`${active}/9 active · minimum ${minimum}${sent?' · arithmetic mean':' · output withheld'}`:sent?`Sample ${row.result_number} · nearest confident return`:sensorFresh?'No valid distance selected':'No fresh sensor reading';
+ const latestCube=s.cube.length?s.cube[s.cube.length-1]:null;
+ $('cube').textContent=cubeFresh?latestCube.m.toFixed(2):'—';
+ $('cubeDetail').textContent=s.sensor_only?'Not connected in sensor-only mode':cubeDisabled?'Rangefinder input disabled in Cube configuration':cubeFresh?`Updated ${(s.cube_age_s*1000).toFixed(0)} ms ago`:`No fresh Cube ${cubeKind} report`;
+ $('rate').textContent=sensorFresh?s.hz.toFixed(1):'—';$('counts').textContent=`${s.sensor_count.toLocaleString()} samples recorded`;
+ $('calibration').textContent=!sensorFresh?'Waiting':row.calibration_status===0?'Valid':'Invalid';
+ $('calibration').style.color=sensorFresh && row.calibration_status===0?'var(--green)':'#e6be6a';
+ $('temperature').textContent=sensorFresh?`Sensor temperature ${row.temperature_c} °C`:'Temperature —';
+ $('heartbeat').textContent=heartFresh?`${s.heartbeat_age_s.toFixed(1)} s ago`:'Missing / stale';$('heartbeat').style.color=heartFresh?'var(--green)':'#e6be6a';
+ if(s.sensor_only)$('heartbeat').textContent='Not connected';
+ $('reports').textContent=s.cube_count.toLocaleString();$('uptime').textContent=`${Math.floor(s.elapsed_s/60)}m ${Math.floor(s.elapsed_s%60)}s`;
+ const errors=[s.bridge_error,s.cube_error,cubeDisabled?'Cube rangefinder input is disabled. The sensor and UART stream remain live.':null].filter(Boolean);$('banner').style.display=errors.length?'block':'none';$('banner').textContent=errors.join(' · ');
+ const severity=['EMERGENCY','ALERT','CRITICAL','ERROR','WARNING','NOTICE','INFO','DEBUG'];
+ const messages=(s.telemetry_messages||[]).slice(-6);
+ $('telemetry').textContent=messages.length?messages.map(m=>`[${severity[m.severity]||m.severity}] ${m.text}`).join('\n'):'No new Cube status messages in this session.';
+ $('telemetry').style.color=messages.some(m=>m.severity<=4)?'#e6be6a':'var(--muted)';
+ $('recording').textContent=`Recording: ${s.output} · Closing this tab keeps acquisition running. Stop the viewer process with Ctrl-C to release the hardware.`;
+ [...$('zones').children].forEach((z,i)=>{let d=row?.distance_mm?.[Math.floor(i/3)]?.[i%3],c=row?.confidence?.[Math.floor(i/3)]?.[i%3];let valid=sensorFresh && row.calibration_status===0 && d>=10 && d<=5000 && c>=threshold;
+ z.children[0].textContent=valid?(d/1000).toFixed(2)+' m':'—';z.children[1].textContent=sensorFresh?`confidence ${c}`:'stale';
+ z.style.background=valid?`hsl(${Math.min(210,20+d/5000*190)} 35% 24%)`:'#162234';});
+ draw();
+}
+function draw(){
+ const s=paused?frozen:current;if(!s)return;
+ const rect=canvas.getBoundingClientRect(),ratio=window.devicePixelRatio||1;
+ canvas.width=Math.round(rect.width*ratio);canvas.height=Math.round(rect.height*ratio);ctx.setTransform(ratio,0,0,ratio,0,0);
+ const w=rect.width,h=rect.height,p={l:43,r:15,t:12,b:35},end=s.elapsed_s,span=Number($('window').value),start=Math.max(0,end-span);
+ const points=[...s.sensor,...s.cube].filter(x=>x.t>=start&&x.m!==null);
+ const max=Math.max(1,Math.ceil(Math.max(0,...points.map(x=>x.m))*1.15*2)/2);
+ const X=t=>p.l+(t-start)/Math.max(1,end-start)*(w-p.l-p.r),Y=m=>h-p.b-m/max*(h-p.t-p.b);
+ ctx.font='11px system-ui';ctx.lineWidth=1;
+ for(let i=0;i<=4;i++){const v=max*i/4,y=Y(v);ctx.strokeStyle='#253349';ctx.beginPath();ctx.moveTo(p.l,y);ctx.lineTo(w-p.r,y);ctx.stroke();ctx.fillStyle='#90a3bb';ctx.fillText(v.toFixed(1),6,y+4)}
+ for(let i=0;i<=5;i++){const t=start+(end-start)*i/5,x=X(t);ctx.fillStyle='#90a3bb';ctx.fillText(t.toFixed(0)+'s',x-8,h-10)}
+ ctx.save();ctx.beginPath();ctx.rect(p.l,p.t,w-p.l-p.r,h-p.t-p.b);ctx.clip();
+ function line(data,color,gap){let prev=null;ctx.strokeStyle=color;ctx.lineWidth=1.7;ctx.beginPath();for(const x of data){if(x.t<start||x.m===null){prev=null;continue}if(!prev||x.t-prev.t>gap)ctx.moveTo(X(x.t),Y(x.m));else ctx.lineTo(X(x.t),Y(x.m));prev=x}ctx.stroke()}
+ line(s.sensor,'#65a5ff',.25);
+ ctx.fillStyle='#ffb36b';for(const x of s.cube){if(x.t<start)continue;ctx.beginPath();ctx.arc(X(x.t),Y(x.m),2.5,0,Math.PI*2);ctx.fill()}ctx.restore();
+ if(paused){ctx.fillStyle='#e6be6a';ctx.fillText('CHART PAUSED · acquisition continues',p.l+8,28)}
+}
+$('pause').onclick=()=>{paused=!paused;frozen=paused?structuredClone(current):null;$('pause').textContent=paused?'Resume chart':'Pause chart';draw()};
+$('window').onchange=draw;window.addEventListener('resize',draw);
+$('download').onclick=()=>{if(!current)return;let rows=['source,seconds,distance_m'];for(const [source,data] of [['jetson',current.sensor],['cube',current.cube]])for(const x of data)rows.push(`${source},${x.t.toFixed(4)},${x.m??''}`);const url=URL.createObjectURL(new Blob([rows.join('\n')],{type:'text/csv'})),a=document.createElement('a');a.href=url;a.download='tof-cube-live.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+async function poll(){try{const response=await fetch('/api/state',{cache:'no-store',signal:AbortSignal.timeout(2000)});if(!response.ok)throw Error(response.status);update(await response.json())}catch(e){$('status').textContent='Viewer disconnected';$('dot').style.background='#ff8d7c';$('banner').style.display='block';$('banner').textContent='No connection to the viewer process. Live values are stale.';$('sensor').textContent='—';$('cube').textContent='—';$('rate').textContent='—';[...$('zones').children].forEach(z=>{z.children[0].textContent='—';z.children[1].textContent='stale';z.style.background='#162234'})}finally{setTimeout(poll,100)}}
+poll();
+</script>
+</html>

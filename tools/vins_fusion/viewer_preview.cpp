@@ -1,0 +1,20 @@
+#include <json.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/imgproc.hpp>
+#include <filesystem>
+#include <fstream>
+#include <iostream>
+#include <map>
+using J=nlohmann::json;namespace fs=std::filesystem;
+int main(int argc,char**argv)try{
+ if(argc<2||argc>4)throw std::runtime_error("Usage: fusion_viewer_preview EXPORT [TIME_S] [--refresh-viewer]");fs::path root=argv[1];J data;std::ifstream(root/"viewer-data.json")>>data;if(argc==4){if(std::string(argv[3])!="--refresh-viewer")throw std::runtime_error("Unknown preview option");std::ifstream page(BHU_FUSION_VIEWER_PAGE);std::string html{std::istreambuf_iterator<char>(page),{}};const std::string marker="/*FUSION_VIEWER_DATA*/null";auto at=html.find(marker);if(at==std::string::npos)throw std::runtime_error("Missing viewer template");auto content=data.dump();size_t pos=0;while((pos=content.find('<',pos))!=std::string::npos){content.replace(pos,1,"\\u003c");pos+=6;}html.replace(at,marker.size(),content);std::ofstream out(root/"viewer.html");out<<html;if(!out)throw std::runtime_error("Cannot refresh viewer");}double requested=argc>=3?std::stod(argv[2]):40;size_t index=0;for(size_t i=0;i<data["frames"].size();++i)if(double(data["frames"][i]["t"])<=requested)index=i;const auto&f=data["frames"][index];int width=data["width"],height=data["height"];
+ cv::Mat im=cv::imread((root/f["image"].get<std::string>()).string());if(im.empty()||im.cols!=width*2||im.rows!=height)throw std::runtime_error("Invalid stereo image");
+ for(const auto&p:f["features"]){cv::Scalar c=int(p[5])>1?cv::Scalar(167,227,92):cv::Scalar(106,198,255);cv::circle(im,{int(double(p[1])),int(double(p[2]))},3,c,1,cv::LINE_AA);if(!p[3].is_null())cv::circle(im,{int(double(p[3]))+width,int(double(p[4]))},3,{255,200,105},1,cv::LINE_AA);}
+ cv::putText(im,"LEFT IR | tracked features",{15,25},cv::FONT_HERSHEY_SIMPLEX,.55,{220,250,220},1,cv::LINE_AA);cv::putText(im,"RIGHT IR | stereo matches",{width+15,25},cv::FONT_HERSHEY_SIMPLEX,.55,{255,220,180},1,cv::LINE_AA);
+ std::map<int,cv::Vec3d> cloud;std::vector<cv::Vec3d> route;int epoch=f["epoch"];for(size_t i=0;i<=index;++i){const auto&v=data["frames"][i];if(int(v["epoch"])!=epoch)continue;for(const auto&p:v["points"])cloud[p[0]]={double(p[1]),double(p[2]),double(p[3])};if(!v["camera"].is_null())route.push_back({double(v["camera"][0]),double(v["camera"][1]),double(v["camera"][2])});}
+ cv::Mat image(height+640,width*2,CV_8UC3,{27,17,10});im.copyTo(image(cv::Rect(0,0,width*2,height)));cv::Vec3d lo(0,0,0),hi(0,0,0);if(!route.empty())lo=hi=route.front();for(const auto&p:route)for(int k=0;k<3;++k){lo[k]=std::min(lo[k],p[k]);hi[k]=std::max(hi[k],p[k]);}auto center=(lo+hi)*.5;double extent=std::max({5.,hi[0]-lo[0],hi[1]-lo[1],hi[2]-lo[2]})*1.25;
+ auto project=[&](cv::Vec3d p){p-=center;return cv::Point(int(width+(.825*p[0]+.565*p[1])*550/extent),int(height+340-(.7*(-.565*p[0]+.825*p[1])+.714*p[2])*550/extent));};
+ for(const auto&[id,p]:cloud){auto q=project(p);if(q.x>=0&&q.x<image.cols&&q.y>height+50&&q.y<image.rows-35)cv::circle(image,q,1,{65,150,220},cv::FILLED);}
+ for(size_t i=1;i<route.size();++i)cv::line(image,project(route[i-1]),project(route[i]),{255,205,65},2,cv::LINE_AA);for(const auto&p:f["points"]){auto q=project({double(p[1]),double(p[2]),double(p[3])});if(q.x>=0&&q.x<image.cols&&q.y>height+50&&q.y<image.rows-35)cv::circle(image,q,2,{160,255,100},cv::FILLED);}if(!route.empty())cv::circle(image,project(route.back()),5,{255,255,255},2);
+ cv::putText(image,"VINS-Fusion | sampled sparse landmarks + camera trajectory | "+std::to_string(double(f["t"]))+" s",{15,height+30},cv::FONT_HERSHEY_SIMPLEX,.55,{235,235,235},1,cv::LINE_AA);cv::putText(image,"Native export preview. Browser viewer adds synchronized playback, feature trails, orbit and zoom.",{15,image.rows-15},cv::FONT_HERSHEY_SIMPLEX,.5,{190,190,190},1,cv::LINE_AA);if(!cv::imwrite((root/"viewer-preview.png").string(),image))throw std::runtime_error("Cannot save preview");std::cout<<root/"viewer-preview.png"<<'\n';
+}catch(const std::exception&e){std::cerr<<e.what()<<'\n';return 1;}
